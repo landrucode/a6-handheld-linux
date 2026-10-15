@@ -1,0 +1,48 @@
+# Build output
+build/
+out/
+*.o
+*.a
+*.so
+*.ko
+*.dtb
+*.dtbo
+*.img
+*.bin
+!kernel/font8x8.bin
+*.elf
+*.map
+
+# External pinned source checkouts
+.deps/
+
+# Kernel trees / generated config
+kernel/src/
+kernel/build/
+.config
+
+# Root filesystems and archives
+rootfs/work/
+rootfs/output/
+*.cpio
+*.cpio.gz
+*.tar
+*.tar.gz
+*.tar.xz
+
+# Firmware / restore images
+*.ipsw
+*.dmg
+
+# Local environment
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+.irecovery
+
+# Logs
+*.log
+logs/

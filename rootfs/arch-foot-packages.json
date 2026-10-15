@@ -1,0 +1,36 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "fcft": {
+      "repo": "extra",
+      "filename": "fcft-3.3.3-1-armv7h.pkg.tar.xz",
+      "sha256": "89ddc9932116cbbf00bd5efb8198e249b756c6247a370e102ad57585f72e2742"
+    },
+    "foot": {
+      "repo": "extra",
+      "filename": "foot-1.28.0-2-armv7h.pkg.tar.xz",
+      "sha256": "25d991c9dc2981f91a3c2a98d96e9d6ba39362f1bc8c1a091e81aea8b04e70ef"
+    },
+    "libutf8proc": {
+      "repo": "extra",
+      "filename": "libutf8proc-2.11.3-1-armv7h.pkg.tar.xz",
+      "sha256": "3d3c8d5642e56fb8126b38e1ac4eb8d0721dbb88fc65f18b40284d19240ea169"
+    },
+    "ttf-jetbrains-mono": {
+      "repo": "extra",
+      "filename": "ttf-jetbrains-mono-2.304-2-any.pkg.tar.xz",
+      "sha256": "a2fc0d9fe4b42268a88be120c76262bc7c95338310f6555d5f044f1c7b9c1018"
+    },
+    "glibc": {
+      "filename": "glibc-2.43+r22+g8362e8ce10b2-2-armv7h.pkg.tar.xz",
+      "sha256": "e69881061ac32497cdfb3079fdf70150672627b20e9fd214ec8fcb87ba3a1389",
+      "repo": "core"
+    },
+    "libx11": {
+      "repo": "extra",
+      "filename": "libx11-1.8.13-1-armv7h.pkg.tar.xz",
+      "sha256": "2cae06b239ca01ceab82a7fbb4c5858be5a37b1e8e01cd996615ffa3ef9521be"
+    }
+  }
+}

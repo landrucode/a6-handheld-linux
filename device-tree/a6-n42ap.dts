@@ -1,0 +1,101 @@
+/dts-v1/;
+
+/*
+ * First Linux device-tree draft for the iPhone 5 Global (N42AP).
+ *
+ * The Apple device-tree supplied by iBEC is proprietary, so this is a
+ * hand-written FDT representation for the initial ARM bring-up. Addresses
+ * below use the physical values after the Apple arm-io range translation.
+ * The memory size is a platform assumption and must be checked before this
+ * becomes a general boot description.
+ */
+
+/ {
+	compatible = "apple,n42ap", "apple,s5l8950x", "apple,arm-platform";
+	model = "Apple iPhone 5 (Global)";
+	#address-cells = <1>;
+	#size-cells = <1>;
+
+	chosen {
+		bootargs = "earlycon=apple,s5l-uart,0x32600000 console=ttySAC0,115200 loglevel=8 panic=0 lpj=1000000";
+		stdout-path = &serial1;
+	};
+
+	/*
+	 * Keep early Linux allocations in a conservative lower window until the
+	 * live iBEC framebuffer and other Apple carveouts are represented as
+	 * reserved-memory. The hardware has 1 GiB; exposing all of it currently
+	 * lets memblock overwrite active firmware allocations.
+	 */
+	memory@80000000 {
+		device_type = "memory";
+		reg = <0x80000000 0x08000000>;
+	};
+
+	reserved-memory {
+		#address-cells = <1>;
+		#size-cells = <1>;
+		ranges;
+
+		/* Handoff-owned framebuffer base, word count, and row stride. */
+		a6-diagnostic-scratch@83fff000 {
+			reg = <0x83fff000 0x1000>;
+			no-map;
+		};
+	};
+
+	cpus {
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		cpu0: cpu@0 {
+			compatible = "apple,swift", "arm,cortex-a9";
+			device_type = "cpu";
+			reg = <0>;
+		};
+	};
+
+	clkref: clock-ref {
+		compatible = "fixed-clock";
+		#clock-cells = <0>;
+		clock-frequency = <24000000>;
+	};
+
+	/*
+	 * XNU uses CNTPCT as the counter and the AArch32 virtual timer
+	 * registers. CPU0's Apple-tree interrupt tuple identifies 0xa3;
+	 * CPU1's corresponding interrupt is 0xa6 and is intentionally
+	 * omitted while Linux is restricted to one CPU.
+	 */
+	timer {
+		compatible = "apple,s5l8950-timer";
+		interrupt-parent = <&aic>;
+		interrupts = <0xa3>;
+	};
+
+	soc {
+		compatible = "simple-bus";
+		#address-cells = <1>;
+		#size-cells = <1>;
+		ranges;
+		interrupt-parent = <&aic>;
+
+		aic: interrupt-controller@3f200000 {
+			compatible = "apple,s5l8950-aic";
+			reg = <0x3f200000 0x10000>;
+			interrupt-controller;
+			#interrupt-cells = <1>;
+		};
+
+		/* uart1 child offset 0x02600000 translated through arm-io. */
+		serial1: serial@32600000 {
+			compatible = "apple,s5l-uart";
+			reg = <0x32600000 0x1000>;
+			reg-io-width = <4>;
+			clocks = <&clkref>, <&clkref>;
+			clock-names = "uart", "clk_uart_baud0";
+			interrupts = <0x16>;
+			status = "okay";
+		};
+	};
+};

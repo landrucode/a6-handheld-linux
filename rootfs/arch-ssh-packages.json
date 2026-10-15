@@ -1,0 +1,26 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "libxcrypt": {
+      "repo": "core",
+      "filename": "libxcrypt-4.5.2-1-armv7h.pkg.tar.xz",
+      "sha256": "0e1ccb168adaf490a83c35a5ab05ce591f0549e048877b777b32f3e0f382553a"
+    },
+    "zlib": {
+      "repo": "core",
+      "filename": "zlib-1:1.3.2-3-armv7h.pkg.tar.xz",
+      "sha256": "a3c6cc8bc6b46c87ed29a36f7569570c0e7f06b7fa7bf03dae2699905de3765c"
+    },
+    "dropbear": {
+      "repo": "extra",
+      "filename": "dropbear-2026.94-1-armv7h.pkg.tar.xz",
+      "sha256": "3415e178be602312397b018a9a44fb373f1a63637a5269b598740061971b8669"
+    },
+    "dropbear-scp": {
+      "repo": "extra",
+      "filename": "dropbear-scp-2026.94-1-armv7h.pkg.tar.xz",
+      "sha256": "1c8a002cf9b099ee398e3fc0d62a721f77751e5417fe6cc4af9b08c55285b809"
+    }
+  }
+}

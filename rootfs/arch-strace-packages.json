@@ -1,0 +1,16 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "strace": {
+      "repo": "extra",
+      "filename": "strace-7.2-1-armv7h.pkg.tar.xz",
+      "sha256": "402f08818ce9aa0a4e4b82bfbcda6c7eefc7e14d3aff68ddd3d3a38cc7fda52b"
+    },
+    "libunwind": {
+      "repo": "extra",
+      "filename": "libunwind-1.8.3-1-armv7h.pkg.tar.xz",
+      "sha256": "809748b748709b6d1b6247a3f769e6f55e144383174ff52fdfd4cae510f51f3e"
+    }
+  }
+}

@@ -1,0 +1,4628 @@
+{
+  ".gitignore": {
+    "sha256": "58b5c44dbcd8619106de5ef8ac25ce512553cdb28d14eb81491e917ef98f69bf",
+    "bytes": 461,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "BUILDING.md": {
+    "sha256": "02060e36300802641d9f87afca7b2979a363eaff0b263cfdc5abca7fa3488270",
+    "bytes": 7295,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "LICENSE": {
+    "sha256": "2dc5762a487e59f320e3cc468320cb8f8dc4a3d5358f4b70117f301680e234a8",
+    "bytes": 1068,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "LICENSES.md": {
+    "sha256": "9ed30dd31dd03e9154ca3ab9ed9d8c536a38bf851681fc2d00bfb678dfa847d7",
+    "bytes": 1785,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "README.md": {
+    "sha256": "15a81ea283f10024871d47eb487ee3eea923eeb26e0f8813303f5fc9fb7f9317",
+    "bytes": 5872,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "RELEASE.md": {
+    "sha256": "9b8c863bbe259226d60df7c971c77a19c065055cc167d6fbabf9259129975676",
+    "bytes": 1484,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "STATUS.md": {
+    "sha256": "9c7099f7ecef2ec0435d8a25223793544c051698359fccc7f1c81121cf8d3ff3",
+    "bytes": 2293,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/README.md": {
+    "sha256": "46786b8f2ed4e28889a954b93152efec08facf6491a8a26136c8d52b4e0c9ba5",
+    "bytes": 832,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/a6-cpu1-cache-probe.S": {
+    "sha256": "0a34ce1f61103f02b34e67555bdfbc4fa3309485ba5e9ad7c837aec5249a085a",
+    "bytes": 4439,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/a6-cpu1-entry-probe.S": {
+    "sha256": "20b3acf074e3f6903649f67c805368301df4490b4220c1abbfee41efd50b7e16",
+    "bytes": 5146,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/a6-cpu1-tlbi-probe.S": {
+    "sha256": "7284f662539b1ef4548c2034a804a6a97e5f2cec2a13d8dc1c46601363535a2a",
+    "bytes": 2847,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/a6-smp-secondary.S": {
+    "sha256": "db0d760d882048af7471355dc0e483173053c58a69ad8184db8945d80ed5da81",
+    "bytes": 2859,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "boot/arm/capture-audio.inc": {
+    "sha256": "4aa25c0821849dde10ea120aae44ca7428662a4b71b3bcd924061bcace631c40",
+    "bytes": 2178,
+    "mode": "0o644",
+    "licence": "MIT"
+  },
+  "boot/arm/capture-clock.inc": {
+    "sha256": "c8a6ae8f87e7be283294bba6d6e38751dede537e13f77b8e9d115c69215e83fc",
+    "bytes": 2146,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/capture-memory.c": {
+    "sha256": "aadfcd0a54f9f77fdb59177a3c071ecab1499cf801dbdf03f40961144cf9da80",
+    "bytes": 7942,
+    "mode": "0o644",
+    "licence": "MIT"
+  },
+  "boot/arm/capture-touch.inc": {
+    "sha256": "f209f30c379fce02758c58f8be1e58740bfae0bf3406eba4f4a0e5bef607aea8",
+    "bytes": 1810,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/kernel-entry-proof.S": {
+    "sha256": "26ee7fad8291fce6a92f28e1716f9b7f674444f11a913fc7f649c6d404a40b9e",
+    "bytes": 901,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/kernel-marker.S": {
+    "sha256": "7992722609900afbc05e472adbf69e2f688aece834cd995b333496865f4d6dcd",
+    "bytes": 859,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/launch-proof.S": {
+    "sha256": "10b3ce4202672c502584d79800d440c671673361df9718630cf1f72526e0e5d4",
+    "bytes": 1564,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/linker.ld": {
+    "sha256": "a6f123f859d1a677485fe0ec2a7b035084da8917562267dd654a3d57fd259f19",
+    "bytes": 270,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/linux-boot-status.S": {
+    "sha256": "77c64a8a5c27cebeda11910468222e4028cf17fe7a8ca70a7d501f47a53b4e48",
+    "bytes": 3392,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/linux-handoff.S": {
+    "sha256": "7c8e1d83e0d9a602f7d12bee1b324db2031c3944968a1855d887057e9d480dde",
+    "bytes": 2849,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/liveness.S": {
+    "sha256": "f047b179ca491c06279d8fed684afd000913eaa7e3b068d611c4f010ef66445f",
+    "bytes": 623,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/proof.S": {
+    "sha256": "139055526838a60c5c8cd19a77cab0fa96d9e4805cf01ded16dc38cba0242f65",
+    "bytes": 1245,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/usb-enum-protocol.h": {
+    "sha256": "92d4ae1bfb150ee12f6ac883c3db52aad93b81c38b7c31aa7a930830fef1f8d2",
+    "bytes": 2574,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/usb-enum.c": {
+    "sha256": "60b2475f074957f7b5d4e7b5d2608446819ab09f3f20d6fee34bb8d373102399",
+    "bytes": 9779,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/usb-enum.ld": {
+    "sha256": "196d68db605b1da47916dbd4cec47802105f0ddad46016bd05b28a1ce70d988e",
+    "bytes": 369,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-arch-memory-fixed.S": {
+    "sha256": "f89397741480156d754460b3775e88f7a12db65cfbfb2bf305672c4b61013dd3",
+    "bytes": 2247,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-arch-memory.S": {
+    "sha256": "78d1a07e509a862f0c17b29ecbfd9762d25836e6d00edf4f75f37aed30681a4f",
+    "bytes": 2020,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-bx-control.S": {
+    "sha256": "701bbb2d665900b7476897092d44665d22b95c570b66afd0c60f3178ae0c1a6a",
+    "bytes": 1055,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-console-driver-result.S": {
+    "sha256": "ef2d1253e8d90ef6e1d93c687155a20bc9fec33e05df0628cc0930bc1f252d90",
+    "bytes": 2577,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-console-open-result.S": {
+    "sha256": "859c69536404bef827e0d6639e400a61ea006003ab60ce489743858a8774579f",
+    "bytes": 2907,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-console-return.S": {
+    "sha256": "44ff0f43dfa6374755c529b23a1791b0eb9b0d2d2bee5c7906f8ca342111e28f",
+    "bytes": 2318,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-cpu-match.S": {
+    "sha256": "4498cc08e0cbd0069f0375817456886694cb5c0dbf68dcc1e614e55a7a89a303",
+    "bytes": 1803,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-cpu-setup-audit.S": {
+    "sha256": "eeb08cdeccc791d1b368393ab9ae5448b38c37246968561ead1172f3e5f11125",
+    "bytes": 2075,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-cpu-setup-return.S": {
+    "sha256": "13638b7827ec3baf91e17547419318125f8491251cb1067dce265050558cedb0",
+    "bytes": 1955,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-destination-proof.S": {
+    "sha256": "debeb8e6a82d0a9ed61eee738b47c7b0f49cf16fc9830751cc4c855b40b4acb5",
+    "bytes": 1417,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-early-c.S": {
+    "sha256": "8e30d5150145bd25a5e249e8f773a8e57a57a161eefb25bdf21940e4180dc5bb",
+    "bytes": 1998,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-entry-fetch.S": {
+    "sha256": "7ad26bc2bb2f02e2efd5914b462efa4c0c9c1ceed332e6647de2dcd8ca6fcdae",
+    "bytes": 1277,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-entry-proof.S": {
+    "sha256": "bfdad04673cb6ab8109de36b93fb84fb430420150b64af0744410742e6b92d96",
+    "bytes": 1367,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-fdt-return.S": {
+    "sha256": "778961fa9e8abf040a604c0bd18746ad777b6b7e50484e2946e22acf9bf7bbec",
+    "bytes": 2064,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-first-load.S": {
+    "sha256": "fa8f7b895bef04bf6e3ad8426c9c78c7b64fe96cc3f9e32bb8dcccc46de71866",
+    "bytes": 1429,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-first-store.S": {
+    "sha256": "4b6c152ef0339ee40b483b8cfe1ceae78686eb4f5c8c2bada8cc7b837473e09f",
+    "bytes": 1681,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-init-access.S": {
+    "sha256": "4fb9a8401e1d79139f36bc856896dbfd6a8f95200c6c40325e85fa247af257ed",
+    "bytes": 2325,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-init-exec-entry.S": {
+    "sha256": "0bd7b102c88b4638dabea3a5bcf71443b5112750b6e3d9e14599c40b38be1788",
+    "bytes": 2492,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-init-freeable-return.S": {
+    "sha256": "e4314844ac1b65105f96b110f37ff062f615b72eeb8264f0afb24cbb3b688024",
+    "bytes": 2362,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-initramfs-return.S": {
+    "sha256": "bee988092b06a454d36dc458854d18ad6ddd3df1f481188ceb034c82d1adb9af",
+    "bytes": 2298,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-irq-enable.S": {
+    "sha256": "5135cb9ebfe4a576fa919089fe8222f1dc66501bf36617d32d61f9e2d7ad1772",
+    "bytes": 2308,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-kernel-entry-proof.S": {
+    "sha256": "79173533673d5a5789e9a3e7191acae4e0424318153ef858c760df75478e1f73",
+    "bytes": 505,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-kthreadd-created.S": {
+    "sha256": "059a2485781ca9391f6dc12e9a766969b824450a7c111bb3961aa6123e500a41",
+    "bytes": 2344,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-mmu-transition.S": {
+    "sha256": "338086a526991b1c827bf52cdc0a0472dd37d27499d7052300dd70023777939b",
+    "bytes": 1926,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-page-tables.S": {
+    "sha256": "723655a6dbcbc59f2f7344074d67547d0539b22b29f1e6f287800fa97d49d6e9",
+    "bytes": 2286,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-pageset-return.S": {
+    "sha256": "c597790b2072c721e194d748e83777edf8c4cf2d4995d8bf5412896a004e50ee",
+    "bytes": 2311,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-paging-return-fixed.S": {
+    "sha256": "b43c0f72b469a2330c03be3839128d20cabed57655c14213f5c87acffa9174b5",
+    "bytes": 2229,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-paging-return.S": {
+    "sha256": "9d92aa5eca1a11384861bae14aed10d246da419402078bd5392bc63430eb7505",
+    "bytes": 2000,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-pid1-created.S": {
+    "sha256": "0abd03a002172ef7f516fc636f812471713df331a804966ecd1c8c7d32f2a42b",
+    "bytes": 2341,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-pid1-running.S": {
+    "sha256": "47fe264a2f1c7e594ed7e8b9b79febe4b6474d6ea59cb8db30004b3f3d806cab",
+    "bytes": 2290,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-pre-paging.S": {
+    "sha256": "84e54696983e8c4b885d8403429857e0b40a4893b099e13cbce3044b6d200744",
+    "bytes": 1996,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-predecompress-proof.S": {
+    "sha256": "0d79d9b339a69a4660a14e701b0dd87745eeda2487348aec685ccbb31d010421",
+    "bytes": 1288,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-prepare-page-return.S": {
+    "sha256": "0cab5eade22d805836b4db003479c23539d20d9b313cddc1aab4d0656792ca89",
+    "bytes": 2035,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-preserve-fb.S": {
+    "sha256": "1db114f6fdd104dac6836c7c7a9999a9de2ce889eef580cdca06a2ecc25528fe",
+    "bytes": 2249,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-prologue-proof.S": {
+    "sha256": "dec1a250937e26543842ba3b8c11ace157d7ffa7a00ec9e2faa8a095ba289ac2",
+    "bytes": 1605,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-rest-init.S": {
+    "sha256": "ecc8db5b112404a23e18b505b0a4d70bf726e0a0b4fb3c7d42cdab203593318f",
+    "bytes": 2327,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-scheduler-return.S": {
+    "sha256": "f214ee3bd959c251fee6a7103bc0aec494b77a7a3757da1e566d52a7dc740ea1",
+    "bytes": 2247,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-second-store.S": {
+    "sha256": "f408614ca7d608dcb5c010bf89f62846465a03872f67f40c0d42cb66d34a4940",
+    "bytes": 1732,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-setup-processor-return.S": {
+    "sha256": "2931c8d167afc67cfb16a8be61a837def7df5310f8816faad257b32111932537",
+    "bytes": 2008,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-start-kernel.S": {
+    "sha256": "c90243dc503ff8b1c0d78b34bf37d93bb79b35d1c2d40994ca9340588aac3c4e",
+    "bytes": 2001,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-startup-boundary.S": {
+    "sha256": "45e5bffa1a76a32b296a049f0493b68a0775095f1c56d2b3d65a85234efe3665",
+    "bytes": 1982,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-status-read.S": {
+    "sha256": "4453490a916ff96de0ca7a1d9709ce43e00638617366a5508af9f4dd35abae9e",
+    "bytes": 1822,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-status-store.S": {
+    "sha256": "c09b0737a8ee0f291f1e5a7f416d7d9711d98d80c597dc05df3b4d76e78f38ac",
+    "bytes": 1976,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-third-store.S": {
+    "sha256": "d0e319a83663ec0814a2b6056b2650b585501ca806b4d7ceb93be14f839b4c00",
+    "bytes": 1815,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-time-return.S": {
+    "sha256": "22c40d9258dc927fd7b4c689979be9661a907a53b4f4c0d0e4d87c9431d0dc99",
+    "bytes": 2290,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-uart-failure-stage.S": {
+    "sha256": "499dfbfc00c450e9282f6f23caafbfd8a3d58ea6fcca8058294ceacc7924d299",
+    "bytes": 8961,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-uart-fixed-console-open.S": {
+    "sha256": "859c69536404bef827e0d6639e400a61ea006003ab60ce489743858a8774579f",
+    "bytes": 2907,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-uart-fixed-write-return.S": {
+    "sha256": "df261c54cfa5385375ca06b80c1e1f414aeeb4446561d2eacc64ae9bdd6545b1",
+    "bytes": 2984,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-uart-probe-completed.S": {
+    "sha256": "a7b44c5b349a8ca58fdac5ab6d604d79f8bde195ee5a9fe342bb6f8cf81c315b",
+    "bytes": 2618,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-uart-probe-trace.S": {
+    "sha256": "0fc22e7c4272f0fbc8ffc00cf19939f0f1174b6dc05f5dc7855ea993009b79fc",
+    "bytes": 5053,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-capabilities.S": {
+    "sha256": "f339969147a522d571e3c837c63b68bd4e7797a91e836021fc7c3ade5395098b",
+    "bytes": 4691,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-enumeration.S": {
+    "sha256": "a90e6a1fecfd5cf72846cb36614e93f33cb61bcf3ac6f2ffef522a477790ecf5",
+    "bytes": 7623,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-gate-enable.S": {
+    "sha256": "cc6c96c2bddd66b5cfffac31e5e09bd9a8079a5d2d4ec6eabf07a7898559e4a6",
+    "bytes": 4129,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-id.S": {
+    "sha256": "e3511a732d6e2c00621c3ea3a2c065fc1be822b8b77a863e6546fb83f3fde431",
+    "bytes": 2218,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-phy-start.S": {
+    "sha256": "898cd7be830d8f7a9e2e85601aa4d7405f47e4fb18da8d4c6b969e4abc9e9cff",
+    "bytes": 7566,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-pmgr-state.S": {
+    "sha256": "3aba976e57e63d842588a5e4a978506a9654acbd02ce4cecd47fa19b3ada5a22",
+    "bytes": 2657,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-power-state.S": {
+    "sha256": "3f3f6b7910367994cd194c1912a720b62a2948100dbc56f06921ba5e811d7f59",
+    "bytes": 2131,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-read-controls.S": {
+    "sha256": "d3a5a2905e09fc452397b8cd0b70c7280e9d8fd2f7517d32a11ff78722071434",
+    "bytes": 2092,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-usb-read-echo.S": {
+    "sha256": "8b40b0d3e9e8fcc7ef279736a126f5243a8930b8b94063747a5248f1d2974d0a",
+    "bytes": 2105,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-userspace-write-metadata.S": {
+    "sha256": "6d8c86da06f32065cd0cd875ac42afcd7dda2f05ba0f305d09c28358295ba381",
+    "bytes": 3042,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-userspace-write-return.S": {
+    "sha256": "df261c54cfa5385375ca06b80c1e1f414aeeb4446561d2eacc64ae9bdd6545b1",
+    "bytes": 2984,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-userspace-write.S": {
+    "sha256": "c73d8931e767974ef757b3f9d8e8cc827283bddbf8c8d2a54cbd12a373cf42f3",
+    "bytes": 2573,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/arm/zimage-write-result.S": {
+    "sha256": "7858181c645cb090bb6ddf6dfe5428a5e50599936bdd32e5944c84b67c9dcf2b",
+    "bytes": 3020,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/host/checkm8_bootkit_linux.c": {
+    "sha256": "e8c119105e87a4163f70b8b25339de7abfc9a2398266184baf8101e9a2f1347e",
+    "bytes": 3877,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/host/include/lilirecovery.h": {
+    "sha256": "b0851e9657a738585a657199da17a5b7b479280be59d1fe7c860f0485f7dd1a6",
+    "bytes": 330,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "boot/host/test-usb-enum-protocol.c": {
+    "sha256": "e55dd28ea36f4ff6e0a358efc03e3dd53db2bf72a6c339b211b3ed477518f715",
+    "bytes": 1518,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "desktop/theme/README.md": {
+    "sha256": "403d63c84057a502175e2a3079d86e09f41a96a32509e3d716410e07c092f8f1",
+    "bytes": 486,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "desktop/theme/foot.ini": {
+    "sha256": "a94dbe40bd43ce7eada98195fc65c8110b7ede101aa6a3d7561f6a4e839eced2",
+    "bytes": 668,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "desktop/theme/palette.sh": {
+    "sha256": "350f984e885a422a26af3b14160c71cd947779f96e58a9da634a9e7d4fc879ca",
+    "bytes": 898,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "desktop/theme/wvkbd.args": {
+    "sha256": "f1cd5708631bd53b8c13bcb25afe526b4c7b12e938f46063f8d12df01e88d006",
+    "bytes": 103,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/README.md": {
+    "sha256": "d43bb5bfe3bddad46026d7375c3e6bb4767d9a9b84233dafc24f9e0d75df2569",
+    "bytes": 1666,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-cpu1-alias-preflight.dts": {
+    "sha256": "f57cac2bc52f61bc11519081ab6c0b0629654c149eef807a867b1f002086993a",
+    "bytes": 505,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-cpu1-tlbi-probe.dts": {
+    "sha256": "62dadbe09b8fcf52a7843f42a49a3e2e54c8293bcb5d221cbc5e481b168981a9",
+    "bytes": 442,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-legacy-control.dts": {
+    "sha256": "0c0b774977cdc3bb9f486d2b50e27b99d1eaac83fb64d0c982a7a507b901b23d",
+    "bytes": 1374,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-smp-bridge-quarantine.dts": {
+    "sha256": "01908c41574719f4177557d4a1f10a858e7cee0616b18dc7f9176c3a96443fb4",
+    "bytes": 697,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-smp-cpu0-only.dts": {
+    "sha256": "cdd3947725667b78b7a54e4fcffb7258cd425ffebc0511dc381600ab70b8e37c",
+    "bytes": 259,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-usb-console.dts": {
+    "sha256": "b6721f5db5a8c60b91e729b3291a16e415deff24bf0d6f3178bc44880b6147d9",
+    "bytes": 467,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-usb-full-speed.dts": {
+    "sha256": "de37bacd4c84db88d910edfb20b186c18a5fc81a2fffecd560c3b5a5cc5d7e75",
+    "bytes": 189,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap-usb-timer-a2.dts": {
+    "sha256": "3abd058cebcdad31c65e6f90dca717dcb1a463ccbe25042514bbdd486e131347",
+    "bytes": 239,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "device-tree/a6-n42ap.dts": {
+    "sha256": "ff84f33c55fbb42a584e3d5f8e710ebd51b13635838032b3d3f9a559e4cba32f",
+    "bytes": 2554,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "docs/charger-policy.md": {
+    "sha256": "9990e660c0362f7f99b17ed1e64e06982283610817ea840a86cd0f226013a9af",
+    "bytes": 1495,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "docs/images/README.md": {
+    "sha256": "ac55f3ccd7c02f401644791e5632267cc2f725c2d413ea8309c038e41e5aaf92",
+    "bytes": 128,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "docs/images/desktop.png": {
+    "sha256": "26ac00e02c8567cf80772b47e685a4b18bad15df3895b76d43f34dfb9ab0b8da",
+    "bytes": 88032,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "docs/source-rebuild.md": {
+    "sha256": "97c7f8a1dbf4ff2f46674bbaf22001623daab396d45b09f5f760a287b6a19187",
+    "bytes": 2959,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "docs/test-results.md": {
+    "sha256": "70b009c582c26256bf9acd8125a76d4288661ec2f961ef6d0d206449ab2dba11",
+    "bytes": 3252,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "docs/usb-observation.md": {
+    "sha256": "4d373a771554d7cfeb14fcaaaf723dbb64122d8d41e90ff4c3b205f897d45653",
+    "bytes": 2587,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "docs/wifi-transport.md": {
+    "sha256": "98e6607f956f8d55ccba3cf3fa521eb43a68c8a86cc3fb62a82313e990089ef4",
+    "bytes": 3491,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/README.md": {
+    "sha256": "6caacf8b4d9a8081afb2320df570cf86b2dd5cd5226bf3b400443f14bf3495c6",
+    "bytes": 959,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/a6-minimal.config": {
+    "sha256": "2ab714befb179c316e71f23422b8f951ce49516820b4dd4f62c885a0ac1825d4",
+    "bytes": 845,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/a6-ram-root.config": {
+    "sha256": "5cc0c5ca7eee312514a2030ee1074fdf18945aedf904a4328c642a514700c892",
+    "bytes": 552,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/font8x8.bin": {
+    "sha256": "b8c58a575869ca4f1e8faf94cdd55781f89bdc1db64575d6ef38c4575bb04f0f",
+    "bytes": 2048,
+    "mode": "0o644",
+    "licence": "GPL-2.0"
+  },
+  "kernel/patches/a6-dwc2-l3-reinit.patch": {
+    "sha256": "1063752c7550088650c6ff7fa449ec8170ebd126f41998d5ac86b06960fdfee3",
+    "bytes": 625,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/patches/a6-dwc2-pio.patch": {
+    "sha256": "4ad7f0f08383dfedda9dd5057860d1f31b6e88ed3c8dd92e160d60d2bb79dbef",
+    "bytes": 885,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/patches/a6-s5l-uart-data.patch": {
+    "sha256": "1c157ee38eb91517ca6210d5152008128fee45dc1956bbb9d213d8fe46132682",
+    "bytes": 259,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-aic-route-observe.inc": {
+    "sha256": "312c3751c14e49ced492b06fc1d0bb03ee61a38aa9766d5ff7f6a6ac610a135a",
+    "bytes": 4008,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-audio-alsa.inc": {
+    "sha256": "ab15fcd59564c0312e0be9583add519115d06dbc48a1676497c58c7a27370a82",
+    "bytes": 30108,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-audio-codec-play.inc": {
+    "sha256": "cda2812c3246e035059ef96d0db7c3f43ebf814ff0bd45c7cf1ff702a07a7a9e",
+    "bytes": 10662,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-audio-codec.inc": {
+    "sha256": "e3c3c41b83fd193af600a16b90d6b1aac585712b032cf6776e06ce38706454b9",
+    "bytes": 9373,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-audio-fifo-discover.inc": {
+    "sha256": "69c521b8debb39842871fb55bcd08fc089c78d650c5dc167425954eb2df604cb",
+    "bytes": 28377,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-audio-gate-observe.inc": {
+    "sha256": "d02e45c23277c0b4eab0d303987ea40f47bd8bd32fd72afb92d828f0ca206c6f",
+    "bytes": 4677,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-audio-tone.inc": {
+    "sha256": "234236905e6e78b0f486252ad014101e1812a8aab6cbd43c58f8cf83e618c4c5",
+    "bytes": 22301,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-backlight-trial.inc": {
+    "sha256": "12b956d2bcbadc987bb5acca2a727944cfa9d4a59c6d67eb89d13983b69bf538",
+    "bytes": 5677,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-battery-hdq-read.inc": {
+    "sha256": "570899d6ef75ca7ccf258fcbec0b12f7fa34f9d26c728bf2b37adc0248e6a01a",
+    "bytes": 23649,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-battery-observer.inc": {
+    "sha256": "8468b6fa3f257094ec49a6da14bf6670596648263edc044f1da7c4fa26f573d3",
+    "bytes": 4751,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-charger-proof.inc": {
+    "sha256": "c39418fb39f66b9c78b8cf3f50f6ee6c1e6728f0195162f6e0d0ba19f788c175",
+    "bytes": 7870,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-alias-preflight.inc": {
+    "sha256": "f4690624b157844bc4a4a00b9d5cf7a0c2f0f8de53d05654e2c30ce285102e98",
+    "bytes": 5981,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-alias-write.inc": {
+    "sha256": "5bbf72cae06344dca6fc066e528d37a873be332c14c01038e6c32a0c82619a9d",
+    "bytes": 5762,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-cache-layout.inc": {
+    "sha256": "ca7a32a769109a3f64d00971467cf42cba23fdb158ea3ce94f8f2d9e1756fe47",
+    "bytes": 3166,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-cache-map.inc": {
+    "sha256": "296a8f4681cbe3289cec7584310b270bbbc796f9e6c74cccd9f94f0ee5197c7a",
+    "bytes": 3779,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-cache-test.inc": {
+    "sha256": "781e0cee8e81256ebecf0a5e1063c1d2363ad5749eaa471be7eddf94533d512b",
+    "bytes": 9324,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-entry-probe.inc": {
+    "sha256": "587e152ca0f48b2f21b2f3f42e09be4f8c4f881296c22a15a7f3e7cab2f6ea13",
+    "bytes": 9493,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-ipi-probe.inc": {
+    "sha256": "83f04b47a9369f0496c313c9ebf01a200af062af9912ed3cd5cae543f212b5a0",
+    "bytes": 4167,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-preflight.inc": {
+    "sha256": "35f0c616ff70ef0cda0394e0b2d58e8fadb6b9e30b81e2414ee0867794cc8b48",
+    "bytes": 3049,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-tlbi-layout.inc": {
+    "sha256": "b2c5c0f52816eb0ac4193363fb8a7176010784727b0998d51c26caacae951ec5",
+    "bytes": 2648,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-cpu1-tlbi-test.inc": {
+    "sha256": "25c8c28f2a266a477235ba109ab55d453ee896daac4ee7794ad1da7e5bbfad3a",
+    "bytes": 5840,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-d1972-battery-supply.inc": {
+    "sha256": "1340b13f257343ccdb149b49ad55eb82c3429a4558639e127a2602e172e14253",
+    "bytes": 1533,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-d1972-policy.inc": {
+    "sha256": "0930ff4900b2bbfed861d78b6d6bd8b43d4ad500b20ca2717d9fcbb24dca1b2d",
+    "bytes": 33738,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-d1972-power-supply.inc": {
+    "sha256": "63047b9302bbb6d095adc986dec3be3e79a3b28617b19031186e125e7003e88a",
+    "bytes": 2337,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-d1972-tbat-adc.inc": {
+    "sha256": "5124eac95472b6f186998d830e028c3b03236149db2afda35c68168c4dd5da47",
+    "bytes": 4978,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-d1972-vbat-adc.inc": {
+    "sha256": "c04b36ff3b41fdbdd878bb64a2c4e90c22f0f7cb8a3199bca3e5fdccfbbf6286",
+    "bytes": 4141,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-d1972-vbus-adc.inc": {
+    "sha256": "1776bbc867a94503de7b9b9a35bf93a6ab32b6c3f6fec197b196f094b643e056",
+    "bytes": 3857,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-dwc2-lx-latch.inc": {
+    "sha256": "e8a5f537ca39fbba802b6580196ce253c8c78a47ea484f265a63ff204eb85bed",
+    "bytes": 4036,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-dwc2-vbus-bridge.inc": {
+    "sha256": "1ee85ec94f5da7c14749739e7a4722840383a0f647d5b86cb0d3152da83a53f6",
+    "bytes": 5273,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-memory-capture.inc": {
+    "sha256": "70e174be8739067c51ca07de228392019a9e3bbe29c158017fb9bf1141398de2",
+    "bytes": 2238,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-shell-pte-trace.inc": {
+    "sha256": "03ba16b0afaaabfaa1fdaf050ca09bd1dcfd2b7960ef3f4d8c1a18e4a0147f70",
+    "bytes": 1742,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-simpledrm-map.inc": {
+    "sha256": "c062144785f005fe97902ffe466cd0a03c6b3e628152b32e34c528cb27a40eaf",
+    "bytes": 941,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-smp-layout.h": {
+    "sha256": "25653fc32bea26440a334d7d35b01dd0a424226a2519930e96b03dfa73d2c307",
+    "bytes": 1875,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-smp-shootdown.inc": {
+    "sha256": "008c3179928f792ecbaa7f2b7816dcf14427644cbde128ce3b5e1a7117aa8f2e",
+    "bytes": 5115,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-smp.c": {
+    "sha256": "abf01681f1227f842f94e7a5135564b1d66644015c9cf20069cf43dd43da0191",
+    "bytes": 14679,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-timer-line-observe.inc": {
+    "sha256": "3b9e1371a34b54321824b0ae001e852bbe51b49edebbc6bf32eb5b85c7aef297",
+    "bytes": 3711,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-timer-observe.inc": {
+    "sha256": "d5e41d1fede41d32bf9736a52d00c24a7301fc9a8430a344f74a11a1d55972bb",
+    "bytes": 2879,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-timer-smp.inc": {
+    "sha256": "9b07818f8b2d6ebd2391e67db25e6a04251204f7e9cfcc2ad629f67342a4fd15",
+    "bytes": 7250,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-calibration.inc": {
+    "sha256": "a299e2e80dd2e4a0d2556703d16a2140c8e6ec4f518080b618cb4a8c15ee007f",
+    "bytes": 2388,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-check.inc": {
+    "sha256": "3e928f727e0deaf1a78a18fa5f5178240189a91152f26b9c8a00a1dcb6d88783",
+    "bytes": 13389,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-clock.inc": {
+    "sha256": "2950b3740eb25487cbb03afac4200a1fd43d0f86fb5460e43df3d988e00e57b7",
+    "bytes": 3116,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-frame-capture.inc": {
+    "sha256": "7c1fc503c40d8a2ed6c1280eef3842b821623298aeca11c4e5c3533583a1948c",
+    "bytes": 4933,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-fw-upload.inc": {
+    "sha256": "fad477aa1629112e415eb7fce8fb5b3c716026c6eb6ad7dd239f226200299244",
+    "bytes": 11620,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-i2c.inc": {
+    "sha256": "8bea09b63caf96bfdaaeb387561932421423629ef3026c4de0a3b6404b9938ad",
+    "bytes": 3260,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-native-input.inc": {
+    "sha256": "e6bada91aab3af612b3214f4880e00a5121d19c970deba23fa9306fd8c19f4ae",
+    "bytes": 16291,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-pmu-read.inc": {
+    "sha256": "7e44acc19698da6c58757c117ab47752fecd13803aa6e4fc01ec6b35f2c58770",
+    "bytes": 6330,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-post-upload.inc": {
+    "sha256": "1a73c60408fd83a5d02adc58538015fc9bdf8fbd1c51b4a4d3c1f235b88cb347",
+    "bytes": 5660,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-power-check.inc": {
+    "sha256": "25eafa3d97a3c381517f22858682750d0401bfb37d5e0cee06d87e0efaa7e86a",
+    "bytes": 10821,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-pwm-check.inc": {
+    "sha256": "d02139789665b3681ab7aa71a0f00ba11e66f8d678272c34c67500d20c1f6d7f",
+    "bytes": 2967,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-report-probe.inc": {
+    "sha256": "3e6182370f537bc92300b2b8c3fd95c6f9c0d3fee9c2524b91b0936d744a8d2b",
+    "bytes": 9106,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-touch-transport.inc": {
+    "sha256": "403f7208b23b3b6f549618e824f55b33d7eae7ef80cc5d5d786b8283a6e8593a",
+    "bytes": 5049,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-usb-reconnect-screen.inc": {
+    "sha256": "1403318ac5e98558549d476a17ff16250676bc5c09bb5283e1c29981749bd939",
+    "bytes": 8070,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-usb-request-report.inc": {
+    "sha256": "825a8f9f132b57980064ad81a6b014c442ed17d9f1039ab82c1caa339502788c",
+    "bytes": 2919,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-usb-udc-cycle.inc": {
+    "sha256": "5255e722b67c3e63b9e4f66fd3d5695ef017ccf38d04517287c85aac7a0a16b3",
+    "bytes": 957,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-usb-wait-observe.inc": {
+    "sha256": "9bd79a88a7b5182d905c8178ccb0b45d93fb07c3175c71d99c5f2ca435a7c8b1",
+    "bytes": 1518,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-wifi-clock-snapshot.inc": {
+    "sha256": "e6771fbfd05498ee4465502b6af8c08fdfbc9de511bf7306d0a0661b64d409ee",
+    "bytes": 2440,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-ehci-caps.inc": {
+    "sha256": "085a2ba2f959186fece5aa98b049860d50b88e96c18ee21a1ab818c5fcb3627b",
+    "bytes": 5530,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-ehci-enum.inc": {
+    "sha256": "22329c555ad7214f6ba459dc2058fb8cb2fc8a4975ca119acfd0412fe845bffe",
+    "bytes": 18152,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-heartbeat.inc": {
+    "sha256": "56fb9eb5750260f0b3196db96163b4a2c68fa021deeb58162cbb0b7521dda93a",
+    "bytes": 2433,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "kernel/platform/a6-wifi-scan-codec.h": {
+    "sha256": "9294dae792e87c02df1da49b85ec42a47c85f90c66334a72e15b278e4684d36e",
+    "bytes": 3291,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-usb-bulk-rx.inc": {
+    "sha256": "7bce562f46d25f26befd39e0355aeb7bb37c697ff5ff492d200915d6ea732df2",
+    "bytes": 11882,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-usb-download.inc": {
+    "sha256": "99535d6bea3c197e0a15ac82630b11f7f26f2e6808ffb609161f608ca797cd15",
+    "bytes": 12935,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-usb-loopback.inc": {
+    "sha256": "7c19d45805964ade10e1b68abbe29081ba182cbe65c201c37dd827f25900d68e",
+    "bytes": 7052,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-usb-preflight.inc": {
+    "sha256": "f20ff362fc63924ef39e613d815b740f5d51774cca93410129cbdefbdcfcc9f0",
+    "bytes": 7970,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-usb-runtime.inc": {
+    "sha256": "794f3c96db1b02c5f87435ff1d993f54d35b509b5f95a3daab20efdc90668777",
+    "bytes": 6127,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/a6-wifi-usb-scan.inc": {
+    "sha256": "8459e41ed910ca8181753f7e58ed582b356bb0acab17a4dda93818571f788864",
+    "bytes": 12993,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/brcmfmac-a6-hsic.h": {
+    "sha256": "0b31416af49044be2f25c179bff83a3ddcf5762d551179076a3ef2c275abdccd",
+    "bytes": 1794,
+    "mode": "0o644",
+    "licence": "ISC"
+  },
+  "kernel/platform/ehci-a6-trial.c": {
+    "sha256": "071278d6f5b36bde816a632bebb92526e3643feacf93873d852633fcd5177e8a",
+    "bytes": 22029,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/fb-apple-a6.c": {
+    "sha256": "fe8ec5eb8e0a1bd8236f7137ae85c49905bd0881cb334a10e18ef03088b887ad",
+    "bytes": 5789,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/irq-apple-a6-aic.c": {
+    "sha256": "2828178bfbbcf57c4dd939884656b361b80a865224ced4bc5e5f8ad6250a95af",
+    "bytes": 7771,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/phy-apple-a6-usb.c": {
+    "sha256": "5495fd47f0613f28d47098c7d0d8d9146de2d7e5aa4586b9031063ad83f70100",
+    "bytes": 3326,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "kernel/platform/timer-apple-a6.c": {
+    "sha256": "aece56d4a71cd4dabf83034a7e0fb484a6397183852df45fef51bb7947e07702",
+    "bytes": 3804,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "rootfs/99-a6-touch-calibration.rules": {
+    "sha256": "80b5b89f74dc0101561864afc36d6a4eeb1cd1ac5fb27f73180e1f1d9dae9810",
+    "bytes": 189,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/README.md": {
+    "sha256": "0a8a46bdb8c0ca518549a24249e499f6249ef3c5ca0a8afb3c86d2732a79113d",
+    "bytes": 736,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-app-panel.cpp": {
+    "sha256": "788da6c3120a94e38c5c4b4decf9d975043da6e1ed74b5f7a9b910590f6ba106",
+    "bytes": 10534,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-arch-smoke.sh": {
+    "sha256": "be892f49b8ea9760f6430f6f6bd80dada6a5e84666e6eaacde6e70813caf8bb4",
+    "bytes": 522,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-audio-pipewire.conf": {
+    "sha256": "465f60ceb4d02844f7f18c5fe76e55a39c9180ee1fb386336cb95eecce812697",
+    "bytes": 1215,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-audio-session.sh": {
+    "sha256": "b269ea68e94c89fe8ceff88501086931b69d39fe58e76a8405a307c5fd1985c2",
+    "bytes": 2847,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-audio-wireplumber.conf": {
+    "sha256": "be67264b84f3d84911d498235b8c17307ffeb02432902fd1263630fcc9ac5921",
+    "bytes": 286,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-browser-enter-root.sh": {
+    "sha256": "246b1589e2c1a5608b262d5074854613bce0b9506ac55dab9df0104ee73d4957",
+    "bytes": 1410,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-browser-extra-swap.sh": {
+    "sha256": "c42d15706a462f833b83e7e175a9c7e621691d0db3fd3c4c89d2827aeb3ea0e0",
+    "bytes": 560,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-browser-memory-watch.sh": {
+    "sha256": "536df93bae4e27dbfdb29efceaa793198b48a8ccfeccae55a7dca213335733ce",
+    "bytes": 1477,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-browser-oomd.json": {
+    "sha256": "c1e70b0d5de8b1de9278d96a4fb9a67f51939bfea8bf40f172428d966c42b9eb",
+    "bytes": 1219,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-browser-pressure-fixture.c": {
+    "sha256": "2c8e98de6aa6a75299c069374075e2188ff3c7d2c8e82e5d60a74d38da46f3a9",
+    "bytes": 368,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-browser-state-watch.sh": {
+    "sha256": "0c1095dc6ed40a748ebbb290158cfce3db70a4566260d2459ebfd1c2296a459d",
+    "bytes": 674,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-chrony-nts.conf": {
+    "sha256": "a626f5c0294efc60fd96cef82c694ab31b6502877b89049bc6e1fdc8475c4ad0",
+    "bytes": 420,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-chrony-time64.c": {
+    "sha256": "2561ed1067de62708f9d19622688cf8129c1351f7b6055c4e09e55bdf976e27c",
+    "bytes": 938,
+    "mode": "0o644",
+    "licence": "MIT"
+  },
+  "rootfs/a6-credentials-test.c": {
+    "sha256": "8ff7e9d3a9bcca45453255de542b18765d74c5234946b3bb5c1d0c206c39bf04",
+    "bytes": 1321,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-desktop-memory.sh": {
+    "sha256": "ab3ca47219880cf83e83211b696e3e5c80a09b9e40e0023227c60873b9f3421d",
+    "bytes": 1417,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-desktop-workload-log.sh": {
+    "sha256": "1fd5ad53c6d7e6e2fab0249f34c2a1188456398f06f68f24b2970c9abf0c9d53",
+    "bytes": 1408,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-fb-test.c": {
+    "sha256": "ff033cbd1abe2709d7c2f37a6c3667db33ef0422c09a848e57e76ff72e72af16",
+    "bytes": 3976,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-filelock-test.c": {
+    "sha256": "94c909a44cdf0ff4f9813bb7acb17cd28a35b7cc9db3f5f3fa8f34da2c226cc9",
+    "bytes": 1338,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-focus-app.sh": {
+    "sha256": "3a76cbd30b330b2c4c6e329bb22b5b8755c96cc3d6d3dd2b45f65caf6e64801c",
+    "bytes": 542,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-fonts.conf": {
+    "sha256": "82710ced707a0e60f384d14d95dcbf43784b3b38519837dd091b4417e71d93e6",
+    "bytes": 285,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-hyprland.lua": {
+    "sha256": "aeb1942f9a532e6059677a1ed1d14a4b96d27e8594bfc515f32498c1e49c1c24",
+    "bytes": 1048,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-init.S": {
+    "sha256": "f9d2de94d91d86afe3873c5b362ae5de393a7d98d0cb19018941cabb1ec62142",
+    "bytes": 341,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-install-audio-runtime.sh": {
+    "sha256": "6ca81b058b2af0ce2ef1b363d1792f946a3985d380e2530a4e03f2e0077434d0",
+    "bytes": 1058,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-label-input.sh": {
+    "sha256": "ac7107f7a5be8884d2e48bb18559117c1473c4b07b5740234b298fd9147ff474",
+    "bytes": 836,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-label-native-touch.sh": {
+    "sha256": "c6ecae663e7877d19db5e2d8265a4aa8f57f6fc4e3698f0b680f5611fa8c9f76",
+    "bytes": 1115,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-labwc-panel.cpp": {
+    "sha256": "c8918a3c687c85cd00600ad39fe30ec1d36be4731853fe8901de0408640530e1",
+    "bytes": 11213,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-launch-browser-test.sh": {
+    "sha256": "c20cfeb16c064b344b14bc54ae327e856327acefd136e8311e3e9966221b5ed6",
+    "bytes": 3900,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-launch-video.sh": {
+    "sha256": "75fa6f29064d6e54a7ea4ac4d006852db9ecbed10b146d292eb9b8bdd8241a7f",
+    "bytes": 1146,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-mmu-test-start.S": {
+    "sha256": "71421be569aa0d312f2010651a53a5b8f36024857e859354085304d11baebf69",
+    "bytes": 172,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-mmu-test.c": {
+    "sha256": "984a8b6cfd9754ccc110f984b6b3f66c749b3bfc8388a80c7fcf167b48765477",
+    "bytes": 6341,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-mount-compressed-desktop.sh": {
+    "sha256": "bdaee54a1ec0dfa48348e0b1f0cde5a7653ffcc7b648a49d9a02574e5d5f85e1",
+    "bytes": 2132,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-network-index.html": {
+    "sha256": "9122ae7b91caae937c46215b8bf15e6001ceb36ef8afd4748cadc467f4a0570d",
+    "bytes": 228,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-network.sh": {
+    "sha256": "897ef2e8c684e7e2156f0b9c17c18ac0f508ae5eaec68d86ece596cc7cb5b7cd",
+    "bytes": 587,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-notify-browser-pressure.sh": {
+    "sha256": "49af34e6385181a6405dc451ee80abe4003679bf0870293792351c1a539edb19",
+    "bytes": 852,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-osk-receiver.sh": {
+    "sha256": "7d765cc1c4b22a93b6f65f5a1b8a11fb744fc42acbcb76f8d983ae90209b6bd2",
+    "bytes": 328,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-overnight-workload.sh": {
+    "sha256": "1bd0affb47c1f7e731c0e7233cc965382b5a1d6b80ac4e4e30ad991ff5f4b8be",
+    "bytes": 1745,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-pin-compressed-images.c": {
+    "sha256": "a8caf6b816137966437650e94705ac807ea8aa63ff5ad7988f30b86bab5d16f0",
+    "bytes": 1541,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-power-longrun.sh": {
+    "sha256": "c22532c39812baf5a12b87bf33c414d714c833a535d343c7d4a9bd126491e01f",
+    "bytes": 1813,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-prepare-user-desktop.sh": {
+    "sha256": "7c8ed16111568c730a83cdc9f8a95e583789de24496e8c2ea93e4e41595df14b",
+    "bytes": 2058,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-quickshell-smoke.qml": {
+    "sha256": "26ec01399e6643c8cca8aeaf03e37505852818e3b95fc66bd53d06922810012a",
+    "bytes": 293,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-ram-test.c": {
+    "sha256": "818ef96beb231a4a6e5e26333a63aeb8d09d950bde8bee266528c7ee59b16a7d",
+    "bytes": 2352,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-release-boot-staging.sh": {
+    "sha256": "8591ea2a6da9a1b8de07d23e4e5880992b85e780adb7b1e0bd9cc6139df415d6",
+    "bytes": 656,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-smp-soak.sh": {
+    "sha256": "3b956096e0887f12124f93b50f72fd7fb92714a6ade2133e74739ba371a2b598",
+    "bytes": 2400,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-smp-stress.sh": {
+    "sha256": "d81ffbe624f1f8c7cda15a7162d60b14629367df3d0b96294bc76393b8d858f1",
+    "bytes": 1782,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-app-services.sh": {
+    "sha256": "2b81d6625228128a61d088e49542ca000aba0eba53c9de2871c8d6a2855bdcc7",
+    "bytes": 2731,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-desktop-panel.sh": {
+    "sha256": "6ea478faf87b5a12a672df413b8d3ed125cb645e094e2ca37d6ba979cbeab429",
+    "bytes": 1207,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-desktop.sh": {
+    "sha256": "6595e2bcad372ef5c1557895f23eade7c50476795d73ebe34882a3a9db40b3d5",
+    "bytes": 3926,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-native-desktop.sh": {
+    "sha256": "8d83c5b6809ea35eaedcea876e6d8515dc184e609bac0905192d11f001ad3fa0",
+    "bytes": 4137,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-native-keyboard.sh": {
+    "sha256": "bc61fd99ab47a07226e47c16af215fdc8cd2ae87ae6f62c5b5b0a44e14494972",
+    "bytes": 1127,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-nts-time.sh": {
+    "sha256": "93dc86645f25270b8f448042f43a3f4cc6f92704d0d944b23c2ad6fd47b5d524",
+    "bytes": 1620,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-user-hyprland.sh": {
+    "sha256": "8113568afe3f4c91d8e73026ff752949e5ed956ed36b3218fafdf6c60e43b51a",
+    "bytes": 975,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-start-user-labwc.sh": {
+    "sha256": "b1c71a556a9a492fe9f600d92cd4c4a46b3ef3a81f437a2a12f3a40973b5dbf9",
+    "bytes": 569,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-touch-calibrate.c": {
+    "sha256": "849083a49ea51498ba9f7c2bc1f261a27f83766219a69bd9f1fdce5cd96434c3",
+    "bytes": 6958,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-touch-calibration.matrix": {
+    "sha256": "d306d9194ba21a00c8722fd3c624a2458d8f5ef9eabfd8d2b8962156ef5680ac",
+    "bytes": 74,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-touch-offset.c": {
+    "sha256": "ec520f3408863fb8a5b60b6c66ef3fdda470e3b6ee130e99a883d06343dc4b5f",
+    "bytes": 746,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-uinput.c": {
+    "sha256": "e7a7ea6e1de42192f5dbb8cc1c12f4e4e43309348ef2e709f5e587aded04e7ed",
+    "bytes": 3223,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-usb-delayed-recovery.sh": {
+    "sha256": "71c60f9341b4cfdc2e2cb4df9aa691e6ba9c0a9d354b4b4675e358ee3404e85f",
+    "bytes": 2071,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-usb-init.S": {
+    "sha256": "a665bcccca9ad71afed251b4fc71cb8536d561da48ff2e04f817665adda45b8a",
+    "bytes": 2221,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-usb-rpc.cgi": {
+    "sha256": "955fc673685e68ff6ee5026dbb8e14f7a7cf1b991962b79b7a781bc8f41b8756",
+    "bytes": 1248,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-usb-shell-init.S": {
+    "sha256": "82a7acd31896341f08233a7af8bdb09e405f4f88cbe751aa16088aedc14865f0",
+    "bytes": 2790,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-usb-source-session.sh": {
+    "sha256": "fbadf19dd0a51779bed1d14992680353595bd46b9e706e3b49f2c3c19d07a4ac",
+    "bytes": 1779,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-usb-upload-recover.sh": {
+    "sha256": "548be4de4de959c17d6a28d2ea91632e9e63cdb5ca82b4d110f3c7b9afff05da",
+    "bytes": 958,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-user-tools-check.sh": {
+    "sha256": "333ad86b4b76af90f503e7856494ed244d06fbce2753c2f84c83156f26b85052",
+    "bytes": 1451,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-userspace-test.c": {
+    "sha256": "0fcdca75ed8dfa687da43a768da57ecc5336daaf6ea19032df57a492fa1d5fe7",
+    "bytes": 4311,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-vendor-data.awk": {
+    "sha256": "34c321135b5e8da1ee0dfd382fd67ed3936cd906dc06c74a2a5348f1d41c9e3c",
+    "bytes": 575,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-verify-update.sh": {
+    "sha256": "6574a1aa8bb0e648bf945832d4729395adcb421a34a408f0c22a436180b5465f",
+    "bytes": 801,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-vfp-test.S": {
+    "sha256": "3dd1284e13f8de4529399ff1cafc37d58aa7c5c734fe7fcca485ca13572cab29",
+    "bytes": 1778,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-video-workload.sh": {
+    "sha256": "98f7353d2f70fb874db3f60b27fd4dbbe763203e6950f7f83c96de4a0b1f17bd",
+    "bytes": 383,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-boot.sh": {
+    "sha256": "3f8326a589ffb6958e805a709174cff5d18a570d2a9060bd67f60becc8e92dbb",
+    "bytes": 4655,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-common.sh": {
+    "sha256": "14e76b6369033a06c3553e739cb80c0d8bee5212ee8e11a42e7d6a4768d2c9d6",
+    "bytes": 1158,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-dhcp.sh": {
+    "sha256": "1c5759907ca2eedca121129fdca0deb57c308b742f2279eba915a31476a8a6ee",
+    "bytes": 1111,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-health.sh": {
+    "sha256": "1ac161b354a70600780e2b649f271a09337e542199ccba017a55e459c7ea0f44",
+    "bytes": 2353,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-heartbeat.c": {
+    "sha256": "0cc7687453e117c3f9be3a3974c27d08193cb91d610eb68c73252b087f22eb4f",
+    "bytes": 1104,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-live.sh": {
+    "sha256": "080e6479c66300e43b61253d27893e9b4c3e1e6de84671974b1ccd64f440feb9",
+    "bytes": 2142,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-log-uplink.sh": {
+    "sha256": "fd2ef954344383861d121fdc9071e70487508a279874d1de20e7b4ce2d4c5e64",
+    "bytes": 1065,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-off.sh": {
+    "sha256": "24e3572db84a60feafe1c4348c386518cf6a838479fa470dc37d825c97ffadd3",
+    "bytes": 706,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi-recover.sh": {
+    "sha256": "a292d28d955ae64d01363482d482fb6ef5ff52dda45d958fe04363632f1a640b",
+    "bytes": 2983,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-wifi.nft": {
+    "sha256": "70254beefb7cbb0d461447e638e004a01c68d3889a1afde8df119503c9e37739",
+    "bytes": 887,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-xorg.conf": {
+    "sha256": "fd83bf689fffc7bf66c1643147854f49961fbc39e1d9b44dafb8f2e721c98c82",
+    "bytes": 619,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-xterm-launch.sh": {
+    "sha256": "f168efca1d90947a5b29571cee70c9b9ae4b5092b070885358a3e3b2358be6a8",
+    "bytes": 355,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/a6-yt-dlp.sh": {
+    "sha256": "2bbf290b2feacea2c7e88f69f0bc455a3a6c90ce98fc0708f689431cd388bc3c",
+    "bytes": 303,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/aquamarine-arm32-time.patch": {
+    "sha256": "b80e1f797452a2d0ffdadbfc145617abb9013e3454c729db6d74cb0d7c350619",
+    "bytes": 790,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/aquamarine-simpledrm.patch": {
+    "sha256": "fb376a20beb89a1f0b78d302a6c83ac12687086dc53a9b5e550e3ce6032a9cb9",
+    "bytes": 654,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-aquamarine-build-packages.json": {
+    "sha256": "fed2955de8a6a01fa1379def0d2a5c55a5d531f353095dd3a566a8bea971f467",
+    "bytes": 28169,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-audio-packages.json": {
+    "sha256": "eb839a0590714a6795a400ea48cff8fd8bfdda7091fb7b6ab65ae18dc1f1c1c3",
+    "bytes": 6648,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-bootstrap-packages.json": {
+    "sha256": "13f5dc540bc4fb2aef97b06e001f7ff3bf5a137125aaac5c17c5623b6c62062f",
+    "bytes": 1256,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-browser-packages.json": {
+    "sha256": "a67e7b7294c2d3c2c2587f72e96d055b5da868246362cbcbfd1be74a5d7b531b",
+    "bytes": 81547,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-debug-packages.json": {
+    "sha256": "f7c7d51c7eb45cb5030bcd3bea09e562c0fb3335442b1c5fdf8c6aab9b0630c2",
+    "bytes": 268,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-desktop-tools-packages.json": {
+    "sha256": "1a94faa622066097f31c0bd6cebf0b0d14b9f5d96b4d2af173f5399fcd72ea37",
+    "bytes": 1044,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-drm-packages.json": {
+    "sha256": "c3c3e729a37ec9c854f96a4b68bccd2e9e030d9f91c6223870b622857ad855ab",
+    "bytes": 7633,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-egl-packages.json": {
+    "sha256": "6f2e95135a6fe0e51ec5141e003d5162d1a8ea2631d2ac46df3bf1c32049388d",
+    "bytes": 20118,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-foot-packages.json": {
+    "sha256": "7607f17dd16c55d8e407b50346aad9c567ada8e4eb45b4371cf7ec384db39781",
+    "bytes": 1291,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-graphics-packages.json": {
+    "sha256": "acd242a639299cd028b81cf0e5edd90002cb672433e24a814a98edb493b9142c",
+    "bytes": 10256,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-hyprland-packages.json": {
+    "sha256": "a3fe362c841220bc4a87d12c2bc59a499488dd60d5bc0ab1267191912e3b5d5b",
+    "bytes": 14480,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-input-packages.json": {
+    "sha256": "17e355d5394b0f2329dcfd57ab71343667f778cbe9fb7d3d2d4c10ad678694ef",
+    "bytes": 919,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-labwc-packages.json": {
+    "sha256": "bd5d1e197f8a7872975cda7ba3c7703fa1abe3b2c3c195784ead6773ccc94034",
+    "bytes": 1283,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-media-packages.json": {
+    "sha256": "4f3aa27325544ba6f4fee060de2b0b45379ecc76ff7174008e5c0831a19fdbb6",
+    "bytes": 53097,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-quickshell-packages.json": {
+    "sha256": "32c6093c5948398c2bf4aeb91c2bbe3ecf6cc78f86b2520fed644bbe66e49181",
+    "bytes": 8658,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-ssh-packages.json": {
+    "sha256": "283f0dca1b01483a39a47b113bc2c31fa4e1a5164f3a8bab85e3c31c15f3ac87",
+    "bytes": 907,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-strace-packages.json": {
+    "sha256": "2920426ff84e4994e1f7c33ee00a639dbb1190ed98ecf13a57c8a0055a7cdd25",
+    "bytes": 523,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-tools-packages.json": {
+    "sha256": "540c17b7874d641d2bbbe303024f44a8141c0b000bf6623237e865def29789aa",
+    "bytes": 3763,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-user-tools-packages.json": {
+    "sha256": "713fd688684f67ca8302adb8c623656e6c48b0c0b3d69002e2904765369d2384",
+    "bytes": 31303,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/arch-weston-packages.json": {
+    "sha256": "d7cb910ff0e6774edd25dabe271e74e5d9510025770240cbb824ad37fbdb4024",
+    "bytes": 7451,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/desktop/touch-workload.html": {
+    "sha256": "448d859a559dc1978338c9a78fc8e6270ad0261b76507f3a2f9aea34cc44e438",
+    "bytes": 1809,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/desktop/video-measure.lua": {
+    "sha256": "0ec584277f06326c75defeee0ff24cfc89d8131b92abb802e510d7deca248d4f",
+    "bytes": 1666,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/handheld-build-sources.json": {
+    "sha256": "8729b3f614ca85004af317dfbbd247f0e575e96b383f5d7d84a3ab583bd15eb9",
+    "bytes": 571,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/labwc/autostart": {
+    "sha256": "e77330ea116ad7df2a0baec353a3c05df9259d8fcaf8d5d45ab670635e8274e2",
+    "bytes": 1069,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "rootfs/labwc/rc.xml": {
+    "sha256": "90f66837a3fc4cc06f6da58e5483ac921a8f0a920410cb8997236262a3ea6b80",
+    "bytes": 381,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/70-a6-linux-usb.rules": {
+    "sha256": "1f682a0e03dd5cee57ea4e76180576645860031790e737c24ba86bb3e677884f",
+    "bytes": 271,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/README.md": {
+    "sha256": "4fcb8ab74b4b64865cd7e77609b53ba61a89907027dafab0736e8e524b5b830c",
+    "bytes": 1627,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-boot-selected.py": {
+    "sha256": "2648f6eecc062127259337af00e4f00afd4e10dc3a951135a657536f78b43180",
+    "bytes": 2846,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-audio-codec.py": {
+    "sha256": "90f7cf34ffa7f86299c9a8fbecafa44aa189e0cd1dfd353af12ee6b9ac8bfca6",
+    "bytes": 3127,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-audio-fifo.py": {
+    "sha256": "83d1058cb39c55f1df27ccb891a4462113cbc7d15d4afaed0228a7490571b9b8",
+    "bytes": 12534,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-audio-gates.py": {
+    "sha256": "cef014dc2eb586a56575bf544c064542e31ffa060dbf4c7f267a5f7e4f8f9007",
+    "bytes": 3066,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-native-touch.py": {
+    "sha256": "9162c30a0ca54fee58efaec5b6ce63233275adaa4792f47328ac2175677d35fd",
+    "bytes": 3867,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-pcm-reader.c": {
+    "sha256": "52c64db1bb78e4f994ffd8a5c37aab2a4a79baac4689a10fb09743e14abcf528",
+    "bytes": 4116,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-pcm-run.py": {
+    "sha256": "bc3d472d6eb1bfb846b683bf76cb993d4a1bcb6e4d9f58e53ee08b7abf02a598",
+    "bytes": 2116,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-raw-run.py": {
+    "sha256": "6edffbe414b43895b0ebfc6c361b9ea553e13e789a64b68c90bdbaf1e4978f5b",
+    "bytes": 2648,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-wifi-clock-snapshot.py": {
+    "sha256": "833c91ab35f15c338651fc3b7fabb8241b43ef47b932ee804108630849d10f70",
+    "bytes": 2694,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-wifi-ehci-caps.py": {
+    "sha256": "ed5918bb0ac219461b71c5f008ec95f79475c3b28605fe1aa59006a0841cba69",
+    "bytes": 3742,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-wifi-ehci-enum.py": {
+    "sha256": "45fe6098a2f28227e9c8bc08826716719d6ca14638b4cbb1be8459ac0d224de7",
+    "bytes": 29486,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-wifi-preflight.py": {
+    "sha256": "1fb3734bd27644449c33ff422fc4451329e975eb8391986babea91f33f9c3be5",
+    "bytes": 3158,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-wifi-rx-packet.py": {
+    "sha256": "b05c58554fd4554d072983e0d16f4ac6c8c5ae2ba21fed19784cd9fc08148178",
+    "bytes": 10018,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-capture-wifi-scan.py": {
+    "sha256": "72a033e0e79554efe74b0b260901a9cfa0a422214ebab94122830756618bedc9",
+    "bytes": 3297,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-charge-keepup.py": {
+    "sha256": "e16a2335a0bb25aba4a69ae447c4d8f50473908c6c4e2db9cc7b9d8aa696979a",
+    "bytes": 9433,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-check-compressed-runtime.py": {
+    "sha256": "20b11ec7d33fae8b26d9b570949c9124e73f053ed4ebb0059922ca9344fa2876",
+    "bytes": 2392,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-collect-cpu1-alias.py": {
+    "sha256": "b9fce9f0667814f7848783f7b72d36c1ceafe5373e3d29b18952bf7080c4afe5",
+    "bytes": 4982,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-collect-kernel-vbus-trial.py": {
+    "sha256": "ee3f4091a3d9b3d636d8cc4d366d68dd61602f144d777864b0896d89937a38eb",
+    "bytes": 3755,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-collect-wall-return.py": {
+    "sha256": "3f6358528f800e7c3633136b93b0ad46953f2d063637cf0157b3d316374102e0",
+    "bytes": 3047,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-cpu1-cache-tables.py": {
+    "sha256": "fa75fe0fb6f965e1e93fdea6944c78a2034ad99e33b73db77f1cefd5d4acbdbe",
+    "bytes": 3395,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-cpu1-entry-audit.py": {
+    "sha256": "759423edb0786d4dc37b5a1b2ae661ecbc2c9d5e6d369cc61cf91f5f6542d80d",
+    "bytes": 2574,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-cpu1-probe-blob.py": {
+    "sha256": "f18233d212c4ad76bf23536f50c0adb03d5ccea48717d1178640d1dd18117aea",
+    "bytes": 2482,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-cpu1-tlbi-blob.py": {
+    "sha256": "aada0783ebcdba28a7c61c12403a2c59e48a91ead9686d7533fd337af8862485",
+    "bytes": 699,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-cpu1-tlbi-tables.py": {
+    "sha256": "3d7649e769dac7aecc8c74dedd6176fdbcd0c2c0c65d0d049cd02483213c9065",
+    "bytes": 3073,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-desktop-base.py": {
+    "sha256": "4bf5fbed8d3d68bab9815dfb9259663f90c008dfe094b910dde0e6c74cdd4c77",
+    "bytes": 1004,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-drm-input.py": {
+    "sha256": "ebda959603b8f0bbf9cca692b5adda686841c3937fa4ba1e5dd1567f1b89d26f",
+    "bytes": 3918,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-ios-audio-power.py": {
+    "sha256": "bc1bf5cacb9c98ebd29ce124b64700867f6dd4d9263116f18bc70ae3c738f953",
+    "bytes": 4966,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-ios-audio-reader.c": {
+    "sha256": "a2fc728b472d6fc8e0ed8e67d78a88455decfc509b6e8d9ecb5d5bb9631b4791",
+    "bytes": 8735,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-ios-gauge-after-watch.py": {
+    "sha256": "6e7945c9f8ebe5a0047dd47fbbc585cefa214f5849aa0f848f8b7590fe3d8f2a",
+    "bytes": 5110,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-ios-gauge-compare.py": {
+    "sha256": "82084c781f62e4fcac9b3822634a962db071f4beca6efd70d33262159698afb2",
+    "bytes": 5439,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-ios-gauge-snapshot.py": {
+    "sha256": "0f75c24d6823ada493e9a1f611a94b31bc6e84fc41913bb44e302582f7c742b4",
+    "bytes": 2557,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-kbuild-cache.py": {
+    "sha256": "a50ded8bf4d5f94f7b90abcb26a76639613a434c65550d1b9f8ac39ac8d52bb5",
+    "bytes": 4336,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-linux-charge-interval.py": {
+    "sha256": "3fb5e73842ad08568fd8e23aed5b57a00c6438b5ad8cbd1d858fb1ac4fea7d7c",
+    "bytes": 3166,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-log-vbat-host.py": {
+    "sha256": "1f7eb47874070a7a55ce276a65d03c2e89d3b42eecbba2ae35b0b9b8c8068474",
+    "bytes": 3032,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-native-keyboard-test.py": {
+    "sha256": "945a234b4063947e93a5e092f609323212c49530a697d0d5057e5c6dd91423f9",
+    "bytes": 6313,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-observation-host-firewall.py": {
+    "sha256": "bf5708f5b739eb269e624b837858d8f2960eb9537affc3353cad509a1b920b82",
+    "bytes": 2200,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-phone-power-log.py": {
+    "sha256": "7192445e099a6ff978794a1d3d0605319775a6a006962e45fa6c06d6ae9075df",
+    "bytes": 7255,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-power-longrun-summary.py": {
+    "sha256": "5092976fe0df4a289c60a8c66f76bdf9d2d384917892c26f94c5bca6537628d8",
+    "bytes": 3310,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-probe-cpu1-entry.py": {
+    "sha256": "4fa696c330be1073cf6e0f9ee9b43901b6b7eb6b624005a080e9d67801fb2e31",
+    "bytes": 3425,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-prove-cpu1-alias.py": {
+    "sha256": "6595d3f3ab17c2a3f0ceef675d922acbb90cc0c73a24d4d53247c6233b77e8ea",
+    "bytes": 3169,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-prove-cpu1-cache.py": {
+    "sha256": "7776cfef5d31c499e74eb9b85ce06af0fbd5871ab32467aa23efca3bb582ffda",
+    "bytes": 6229,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-prove-cpu1-ipi.py": {
+    "sha256": "b1a463fc92c9266a1306ee911c65a54bc60fa747143ef3a6323432653f657f03",
+    "bytes": 3417,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-prove-cpu1-tlbi.py": {
+    "sha256": "e91f46112d65d56f63fb1629502f32a5b2cea4d6eb967a9b5ca179deb0ffe5ff",
+    "bytes": 3631,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-provision-boot.py": {
+    "sha256": "6c47b5a5e71ce4f847ab2c90b4d6b5f872a7f30a46077be5e29cc8327643e2b9",
+    "bytes": 24974,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-run-audio-ios-state.py": {
+    "sha256": "c48e075e48e025e9a143b8fce01c64aa529dbe67b979ff8afcd1358aaacf2918",
+    "bytes": 3011,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-run-audio-ladder.py": {
+    "sha256": "d8d97a70baa54cca4a24ae368c18f419c8df2d4ec5ab28cfacecbe9627f40c64",
+    "bytes": 3068,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-run-audio-switch-sweep.py": {
+    "sha256": "162302d8fa61a55d9fbe87169d3e8f60b479bd1265938144aa94dee6454882a2",
+    "bytes": 3771,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-runtime-libraries.py": {
+    "sha256": "8e87c5adf65a63c79d60b0e1e17eeb092efa4d25e4a10c8790e2297244df20d6",
+    "bytes": 2329,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-scp": {
+    "sha256": "a777e91887e218bfa0892bcbfd8803c503b8b063b075ec28591c810cd656db72",
+    "bytes": 1288,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-smp-bridge-blob.py": {
+    "sha256": "bb8d5c8a41de58e611824e2652d23d5039895a29522b1b12248525a99f9116e7",
+    "bytes": 1679,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-smp-bridge-check.py": {
+    "sha256": "ee825775377b304bc2d20466b52a7807f6366f9583eeb329adff82d3ad6b537f",
+    "bytes": 4835,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-smp-cpu0-check.py": {
+    "sha256": "2ae88b9e3d9c4fd49637fae4fe537e56a1aff52316bcfa29ab9d5f498a016c22",
+    "bytes": 3395,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-smp-online-check.py": {
+    "sha256": "876cf122c46b1eb352e30f43686a05a077b94215fc0047ef0488623ec9fc72a6",
+    "bytes": 4226,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-smp-secondary-entry.py": {
+    "sha256": "2feeebf5696cbb1abfc9cb1c764c36c617c2e2db1200f35ce02837a934a387f9",
+    "bytes": 3172,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-smp-soak.py": {
+    "sha256": "9526ed609ac48a734f3809b62bc8308ded8775f44112534f464988f11113c3f3",
+    "bytes": 2901,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-smp-stress.py": {
+    "sha256": "af031d83878b7798201bb55daeefeb4d4e9855681737c90294d2c2c2db1f75a4",
+    "bytes": 2494,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-ssh": {
+    "sha256": "d4c4f4052c02bd1a4cce6fec77163bc0e756a8e87ad6b7ea189ea0ae5e792612",
+    "bytes": 691,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-stage-browser-wifi.py": {
+    "sha256": "509967481d1304cadd9f4f38e262c2e72f201341ab91536cee87f7df39ba870e",
+    "bytes": 1394,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-stage-compressed-root.py": {
+    "sha256": "e04c2b3a0b8a13017bcc4c1636d31d4f690ef2669d88bf28c5c9d4d0280879a4",
+    "bytes": 4288,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-stage-wifi-firmware.py": {
+    "sha256": "f331b2256b95b4be169e64d4467a4e9c6c9ab063c474ab0ae809c5d80334bac8",
+    "bytes": 3633,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-stage-wifi-native.py": {
+    "sha256": "ea51ea131691826cf704b2ffcc129055623b260a5a55d44c65d26c0e5ce8df4e",
+    "bytes": 6660,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-start-nts-time.py": {
+    "sha256": "29245390fd344bbff6220c6088a17e791b2637e6f45c9ba9ef83fb0463b60947",
+    "bytes": 3086,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-start-usb-source-session.py": {
+    "sha256": "4aa3880127bc5fffb35354014e109e99f820da1299c6dc1f4c7627e75e07e783",
+    "bytes": 9649,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-stream-compressed-desktop.py": {
+    "sha256": "a0d11a0eed390645511ef448542045e4496d4a2f18bafb15450711ed50f7801f",
+    "bytes": 4931,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-stream-user-desktop.py": {
+    "sha256": "c618a792edf958a490b0e820a3bff4d9a178d3ce96137ed642272896147b58d4",
+    "bytes": 5765,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-test-firefox-pages.py": {
+    "sha256": "b8f37fcb41f52e91467adb34d2ab386e88db58221042377391a699396be58521",
+    "bytes": 5865,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-usb-acm-broker.py": {
+    "sha256": "444f435559eefaf315240993c106f75398eaf60f3086a10286161fe9f39ad24b",
+    "bytes": 12450,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-usb-acm-direct.py": {
+    "sha256": "4298944eb69afb501ee4c6e83a98b6040aec51aef9225b1c758fb0d46d1bb1c9",
+    "bytes": 6687,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-usb-http-rpc.py": {
+    "sha256": "99db4f49f9de289b5d258c292b6ce90b792e11479e8f0ac1cdca63d2a02bd265",
+    "bytes": 3689,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-usb-network-host.py": {
+    "sha256": "3dfa361735dc8c61da98611bf3274ed4b954630fed7de219882ca3a968ddd4be",
+    "bytes": 3309,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-usb-response-size.py": {
+    "sha256": "db11e1580d3401b1f02d31a837102014a96057e2956514879ae3932a9ef9a55e",
+    "bytes": 3759,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-usbmuxd-local.sh": {
+    "sha256": "be6dc93465c976cbaa3618cf80ff1d76a69906e776fbd68d5ecadec16da19102",
+    "bytes": 462,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-user": {
+    "sha256": "3a83b10760c69ee3b0db6d8a4fe8af75657bb949be4d3d60f25b4abccd7a0e93",
+    "bytes": 600,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-user-tools-verify.py": {
+    "sha256": "e57661eadf6e001ce630b19d0803c5b33a9f254c5abc8f140215c7fc376bbfeb",
+    "bytes": 7258,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-associate.py": {
+    "sha256": "f27e36d3e6c049fda0e57165f6446d18b97a90b4636dc0869b476e170e2d50c2",
+    "bytes": 14929,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-connect.py": {
+    "sha256": "c8e56bfa7d92e3eb8c25ad5ad89e09cc433467088e510e6674d1ed3c39ebb990",
+    "bytes": 17027,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-echo-load.py": {
+    "sha256": "510806ed72242c5cc26883eb49a7b5dffe896e3a715b57bc02fa3ef4602f69b8",
+    "bytes": 3479,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-firewall.py": {
+    "sha256": "1acd0bd4bab8ef236945e7905a9bb2c7f7055846f1fc6847b131060fd5d93830",
+    "bytes": 5735,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-image-transfer.py": {
+    "sha256": "6ae37ada1e1fdd9a943be47a8afd0034295112af522062780f8f5a62a313df1a",
+    "bytes": 5355,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-live.py": {
+    "sha256": "3cbdf4ab337fcd8a5774eb02a1c83c4acd4a28c4c7000012df9f1e7d5317f5fb",
+    "bytes": 5411,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-log-uplink.py": {
+    "sha256": "df8394f500d0a72c6b27accefe9dbac7148ac2cd017fc6b488b1c89bfb241cf7",
+    "bytes": 4687,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-quick.py": {
+    "sha256": "b23491ce1229d3638dd11b9460ac00e963dd5467504d7d36198b4248e22448bb",
+    "bytes": 8413,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-recovery-load.py": {
+    "sha256": "997a543dc9a6149aab5bbe1e704d2fb0a8ef58e34e3c57de43e9cedb9611b1ce",
+    "bytes": 4529,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-wifi-soak.py": {
+    "sha256": "0707bc8639d5bd770f5ac575b2eae5be8b8b45ce87e67481ff13f28ffedde775",
+    "bytes": 8276,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6-xorg-input.py": {
+    "sha256": "a5cc03d1986047d5a06d8df5bbbad48a61cb79b469f00c22119ae6b413bc79c0",
+    "bytes": 5131,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6_cpu1_host_evidence.py": {
+    "sha256": "0b58b7d565f5545d510b16f3f417f8765bd5c7a52e90def35985a5bcd6b552b5",
+    "bytes": 1148,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6_fdt.py": {
+    "sha256": "e3055bbe4c1deb1de4c6acf57cc980e4d1e5be80a74193090f0e60827876d5d6",
+    "bytes": 1183,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/a6_smp_bridge_fdt.py": {
+    "sha256": "441376be29b2132813ce5db896c4142b7fb97894f04b5a36dca21156d19f3d05",
+    "bytes": 1036,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/analyze-a6-wifi-loopback-outer.py": {
+    "sha256": "f71f2f5381301131e3a31abe7b9ba4224cf1ad77ea5acc111779dfba44bd30b2",
+    "bytes": 2920,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/analyze-a6-wifi-scan.py": {
+    "sha256": "c52db3a2ceded6beec2cd759bb9ed7b8146809ad43dd08cebb59d0905926ad8f",
+    "bytes": 3040,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/annotate-a6-stock-thunks.py": {
+    "sha256": "27b7ddb9f5d2704162e7ef607456901c9bb105363347e91a2aa4d54726a2bc20",
+    "bytes": 3426,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-app-panel.sh": {
+    "sha256": "5e6df1b386df615b80135d38d62bdc45fee3a4b86a8b56ff225c09a856e002be",
+    "bytes": 1385,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-aquamarine.sh": {
+    "sha256": "2107d2b13f92e964e026e7d2641909daf0d2dad7eed0163e78d3b2e6f0e7d163",
+    "bytes": 3106,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-audio-fifo.sh": {
+    "sha256": "9388da4e1712b7938c638716ee7d172c051b7ed26d7558133e2cb58a716958c6",
+    "bytes": 6383,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-audio-gates.sh": {
+    "sha256": "2fcb88914cfd730ce40502450f258c3eca80250cb07df981740d2d4c730736e3",
+    "bytes": 1450,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-baseline.sh": {
+    "sha256": "07d1088c9757ae3af0c6a9ad1fb3048d70394f49479d28c5e616e9152588245f",
+    "bytes": 6864,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-battery-hdq-line-observer.sh": {
+    "sha256": "7243c5132b73b07d04f3ae42ac1e469c11877c165e2c6fde64dafa6093aa1290",
+    "bytes": 413,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-battery-hdq-read.sh": {
+    "sha256": "c21b9fff274c7592fbb5efa21d6366e389a6d865f52ecf17995768dd73d2606d",
+    "bytes": 300,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-battery-observer.sh": {
+    "sha256": "a723e19047dfad1e7e2d16ec57976e2ca9e673b800f5ff13d094b6cf8f8a1ecd",
+    "bytes": 301,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-capture-pcm-reader.sh": {
+    "sha256": "83921b8c5403d2470e332172f88d85f15e7780c66ff98895740a0829893b5599",
+    "bytes": 798,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-policy-500.sh": {
+    "sha256": "5a55d3575521c208255b30fcec961a7f4140f46399220784ea2d5e6f5a1e6592",
+    "bytes": 392,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-proof.sh": {
+    "sha256": "5efd529028edb8f4c36147c063c02c1ac2649d8dd49098f2d402427c473da277",
+    "bytes": 521,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-tbat-adc.sh": {
+    "sha256": "a11276817545ef83a7c869846fd896de0ed3881d8e579a3428c17a00aabe18ca",
+    "bytes": 568,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-usb-power.sh": {
+    "sha256": "6dba9b8e9341e8f36214b76248590bc8765e0f34798b469a7b96810f6699cf80",
+    "bytes": 5194,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbat-adc.sh": {
+    "sha256": "6f9636137814f04faed88336909b4b68cad19d49b5d4948e08f3f286d8758686",
+    "bytes": 371,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbat-backlight-trial.sh": {
+    "sha256": "6320640e6637ee99c42d42d6ab4b4523077939f35dca360d352265cf41602171",
+    "bytes": 565,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbat-hdq-echo-guard.sh": {
+    "sha256": "fe4598d1f0402c02a00be00957ef6f9030176d438e5058cce1e18ba2d920f08a",
+    "bytes": 679,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbat-hdq-phase.sh": {
+    "sha256": "35f79f55dc3434cfe84e81cb6ea93989b261f3f02e7fefe5e193e452d16ed668",
+    "bytes": 590,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbat-hdq-timed.sh": {
+    "sha256": "b7082ec802cdce5befaca1e11b9db92c9449bf03c114b745b6a785fe811fb8f3",
+    "bytes": 634,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbat-hdq-tx-turnaround.sh": {
+    "sha256": "3cb51d18103349bcaa4073a7cd7c45323acb5e2d914877789a456977f0a41055",
+    "bytes": 750,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbat-monitor.sh": {
+    "sha256": "3e6cba7d2644abdcc54f52d021bd120d797ec5ac60f7ae27410e5ba399cdc756",
+    "bytes": 407,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-charger-vbus-adc.sh": {
+    "sha256": "98b6c5ed67c3110a6d0c536779fc3b714822900f77ef3e32f26973cd00168960",
+    "bytes": 288,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-alias-preflight.sh": {
+    "sha256": "2843e546ed050ec5fef3f0b29552482e45feb812ba8d2d71dfab7b4640e9cbe4",
+    "bytes": 191,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-alias-write-proof.sh": {
+    "sha256": "4169b6f49b9b0ab0ce6e513ec78cb0cbfc7a161d0fd75947d5ab2ca77b3247e3",
+    "bytes": 193,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-cache-image.sh": {
+    "sha256": "5396fc209bcba37796215a8aa84931c16f0184068f64a9322da3a6f4dd2ea11c",
+    "bytes": 208,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-cache-repeat-image.sh": {
+    "sha256": "c1a3f49f9557155f6b8ed293f5b6cd80002d7da4b09692b90d0c4e1fd14f9f5c",
+    "bytes": 187,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-cache-shareable-image.sh": {
+    "sha256": "ae96c05ebcb62717395b720524b6df697f068ad08584355ed112d590d081ab73",
+    "bytes": 193,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-cache-tre-image.sh": {
+    "sha256": "9ce69161c3be0a20daa74af280797c69e4e26887e932e6f2c828b27ffbd9ee8e",
+    "bytes": 180,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-entry-image.sh": {
+    "sha256": "b0047175b5c1fdcedf859f0c6ca84523f5aaea972cdaa77e6f26c886ffbe66c2",
+    "bytes": 195,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-entry-probe.sh": {
+    "sha256": "3d7b5217821794eceef19087df4c88739adaea3241f5eccd5d33dbebb866032a",
+    "bytes": 1610,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-ipi-checkpoints.sh": {
+    "sha256": "2e311b93788bdd56b76308612a98bd90653446f586a9ddb64f29f0ba2fb71120",
+    "bytes": 178,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-ipi-image.sh": {
+    "sha256": "46af53ced08bb24d80cb2064690b74899da0bfd71831809e806f6915e757eede",
+    "bytes": 187,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-preflight.sh": {
+    "sha256": "ad7cad611f33466f1d505ee27ad757e82c232d673a33c6c84485fde3a9f58ae2",
+    "bytes": 1105,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-cpu1-tlbi-image.sh": {
+    "sha256": "c5af1edb4d9bc343decf26d72fc2399a925b34fa9f7327f4455c405a9fa00d04",
+    "bytes": 179,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-credentials-test.sh": {
+    "sha256": "9d892af3fee5549187f681b3934ce9b2214cdeb2a9589afa9e8f57c58026c3a6",
+    "bytes": 570,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-desktop-squashfs.py": {
+    "sha256": "932f8f7ded37fe116ef7b642be2af546c1002d7cd4ea9a89d82243ecbef4d83f",
+    "bytes": 6537,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-drm-ram768.sh": {
+    "sha256": "fef87842bd501c58a4156bca2717feba070f4c79ac7e3dd91bfde2fe17862bcd",
+    "bytes": 3685,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-fb-test.sh": {
+    "sha256": "9cd8f6b99595ca4e69847e2abaec26dac40c3b7e76c4e54d2dfa36231e806ab3",
+    "bytes": 1302,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-filelock-test.sh": {
+    "sha256": "50d057daf96f559554f8c685a9b2ece75ac4cbec91ce3125659b148efbe2bd3b",
+    "bytes": 561,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-handheld-base.py": {
+    "sha256": "e277a181236144cfcbc8a0b35b35ae1c4abdbbd51e847b57a32b18d2e3ee7547",
+    "bytes": 3910,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-handheld-from-source.py": {
+    "sha256": "1871c5f8db8ddda849cb817c9c045616640568d31ef1fd3bf5f332d2f13df561",
+    "bytes": 5303,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-kernelcache.sh": {
+    "sha256": "0fbf8c2d7d740ad525a1123415451df066fe9936a516493f07c9a34290c15e10",
+    "bytes": 13434,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-labwc-panel.sh": {
+    "sha256": "8e3986cc3fbcd730eebd5403273cd8bba25159e0e1c6bc66e16a5ea5bb34c0d8",
+    "bytes": 1353,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-launch-proof.sh": {
+    "sha256": "66aa7be0b444c2987c968881e64b1d280234cc8610371cf33d91ddfac5db7cbf",
+    "bytes": 4793,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-local-video.sh": {
+    "sha256": "2be050cde4b054c6167c351a8deed53a8aa8bd402ab39081eff932bad7c75a18",
+    "bytes": 1329,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-auto-recover.sh": {
+    "sha256": "04683a035c12ba5c43811fd31c05db8e69fd1c55a8426f9112ab8d127ba07e5c",
+    "bytes": 638,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-boot-defaults.sh": {
+    "sha256": "d6e197790e07e9614c21dc8d7e8f88bb33fbd46c2c11f579ac71a43942383971",
+    "bytes": 671,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-bvalid.sh": {
+    "sha256": "38a13bb1e2fa068b54253a88e85c46c69107eb853926fdfcb9331b18a98c7f2c",
+    "bytes": 578,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-candidate.sh": {
+    "sha256": "307b17d1b8b8aaf3885ce364c6135e34802971b1f2a19d56723bcc22d141ae6f",
+    "bytes": 407,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-reset-stage.sh": {
+    "sha256": "3791200bab5b96db1bbc03064eb58cb96f7a124ccc784cba92e42e26370c9c63",
+    "bytes": 610,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-reset-trace.sh": {
+    "sha256": "c6397ab0239a9ea0598531994690db3aa0385a975bb8359bf5eba00fd09ee7ee",
+    "bytes": 577,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-trace.sh": {
+    "sha256": "a9ddd5f37cac07acac9626f65ab99b8548fdfc52d6fcf91f3013aa15422d487d",
+    "bytes": 440,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-vbus-bridge.sh": {
+    "sha256": "b5cc66f685155b1f9cdab4ca3ef3263f3adaab6934e4c13353d8b3a5c35cac8c",
+    "bytes": 437,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-vbus-full-speed.sh": {
+    "sha256": "ebe30777ef51e75d07d40748405de71547637dcf2d57efda93d02cf3cb67abff",
+    "bytes": 467,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-low-battery-vbus-screen.sh": {
+    "sha256": "3f1d3b38b0777c58cdcd3bb68ade1283097b0946560ca30f89e54b7203ba6180",
+    "bytes": 551,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-memory-physical.sh": {
+    "sha256": "768a7fdbb758f9e1077920f824da6bbdae44ea1ef1e6a6d6bc75f7758cec5cd1",
+    "bytes": 1169,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-memory-v17.sh": {
+    "sha256": "e81600011ad5650ce9da443418e6806157430fcd3817d713af3dc4f9f13ae793",
+    "bytes": 1158,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-mmu-test.sh": {
+    "sha256": "db11a8e96be3dd30169f603632f58280612aa3d811fe257cc3691a119c056e4a",
+    "bytes": 546,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-oomd.py": {
+    "sha256": "b589b847a018bee3068ad872d7dcdccfc638fb54e8711c21643f128bec149168",
+    "bytes": 2361,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-pin-compressed-images.sh": {
+    "sha256": "6d75e7006545a09496d41d9a158fe1da32bcf3e5de6f9e6d1a0715abbf682aba",
+    "bytes": 527,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-ram-test.sh": {
+    "sha256": "86ffdc3067052bce9a58f0527cf7c346d47f89df68961901d3bcaefbc3574000",
+    "bytes": 799,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-ram512.sh": {
+    "sha256": "34a88505b988b372f8bcb11a2cb9dccee5e3590a04da2b1d61360a8a256a5585",
+    "bytes": 2824,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-smp-bridge-image.sh": {
+    "sha256": "285d36f9840ee0c3c2df64509952d85b277f5f75d549bed1ebbae0f55175edd0",
+    "bytes": 276,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-smp-compile-only.sh": {
+    "sha256": "9dd4417285ba91db0d7997e5a5ad2be7fdb97d0936a414e08a215d00489e1e89",
+    "bytes": 2600,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-smp-cpu0-image.sh": {
+    "sha256": "7caf9dfdfc2867e5c61e602c17735654d2c1b88e8073b9e1e8507a13bc194104",
+    "bytes": 260,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-smp-scheduling-image.sh": {
+    "sha256": "41913f2ec3e126f5f06f6b1801e172f9afb621988d02feaffd447a6b75d3cd74",
+    "bytes": 295,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-smp-timer-line-image.sh": {
+    "sha256": "919a9ac2f688320b3d6a44de747ec4615622c5698459a9871e5d63f1c4a27834",
+    "bytes": 333,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-stock-off-candidate.sh": {
+    "sha256": "cfda4f448288c4d5da1edc9ff93cb27e0dde328f97932514c767867e14ab34b1",
+    "bytes": 372,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-calibrate.sh": {
+    "sha256": "67055202a0062a93a57ca59c6fecde3fd00abe1a4a6896601efe7f1f50d380ab",
+    "bytes": 1190,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-capture.sh": {
+    "sha256": "533f52a98221967ac5666f3e49c8c7f08d44c66833afd460425347ea3c1a8535",
+    "bytes": 1864,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-charge-trial-n42.sh": {
+    "sha256": "3f72e2569052fc78c1efbd507c963659403629f6953e4197e047eaf6fa586c79",
+    "bytes": 384,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-check-start.sh": {
+    "sha256": "4a824e00719ee88e6e0b2f8bd0f0700a2da690c3912d9ba9306da419e96c02c8",
+    "bytes": 3506,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-check.sh": {
+    "sha256": "35d51b86bc0721ec4b91a3b75bd905fd3de3b105308f49d4ece687c8dea309a8",
+    "bytes": 3313,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-clk32-n42.sh": {
+    "sha256": "18766b10dacc431bcdcb23c1fed56086a9eda25ff48fb1c5aca70808edd0a6b2",
+    "bytes": 301,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-clock.sh": {
+    "sha256": "fd1d85bae0660babc129bb8a3e5468a2dab195ce2557e4bed7f7cd7b612e851f",
+    "bytes": 4277,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-e3-info-n42.sh": {
+    "sha256": "2e7a6fa448a9702cccb9dbfa71e92dce6828ab778bcdead1780c3bafd827c02c",
+    "bytes": 307,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-full-n42.sh": {
+    "sha256": "21ff69264b84168bc8cfd0c31980c891db1a0714f950d83d143f64c4d388a205",
+    "bytes": 1606,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-fw-n42.sh": {
+    "sha256": "9a6d18d2526abb80e57731e32367ae0f0c2d972067048484213434de31e60970",
+    "bytes": 897,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-gpio-cs.sh": {
+    "sha256": "ccdf9555702fae885a5cf7b9ac63a8c29dd2bcb2a4c83b0121629e9da2e3cc66",
+    "bytes": 2601,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-hbpp.sh": {
+    "sha256": "09d12270286c6e49a77637e6e171d1d4c36e5d5a99ff5d4c000d2041d91fe1d2",
+    "bytes": 2677,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-i2c.sh": {
+    "sha256": "965b2545a90cd643c269ee71fda284282489281cd339d715da8b1cb5a3f354ab",
+    "bytes": 1535,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-n1-start-version.sh": {
+    "sha256": "b23fccd240ec31fe470bd5741711a66ce25220a98d1e98606aae3e896eed83ee",
+    "bytes": 2199,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-n1-version.sh": {
+    "sha256": "9e17e20d8bf723f36e85a96a05b2d76371c1d374ce4991d2e9df891963b2c707",
+    "bytes": 2150,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-offset.sh": {
+    "sha256": "c2a8fbf7c235767795441b686d76e7dfacaf275b0636b069fe539d81f1e54536",
+    "bytes": 498,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-pmu-read.sh": {
+    "sha256": "1fe357a81b9e6273f1f5b595b37e48dfdae5a749b0b0c9c43129c350a8ad9afa",
+    "bytes": 1733,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-post-n42.sh": {
+    "sha256": "553bbe72c555e539d2185bc7e5ec289079c2b4c505cbaa911c2f7c41113afd91",
+    "bytes": 920,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-power-check.sh": {
+    "sha256": "4f8de8811d025a4ac51f52be60b308ad06d020b76a66bd0e8bdd51e532f4294d",
+    "bytes": 2361,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-pwm-check.sh": {
+    "sha256": "b8d4e713ee357750cd0dec0dd82118f166a052e6fcc9e2f8a4fa0b8d6f9183ed",
+    "bytes": 4787,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-pwm-readback.sh": {
+    "sha256": "61b6757d227a72fa32434c30112945bc6d8906dac5db81968e5324efe65b7980",
+    "bytes": 4925,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-pwm-steady.sh": {
+    "sha256": "f56d4ca32cbfd9a8e7cf337d82d07f891e55d8d3dd0fb6b2a577aa1bbeecc197",
+    "bytes": 5021,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-ram-root-smp.sh": {
+    "sha256": "25d042c97c4d56abc2ab1b9bf89d179a2098aac4cc52e6c9509fe3820de05462",
+    "bytes": 1353,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-report-n42.sh": {
+    "sha256": "e0f497f0a551ce56d2c201b17fcb1fc89b8f1eb0e7ae7121d1a1f8f9957f6656",
+    "bytes": 957,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-retry-n42.sh": {
+    "sha256": "96a9c019af090052f6b87ad71e8b0c935fd605e0fcc7324750187b63ca25481f",
+    "bytes": 277,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-touch-transport.sh": {
+    "sha256": "c9043f019e1939ff03fe6b349890e2ad73537598c8a49ccae8323af87bc38c30",
+    "bytes": 3036,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-uinput.sh": {
+    "sha256": "6dba6ed36c7657d77f84eb0b198a3e24571b37374d6ce662c4b8c28ab4b56643",
+    "bytes": 540,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-console.sh": {
+    "sha256": "33c0112025b85f080a01b52c48baa96f67a8dfb18f196fbdd1c485d84156475f",
+    "bytes": 21217,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-enum-rearm.sh": {
+    "sha256": "d1013b2a9d0041a2f17db03342b7e5c2b6a2712d5ea7c91e1cd396b0350422c9",
+    "bytes": 324,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-ep0.sh": {
+    "sha256": "bb8bc8714683fb5dbface4c193d5b6cbefb2c05e4a4b0fc51b617f1bbccba8ab",
+    "bytes": 280,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-l3-rearm.sh": {
+    "sha256": "72be09654e507e36d7e8e64bd5a04bf95c8cacae75c6e1f72c45e83cdbb08de3",
+    "bytes": 355,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-lx-latch.sh": {
+    "sha256": "f2b4f949f4c05147709aad754fda823f4bf6bc0cba99aa8725a65424bec8dd45",
+    "bytes": 320,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-lx-rearm.sh": {
+    "sha256": "479fdd676035b51f0e6ccb33bacf4b5de4df01d35edddadcf95985506e70b448",
+    "bytes": 352,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-phy.sh": {
+    "sha256": "5788c50f116228c3f443724da043e06ccba3ab4c546a9dbf61a4162cb8a7072b",
+    "bytes": 280,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-rearm.sh": {
+    "sha256": "be5cd5df2c5c5723a8598a8fb3c083fbfe7f7788861b15194bc31098d8d95dc6",
+    "bytes": 314,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-screen.sh": {
+    "sha256": "c977c4db690a5c5f9db08387ca3d2cd9c4c8ab2801436a06b87bcef67a990c37",
+    "bytes": 253,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-usb-reconnect-vbus-latch.sh": {
+    "sha256": "06eec4eefb50a135698ecedf150433ae034c0af9789ce7ed51609728bcadeaed",
+    "bytes": 324,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-userspace-test.sh": {
+    "sha256": "baee69d30ce566afc3d3dcc986a8c59ac0f18dfe7efafb833d3d3bf7a3a09a7d",
+    "bytes": 564,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-vfp-test.sh": {
+    "sha256": "8632d2ad4e0a49d11012ab97c275b04bf155a80fee0ca9c20631c2f7fb65fa13",
+    "bytes": 411,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-wifi-combined.sh": {
+    "sha256": "13e0e06329cd2628f50c448044d82cb3899c546ce905a69cee857b1e0833826e",
+    "bytes": 907,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-wifi-heartbeat.sh": {
+    "sha256": "432626c71b6d73af3331c39bd108904f6b446b8b683232d8b3d0885a442a3db9",
+    "bytes": 403,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-wifi-native.sh": {
+    "sha256": "5f37c710be664c370f9867e0f624d03d0827345f25610ae76ea242374bf71084",
+    "bytes": 2147,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-wvkbd.sh": {
+    "sha256": "dd54bbf0943659061fde2792b017cb9bdd6c24976557f96854a1c5bb54db5d7a",
+    "bytes": 7747,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-arch-memory-fixed-proof.sh": {
+    "sha256": "3663aad0f93926a5ae5ba5b76e859c2b55bc3d905b208ae425fee6bbb3cfaf3e",
+    "bytes": 6381,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-arch-memory-proof.sh": {
+    "sha256": "5a31e0906abd4257791cdb2a5c4b1081d09f2e74d3ff457553e84f9a5c9d914c",
+    "bytes": 6110,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-bx-control-proof.sh": {
+    "sha256": "b0f6abad1727500c3cc71a4820b27bff5251fb2ee05051ef0ef4884670bd27dd",
+    "bytes": 5340,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-console-driver-result-proof.sh": {
+    "sha256": "22f972082acafe61bd876d9987d89fc96dbafa068749e41c4a846863a77e2141",
+    "bytes": 6564,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-console-open-result-proof.sh": {
+    "sha256": "5f31bc3bc2695e663f5946ad43bdc1228c7694762de9f487c26c97688b5fc621",
+    "bytes": 6564,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-console-return-proof.sh": {
+    "sha256": "30a492050fbaa6e8870209c6d87179d056f890e4c05388dc57ebeeda8fc23637",
+    "bytes": 6385,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-cpu-match-proof.sh": {
+    "sha256": "87d1406cd9fc44a0d2df5f23b85bbda2d0d835931c23238044b9f5de1a4842b9",
+    "bytes": 6084,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-cpu-setup-audit-proof.sh": {
+    "sha256": "a3ca919f3980e1f89defe55c0cdea8656f8f965d0ae2008eebecbbf0d0ac6744",
+    "bytes": 6238,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-cpu-setup-return-proof.sh": {
+    "sha256": "a354d3049b0d3618f2232dea3587999f0df6dc8f957fca420d1a5e4f93b076ff",
+    "bytes": 6155,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-decompress-return-proof.sh": {
+    "sha256": "fc26dc3ae93e5eda3a536ccbb5e03177b965551ad020aad14f79a00c5d58fa68",
+    "bytes": 5038,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-destination-proof.sh": {
+    "sha256": "bbeb2b07c0cc58f7138724ad14c4d96c7840921727d203723b5fd3430f54e154",
+    "bytes": 5476,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-early-c-proof.sh": {
+    "sha256": "dadc73c6b99fe4f55f3410c5c63c648f7ec606df10889a5d8ecba3c1e78c0ace",
+    "bytes": 6077,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-enter-kernel-proof.sh": {
+    "sha256": "e5f64f3fb6bb6979a8140822c1adeeef2f01e22517a307d1ff78b0ebae02cd92",
+    "bytes": 5269,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-entry-fetch-proof.sh": {
+    "sha256": "071c0da7f210d4208532ef2b9e104bbb1f52340caf87eca2781225a63387eaf9",
+    "bytes": 5738,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-entry-proof.sh": {
+    "sha256": "61b505590cb36409aecdeebb05d01663b101503c44218875a1905497b6c655b3",
+    "bytes": 5652,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-fdt-return-proof.sh": {
+    "sha256": "e2684f3ce2fadf14c767c58d6788eea821c0e83d968fbedf14d8cc16b967c9a6",
+    "bytes": 6147,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-first-load-proof.sh": {
+    "sha256": "178793fe1cb71fd63f89997363d9962c419562e66f687f744e06b0120c0ab60c",
+    "bytes": 5796,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-first-store-proof.sh": {
+    "sha256": "a39da27a0a7696aad199ba6cf3a262595c759f89708bc42cc018ffa8714403dc",
+    "bytes": 6079,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-handoff-return-proof.sh": {
+    "sha256": "510eb2509be2921dd9accb02527c394bea666aed5572883abc232f67d9def712",
+    "bytes": 5297,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-init-access-proof.sh": {
+    "sha256": "564abf75036ec561ddc6c63fec4674cd5bd4c1e9e31bb6678893a06aba5784f4",
+    "bytes": 6442,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-init-exec-entry-proof.sh": {
+    "sha256": "dfb7dba06aeac66149c2416088570bbabc4275553e53bc2c462d3851718b12a2",
+    "bytes": 6446,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-init-freeable-return-proof.sh": {
+    "sha256": "dcc3c6207221370b0a095154a5e6339bd571d38c6f390a5ac752dcd0c2b9260a",
+    "bytes": 6474,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-initramfs-return-proof.sh": {
+    "sha256": "8afc6611a5c0b1b60f9ccccddce00642589da55e4175f394202e90c2c4cfc279",
+    "bytes": 6454,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-irq-enable-proof.sh": {
+    "sha256": "d5bb599f4687a8a9e567e528638430bcd5927cea4530c24ff91f145ed8a8f2ce",
+    "bytes": 6365,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-kernel-entry-proof.sh": {
+    "sha256": "f3584610720c3c698406b8e7df7aa674962611d327b15664d4dd22717adf5818",
+    "bytes": 6957,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-kthreadd-created-proof.sh": {
+    "sha256": "46287e075348db925a5f2e6fafc90b4dfeef64304f1cb0a48529834ac3ae8060",
+    "bytes": 6458,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-ledger-return-proof.sh": {
+    "sha256": "690f7e10836a0ed99202bda72d48c42fadeb15e0f3c2aa182e497caf1707e6a5",
+    "bytes": 5278,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-mmu-transition-proof.sh": {
+    "sha256": "71ae68e4780ec35d9c9db82bf4e5a148401a4018fb11573b8e363bea35294f27",
+    "bytes": 6097,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-page-tables-proof.sh": {
+    "sha256": "bd1229d97443e839448de36cdc1f12a96eeac2ef9eb5396f5a615a561710d71f",
+    "bytes": 6219,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-pageset-return-proof.sh": {
+    "sha256": "d822752d802e330c6c616bf53e5e3a3911983265cab01c5b9bb3f5a6d89f09d8",
+    "bytes": 6378,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-paging-return-fixed-proof.sh": {
+    "sha256": "0ae9813613844194f3ad9592d4f28079a6d4482c3a51f7ac41a9e901c936d763",
+    "bytes": 6389,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-paging-return-proof.sh": {
+    "sha256": "967009d620b9119bd43ef70ae200ed366b4f92603d56a488d3514e0621076a4a",
+    "bytes": 6197,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-pid1-created-proof.sh": {
+    "sha256": "3352a4ebb4afcd07a49cc67a28755177fc8b925208d4791bb80fc366448f7c42",
+    "bytes": 6442,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-pid1-running-proof.sh": {
+    "sha256": "e075795d530fc0acd33b5a83fa8e27ad0de8820855fcd25eca4659703cd7de18",
+    "bytes": 6442,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-pre-paging-proof.sh": {
+    "sha256": "f36a40284340bf376037d4fda5d2723c7cf887d2dbf5dae03cab812590a8dd68",
+    "bytes": 6185,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-prebranch-proof.sh": {
+    "sha256": "b48fd4da3934197d72f8afd998ebb3345efaf8120de8abe474a42f70f459bdbc",
+    "bytes": 5230,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-predecompress-proof.sh": {
+    "sha256": "832b3659b13b2ebf5d0f21dfcf4f918ead465acbaf8b4f971c2e88a64655f1f1",
+    "bytes": 4983,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-prepare-page-return-proof.sh": {
+    "sha256": "05ce7bf19d2704b65f753b56064aaa15246cd4b04bffb51c9cf11ee3ed07db23",
+    "bytes": 6217,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-preserve-fb-proof.sh": {
+    "sha256": "a652c8e89face00045487635e9d00b7569c4e85536d7b7142742c275ac1690c9",
+    "bytes": 6361,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-prologue-proof.sh": {
+    "sha256": "8f5ead36a5226cd97aee4d94310155af73eb8946284c7be194c6583f8c062356",
+    "bytes": 6116,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-rest-init-proof.sh": {
+    "sha256": "1eaf53d9272ddeb3de2ae2c0b19ced7776818327145144d89845782992a56bad",
+    "bytes": 6422,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-scheduler-return-proof.sh": {
+    "sha256": "c34beec64430cfcffc6251aad38e5f15a91659ee8c0c912e87c4fbd3bb589f0c",
+    "bytes": 6377,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-setup-processor-return-proof.sh": {
+    "sha256": "08fba0896a7cb61c03263fe72ea6b9c7f2d934e4fb159aa16cd6f0897acf2418",
+    "bytes": 6181,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-start-kernel-proof.sh": {
+    "sha256": "f3e269f7da8024f7fd4970f865ea92de72ef591719d2dd2875d7bf38ce054c93",
+    "bytes": 6099,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-startup-boundary-proof.sh": {
+    "sha256": "0d2771bc76354dd6d25afae3364b1a673e8abc58cfd5aea3283dc959b4b66e4e",
+    "bytes": 5991,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-status-read-proof.sh": {
+    "sha256": "0ceba1fc2e5faba3d1d1c1f75f2d7f13a20e59a2e4d1a72d31d06da5bf05e0b7",
+    "bytes": 5874,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-status-store-proof.sh": {
+    "sha256": "8a23bfc7f81e90cca15e3145ca7715c62c71e968aa102ccd5570fd65ddac4c3d",
+    "bytes": 5891,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-third-store-proof.sh": {
+    "sha256": "df26b4d473861f449d3c3bae36e2495e6ef3ccccbaf4b23ffc8c2e2745001477",
+    "bytes": 5886,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-time-return-proof.sh": {
+    "sha256": "65ca9efbedca358bf80c776ebaa7f572e757c9a37dc67d9a4fac2f1258b9c879",
+    "bytes": 6365,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-uart-failure-stage-proof.sh": {
+    "sha256": "06d98e359a1f7f994c61c065a30ee4f9ea6939f3e02232cf23b3571d4ebfa044",
+    "bytes": 8243,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-uart-fixed-console-open-proof.sh": {
+    "sha256": "1021920d3a5d38d5cdd512d87a2d2da23044ca858a49c7b55fa2fb2b410807d3",
+    "bytes": 6795,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-uart-fixed-write-return-proof.sh": {
+    "sha256": "d2e6af0c0ad3e3388d2b0360df1656a7200374f94acbcb55beb34391891c73fa",
+    "bytes": 6781,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-uart-probe-completed-proof.sh": {
+    "sha256": "db8dfddb20f44c34e49c5fa995494c6afb3b03aec701db9a88de5ab8f113fe32",
+    "bytes": 6560,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-uart-probe-trace-proof.sh": {
+    "sha256": "e80ab6fd602b7811a55383bf0d9f22c9968d8c43645ddbc1ad15d293dc137588",
+    "bytes": 7553,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-address-order-proof.sh": {
+    "sha256": "cd444be48b731e954edf79845e81ef8188b4829cea940d3d877f156d95e760fd",
+    "bytes": 7568,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-capabilities-proof.sh": {
+    "sha256": "d7c69b9753065bc04d00e2e05dbd7c0fd969a4c763c84aaeeee60e58450b7a0d",
+    "bytes": 6028,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-control-trace-proof.sh": {
+    "sha256": "c31961f07ddcda883f778a9aaf829686c22842ff1e8b6233ba4471df57a8557c",
+    "bytes": 7540,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-enumeration-proof.sh": {
+    "sha256": "26b5b9a1601c2f7972b30d54eb89ab3d2ff26f194bf09ba7f3e7cdb428732bad",
+    "bytes": 7442,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-gate-enable-proof.sh": {
+    "sha256": "1d4c39271e0841d64bfd0c1d4123cf71ca81580ddab472815b3d22b0e9c33ad1",
+    "bytes": 5800,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-id-proof.sh": {
+    "sha256": "9d72a8548e973d91d01d3a30a31952147698b73f538e9000604c3179e0d39e73",
+    "bytes": 5553,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-link-state-proof.sh": {
+    "sha256": "8989d52d41c3830214db891fe541595afb4b8afc53fd2f909b956ba024385ebe",
+    "bytes": 7505,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-phy-attach-proof.sh": {
+    "sha256": "b2e4ab844d7bfa844fbc68f204379bf0984b019f664b0fc25981261b677a361c",
+    "bytes": 7527,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-phy-start-proof.sh": {
+    "sha256": "1a64b52c5cc86fdd3b72c10875c38db9033cf4775923bb6c526d39a41862caf5",
+    "bytes": 6032,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-pmgr-state-proof.sh": {
+    "sha256": "1308e87ce4ae8338da83f575dca30da8e754027a7ea4dbaf285b1ade04a82808",
+    "bytes": 5759,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-power-state-proof.sh": {
+    "sha256": "107658bd9e90f08f6f01f79154bb5dbef928807432cc8984c2500164c98549bc",
+    "bytes": 5762,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-read-controls-proof.sh": {
+    "sha256": "9da1f22d8f9b620f55c59de5a0717748e69ac3619be3f55faf898bd7d46a3841",
+    "bytes": 5744,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-usb-read-echo-proof.sh": {
+    "sha256": "6b058eacc5b8bb7d00a1e5e15a762b4dc7cbaf0701223c2a044c8f9864722f77",
+    "bytes": 5648,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-userspace-write-metadata-proof.sh": {
+    "sha256": "f44e9a9f4ba474631f809d56e1ef883404992426398b2e1c9cc6feaa70b1e26a",
+    "bytes": 6592,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-userspace-write-proof.sh": {
+    "sha256": "95e6a1259520be263d7f3b02188cccc45d8255fce7c366b8693108598848a483",
+    "bytes": 6466,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-userspace-write-return-proof.sh": {
+    "sha256": "f90e07b87f762b757720f35f1b6a841b0a8017cb4c4c429dff33599ab9fe6f20",
+    "bytes": 6562,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage-write-result-proof.sh": {
+    "sha256": "13864215b6cceac45ee5d9c85412f20526347dcf6ed666ec6597f66934accae1",
+    "bytes": 6522,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-a6-zimage.sh": {
+    "sha256": "20bae918846ac3a5eccbe900f4933d8c25de0532cf152d446234a381170ee444",
+    "bytes": 132034,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-diag-images.sh": {
+    "sha256": "b40393a245d4352f412d4fbb073d76cd8f2e62a1216acb36cca33ba24c51d6e4",
+    "bytes": 2330,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-host-loader.sh": {
+    "sha256": "0d018df75b74f2cbfab35b7eb37dcbfd33f5147f360ec1d907c87518128edd4e",
+    "bytes": 1083,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-kernel-entry-marker.sh": {
+    "sha256": "5dea124faeb1d533d323adde520deef7f39089ecd7b33bcf0131026d3c63e50e",
+    "bytes": 2940,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-kernel-handoff-proof.sh": {
+    "sha256": "c23ab4d97bfe13f3590eee2a60f62cc46c3506276a824fa5ec5bcb39b10226e9",
+    "bytes": 2851,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/build-proof-loader.sh": {
+    "sha256": "57bbedc2e7dc4e0db3a22f3cb93c16b588397991fe5967e5c98b67e6cc871293",
+    "bytes": 610,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/capture-usb.sh": {
+    "sha256": "f106563ca301945ccee05cb92a44d9e15f369ca1417e613823b87eec89b31e8f",
+    "bytes": 1027,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/check-a6-handheld-elf.py": {
+    "sha256": "03fa0c90f6143462227ea53da0a8e9230f89be89ffb74a3706bbcb79b528e240",
+    "bytes": 4830,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/check-a6-smp-bridge.py": {
+    "sha256": "66771382ecf8bfd7e7c257f47bb4a522883a6583b9158c7b47cbbfc763c6a2e1",
+    "bytes": 6678,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/check-a6-smp-local-tlbi.py": {
+    "sha256": "3d43cb6f712c41a2aac662fabdcc806c77cfbeed91e72ef8ecf63bc1421fbf5b",
+    "bytes": 2542,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/decode-a6-memory-capture.py": {
+    "sha256": "6a82a97cf0645e4a12ac3d23b18a937ed3768552877be0acc757e6aa2c544788",
+    "bytes": 4995,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/decode-a6-touch-frame.py": {
+    "sha256": "70788fa2844f36bd007c665b4400631d7ba5e9002a45f0c3a9eb3ea608b646e5",
+    "bytes": 3606,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/deploy-a6-arch-runtime.py": {
+    "sha256": "4a4c14bff7574c084570e1f4fc339367569c7cf8ad9a0f420552763565e1a1eb",
+    "bytes": 5697,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/extract-a6-ae2-firmware.py": {
+    "sha256": "79aa27b0dad0c06f1ac91222342641706584e557bb98879c1d2b8938faea0b69",
+    "bytes": 4900,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/extract-a6-stock-touch.py": {
+    "sha256": "37e491036006c6bcb9e2c8410e9ae035fa9022537c3443c21b797dd689db1d55",
+    "bytes": 5702,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/fit-a6-touch-calibration.py": {
+    "sha256": "076ff4721b34fd258d26c8ec38f3984108ce6b6c0bfdb85df66d01bda26aec82",
+    "bytes": 2721,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/inspect-a6-audio-tree.py": {
+    "sha256": "9b2dda24cc9af29ca595049ce49657f2372791640d3b453ea345bc31f13e32e6",
+    "bytes": 4438,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/inspect-a6-mca-register-calls.py": {
+    "sha256": "73fda604c3feb98255b10e68f9fa0b8c9e676d4076bb011af9576c25b2b7bfa6",
+    "bytes": 3834,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/inspect-a6-platform-tree.py": {
+    "sha256": "2f7687bbc5d1c0493e841502a917a229525ba645768751f2ea482421020852b2",
+    "bytes": 2887,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/inspect-a6-touch-firmware.py": {
+    "sha256": "268f59668d3e50a65bea781d017700f1813d4abc804aa87e37d027efbf3c1de4",
+    "bytes": 2457,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/inspect-a6-touch-tree.py": {
+    "sha256": "951a53c882bd944d1e3678f2f65e0642ef847cc913507db01c87441d4bc18ee7",
+    "bytes": 2658,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/instrument-a6-boot-status.py": {
+    "sha256": "30fe5390bf498e8f54bdd42b86352f05a135fd033648c2ac59f24612eac54ae4",
+    "bytes": 7976,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/instrument-a6-exec-prep.py": {
+    "sha256": "bfc6f07f2331778cdbc3b89d7763d302fe213a53a39909bd9b6cb18cd2036cc4",
+    "bytes": 3981,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/instrument-a6-exec-trace.py": {
+    "sha256": "660dee9dc1f4f2e71acdff0020c43db51ed7edb6b62580cf86f81165b16c776b",
+    "bytes": 3608,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/instrument-a6-rollover-tlbi.py": {
+    "sha256": "881a63c98c8416cf1c09833f5051539bfb0dc03b8eb3416deb71e168fde56193",
+    "bytes": 2094,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/instrument-a6-shell-exec.py": {
+    "sha256": "6b59d510af15a4d196076bbe31c0f23fb3867114e1aaf6034f90489a11fa58b9",
+    "bytes": 8768,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/instrument-a6-timer-trace.py": {
+    "sha256": "8ecd0e239d86d79d871304c89ccd066bcfaa90df133e5826e01d2eb0edde9343",
+    "bytes": 4530,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/instrument-a6-usb-request.py": {
+    "sha256": "212d68fe73aa224caaa4a4365b652f148e741d9227da020d7e5934336d4d8c5e",
+    "bytes": 4358,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/make-a6-shell-rootfs.py": {
+    "sha256": "dad408026c8d469260274139bddb37fdbe7c74127dbd26a6a8be44ec6f1dc503",
+    "bytes": 2822,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/manage-a6-ram-update.py": {
+    "sha256": "5ce336bb774d6cf447068c688ef89d9971495f8d34d06988167c70fd5e94335f",
+    "bytes": 9512,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/package-a6-audio-desktop.py": {
+    "sha256": "d9dd895069697f7ceb29f841b6fccb72a0951768514f0aeb1e5b91c9fc8d3bf3",
+    "bytes": 3418,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/patch-a6-ehci-trial.py": {
+    "sha256": "b1d28e24fbf215ea014c47fcb12fe3934d7ffd29e6145053ba387d2b90b88bb3",
+    "bytes": 6459,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/patch-a6-native-execmem.py": {
+    "sha256": "b98f4a5b6bb0dd09ac566b7f8cc5c43f953192722490efa4aab36841d0f1b2ce",
+    "bytes": 1008,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/patch-a6-smp-bridge.py": {
+    "sha256": "ecc2dcf1e11995c6f095ff00e9741bd993cae0f3ee090a263aa73fa973f342d7",
+    "bytes": 4766,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/patch-a6-smp-local-tlbi.py": {
+    "sha256": "536ef4d38c24e22af2cdba1619ce9036397028f1dc9b96ec1b7d5a04a843c4be",
+    "bytes": 1739,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/preflight.sh": {
+    "sha256": "72a7948fd7c618c2ea6368d7fe488d2072ef9eb3873aef43593f2aaa6bb55299",
+    "bytes": 1187,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-aquamarine-sysroot.py": {
+    "sha256": "8f2f705445a27a50c9c7cbd3de7db7b7c53228b9ba73e4d93043414c18f8c66f",
+    "bytes": 3386,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-arch-runtime.py": {
+    "sha256": "c40f082442daa7bc62d1a1ff41cd33ad2d76f06dde51bee48a8508e070684a02",
+    "bytes": 5035,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-audio-runtime.py": {
+    "sha256": "d0a941df625ee364c02948b58eda9cef266e8eb08b9bf7b16c31301b7be4e922",
+    "bytes": 5526,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-boot-assets.py": {
+    "sha256": "327046cfd920a64c2e37fa72c7bde01c20fdbd83e85acd184d9f95a7ee3a1ecb",
+    "bytes": 1914,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-brcmfmac-diagnostics.py": {
+    "sha256": "345de430f3923e98b25c80dbd945a74aac4d5702a8e9aaeea0440a081b3d55cd",
+    "bytes": 4201,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-brcmfmac-hsic-patch.py": {
+    "sha256": "3a5521b042440d88e066727936f1fc0ca5fd2bc3010d964037655a60ae05c3d5",
+    "bytes": 2988,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-brcmfmac-n42.py": {
+    "sha256": "88ee62fe22a9276e3bb54cdd7d9c78a5063e3f0451a63fd069616ec4551fab2d",
+    "bytes": 8392,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-browser-runtime.py": {
+    "sha256": "3b4ba46dc49d5a31e77541a05aeb7f8cd5b343fe4b9c845e1d693528fe7735d0",
+    "bytes": 15382,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-codec-sequence.py": {
+    "sha256": "636a5efc84e35541e3704d5175aad4f0f5d567d268058ebe2fb29dc1aa6d68bb",
+    "bytes": 3573,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-desktop-tools.py": {
+    "sha256": "28ba889f07d3b644fede0843e9a69419b42a362366f75fba2d5a3aecb1c39421",
+    "bytes": 2458,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-desktop.py": {
+    "sha256": "11b92fc4f1fcedc64981c08f5903f9833321e8a2d101c07d8955527d47c0f2c0",
+    "bytes": 3651,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-drm.py": {
+    "sha256": "e1b2c62b0dc22bf0885126167d371d004c38f73081bd80df4222f6a11848eb37",
+    "bytes": 7097,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-egl.py": {
+    "sha256": "ba4bafd7a52c5d102df862273550ed11ec4a7c1efb5b483c565f91883b23ad1e",
+    "bytes": 8182,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-foot.py": {
+    "sha256": "ba88d98cedda3898856ce69ba60a010b8eee47a4db40d90df31fdd2728508cf4",
+    "bytes": 7281,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-graphics.py": {
+    "sha256": "54a074491204c72cdd8873ee93266f275e60757f3ebfe5821e6a879402295cdf",
+    "bytes": 7890,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-hyprland-desktop.py": {
+    "sha256": "1f16bdfa450ceed2784d080a48e818185baed61c83330a8dcf6dcabe5981a57a",
+    "bytes": 2927,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-hyprland-user-bundle.py": {
+    "sha256": "9c79bd3f215e58ba5486d6d937470499de13ded2812d7acc28cdcc6ed91d3dbf",
+    "bytes": 3289,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-hyprland.py": {
+    "sha256": "9c5876ead76f287ea791e83cd42c176852d954c3cb286f9f8b6b49da183c3c36",
+    "bytes": 7384,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-input.py": {
+    "sha256": "e93b99a53f6ab71b4dfeaaeb46dcae66b4adf9d0bf6b4c7a50ed1552cd987e06",
+    "bytes": 4534,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-labwc-runtime.py": {
+    "sha256": "d6d7131e9953a63bcc16ebaccb701dff09ff629f38f6d5ad879cf4d58e0fe872",
+    "bytes": 3235,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-media-runtime.py": {
+    "sha256": "b5eac7c86b4037d7e3c26899954c4e6c72d3cab1719b0d0a12de918c469acffd",
+    "bytes": 8130,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-mic-sequence.py": {
+    "sha256": "f8a8e302ad569dbe78888f390230bbc9324ac6bface9804424c136b438143039",
+    "bytes": 2049,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-n42-calibration.py": {
+    "sha256": "96ce37a97e2a8e779a27d1cf77745b970a3cf39d813b9b7ad3d0ab33a016dad5",
+    "bytes": 3762,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-network-bootstrap.py": {
+    "sha256": "3bda089cbaa303957506373bd8d201594ee39560b41bc2d1fc07b1e1ad7e494a",
+    "bytes": 1883,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-quickshell.py": {
+    "sha256": "d7151c8ca5801b12d334c84af874eeacb48fb0b823d954e217fcb989655a429c",
+    "bytes": 7694,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-ram-root-components.sh": {
+    "sha256": "d44f55b85cc25cfc981e8dfe63742e1c003d1c3504d23a79750c53f9afa3706a",
+    "bytes": 1831,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-speaker-calibration.py": {
+    "sha256": "a4e994a0be589af1e76d1d0648367f30d6945bb1e02af31ff4113ecee7858585",
+    "bytes": 2158,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-speaker-sequence.py": {
+    "sha256": "7e024040ca316bb15866d902b31f0ec3cd38ad62413c26b256459defc8aa7dae",
+    "bytes": 9403,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-ssh.py": {
+    "sha256": "94b7899429ce898a074230c0d9dc86bb87cabd577878478e8197c9e2652db683",
+    "bytes": 6587,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-strace.py": {
+    "sha256": "439610a92a45fd979586a988850dd613cbcd16fc1f7ca6bac2919be446809fe1",
+    "bytes": 6129,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-time-runtime.py": {
+    "sha256": "fb1a305a56ba3399150b03167cf78ceba00694bf69c9e5ba642a299a661ac01a",
+    "bytes": 7158,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-tools.py": {
+    "sha256": "9c049b4c406c238a1bc7e6b02ceb46b73601c31a7d8a66eeab68cf7716c0d6b8",
+    "bytes": 6732,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-touch-packet.py": {
+    "sha256": "ff2e499201be897b494e7fa465e6bda2068af061bbe3ce1ca75213f6f1c62a23",
+    "bytes": 2326,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-user-desktop.py": {
+    "sha256": "41a63be3f7ed3def2f27a8df31e24aa294a5adf570cddbcde443fa9d17594a39",
+    "bytes": 1834,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-user-tools.py": {
+    "sha256": "36a0b27e2b6fc4ff99f71e307938aa1a9d2ae25526b91322c2feb5bf3008e8e2",
+    "bytes": 11464,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-weston.py": {
+    "sha256": "ca4ab589e973aede59aa55a3ee3cd2d822e74e30e368bd76178e85a275bae73a",
+    "bytes": 6955,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-wifi-tools.py": {
+    "sha256": "996816a9ea385ea600ee1f01aff31474058e8d682d5cea035b386de3178adfd5",
+    "bytes": 3796,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-a6-wifi-trx.py": {
+    "sha256": "a1619392aaeba07d5ef38cb98abe1b1c15359d68dc8b5e683c641a4f7a555884",
+    "bytes": 5046,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/prepare-ipwndfu.sh": {
+    "sha256": "1e681cb088a79b1d56608aac96d97800cbcc8d34953b0f0961477f7168d511d2",
+    "bytes": 1200,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/probe-a6-usb-console.py": {
+    "sha256": "0dc1750af611b8502d95fced83f8a244cb0c2741141e81c9b6fac596929b9228",
+    "bytes": 2938,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/probe-a6-usb-shell.py": {
+    "sha256": "80c4245a9aa649a4fa816da219d93813585038f944e5a2d33029eeae5250f086",
+    "bytes": 12159,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/refresh-a6-desktop-squashfs.py": {
+    "sha256": "038dd5d6154014c0f13517979f4badd661768bedf9f50351dd8b0b996da4e8be",
+    "bytes": 13051,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/sign-a6-update.py": {
+    "sha256": "6b59fab940d2c64b79f0a0b3935913e44378ec307fb21727dc0652c759065145",
+    "bytes": 1801,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/summarize-a6-smp-soak.py": {
+    "sha256": "1a818ae600c3cfde031dd80e963ff860f9cb7f12d9a8ea34b9630ed1c96dce66",
+    "bytes": 3996,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/terminal-a6-usb-shell.py": {
+    "sha256": "36e1ce49b1d3f0f10d82e8a2acfd546cdb36d6e3452fbd5559b8686054cefd7e",
+    "bytes": 3095,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-alsa.py": {
+    "sha256": "54fde44e72176169c9d74029a4903707b254e73e5212fa954e00dcad5cf23cca",
+    "bytes": 7368,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-capture.py": {
+    "sha256": "7cfe28d54c7140bc7c22af4fe26906c843b2e49d8cdedc5322897c76d30c3d2d",
+    "bytes": 2174,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-codec-clear.py": {
+    "sha256": "fb0fe3d095449f043085f3a2eb7cfd9af1b77dadb7199b84fbd7d7631f429ff2",
+    "bytes": 2722,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-codec-restore-flags.py": {
+    "sha256": "37d3d0afcf73365444ff75533e44ff57b351eb6a500c8680587fbc041a0a593c",
+    "bytes": 2739,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-codec-restore.py": {
+    "sha256": "81a1b40e3e428aaf8128f41e11b78e8969dc96182390abb828d7820996981dc1",
+    "bytes": 2277,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-codec.c": {
+    "sha256": "9fd24e78ea9ddb597456799117e26316d4c3d7ca94c821dbd809f4743af0af4c",
+    "bytes": 13377,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "scripts/test-a6-audio-fifo.c": {
+    "sha256": "90a950a70ad5082664f77279587a13d13c8067a81b488a46854d836b2c2efe0d",
+    "bytes": 11409,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "scripts/test-a6-audio-gates.c": {
+    "sha256": "b2237f606202faa6c45d715c02976a7b50a26a4634a0009ab694f42a98dd3a67",
+    "bytes": 3376,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "scripts/test-a6-audio-pcm-free.py": {
+    "sha256": "5440dc749cc8960e112ae0a64eb33415a4734e8b1f2c51cd1e6b5e7b3303f501",
+    "bytes": 3595,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-pcm-prepare.py": {
+    "sha256": "46d8be03362b1254d3d9466771c9ced556906328b78916d557885c1691c5fb45",
+    "bytes": 2414,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-raw-lifetime.py": {
+    "sha256": "382069b99cace255e89f2a95eb5f5967b4715d4b836e2ea03d8bab07a9757241",
+    "bytes": 3206,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-raw.py": {
+    "sha256": "dc91ab0a8d55007c47c0dcf8c8daa211847bdcf7a20ccf1aa33f01ceeceda776",
+    "bytes": 3654,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-record-window.py": {
+    "sha256": "3d34e7cd14583e41a2926ae5b63e3867042f4a9b4d9fd6f20f7ee80411c11e82",
+    "bytes": 2084,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-audio-tone.c": {
+    "sha256": "e1a44998c65cb1afe9f2c44e5b91c1dde2d9e24b5a4fe18f656c0c328552c598",
+    "bytes": 16484,
+    "mode": "0o644",
+    "licence": "GPL-2.0-only"
+  },
+  "scripts/test-a6-capture-pcm-reader.py": {
+    "sha256": "8908642cb5b13a95626dafc9bf7710844747a708a5d26eaec1c7afe241e6162d",
+    "bytes": 2299,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-chrony-time64.c": {
+    "sha256": "c0ea0981355f72725d79ba612c385ada2dd9b82db75fb05fc906c7bafff2c2a1",
+    "bytes": 955,
+    "mode": "0o644",
+    "licence": "MIT"
+  },
+  "scripts/test-a6-clock-capture.py": {
+    "sha256": "addbdb0582603cd686fc86889645b9e5ce7fe10c6239436abadb144cdfb8858a",
+    "bytes": 4784,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-generated-desktop-base.py": {
+    "sha256": "d79c0b16b4e84d45979f0e75d41eeaeb147d048578035db59e62642cae57182e",
+    "bytes": 1991,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-kbuild-cache.py": {
+    "sha256": "41539ecbdef7c6294a617676ff34ba9d603fdfc71b5bc6f2233bd07a3c0fcc2b",
+    "bytes": 2382,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-memory-capture.py": {
+    "sha256": "5b9da3bbabfb36a74decca61dfe73813a034e8b8d8a2b1cec5742aff4c4f6376",
+    "bytes": 5509,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-native-execmem.py": {
+    "sha256": "984ac0c82a0e85bfda1d26649bd72e69484d959d7d7c8b7f8f040fbe2d1ee034",
+    "bytes": 2048,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-native-touch-parser.py": {
+    "sha256": "9361c41375ff93471db4563a81160de30655050908d2b294b62094b31afe16f1",
+    "bytes": 5977,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-provision-recovery.py": {
+    "sha256": "ae2e48eb6e1eaf14b6ffedb8bd693b1a738e1c580cddb26fed3acdd4eb03ebed",
+    "bytes": 5691,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-ram-update.py": {
+    "sha256": "96dac7d1c1917cd0c3c5027250f05f24fe2d9dadfc2a9603baa36f0951cabffc",
+    "bytes": 6623,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-audio-nco.py": {
+    "sha256": "e5b827f5f4df89ba793cf91e56fad59e1f2ee25eda54712467c3e31a764aadb2",
+    "bytes": 1954,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-codec-control.py": {
+    "sha256": "dcf4d74d6f6f6b0e7e56d24bbf2a5d2c249bc5baa12d1ee35e8e19617e27f584",
+    "bytes": 2764,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-codec-iis.py": {
+    "sha256": "bc8f318945d567cc6dc90e3eb447def1ab418d554aacb255206120484f7346a7",
+    "bytes": 2679,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-codec-mca.py": {
+    "sha256": "c28d280ec56acda50d46eb7afd4751126c1c8a36d3a88aa5d7c3b7dfa12ad542",
+    "bytes": 2418,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-codec-profile.py": {
+    "sha256": "947c1a68f041f8dd330c2ca1d542857f1e2a88b78fade49574aa104b09ceced2",
+    "bytes": 7221,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-codec-route.py": {
+    "sha256": "4fd525d4ed916b42d9426da181d1cefa6e82db53612de69360fbca26fb782e00",
+    "bytes": 4275,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-mca-format.py": {
+    "sha256": "01dafb8a793effacbbd0e67bf73403d17839eea8364b27ba6b2369f285a26330",
+    "bytes": 2355,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-speaker-route.py": {
+    "sha256": "352b226442e18a8a4b25b9ab6b101a7acb2f8db04b5fa3eefed069cb401f86f0",
+    "bytes": 3650,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-stock-speaker44.py": {
+    "sha256": "06223f87f0f5806a5508a378e7f878cad66e679b033d875e9fd49694d7b09ab8",
+    "bytes": 2798,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-capture.py": {
+    "sha256": "0f97049a07c03fa84a7ec98342b2e14364c0f941871d3e329f922a6e327c7e1f",
+    "bytes": 2797,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-check.py": {
+    "sha256": "76dd8bcd7fd019a3aad167fc18ca718f83f664c933152346c5557672328da1f7",
+    "bytes": 4721,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-clock.py": {
+    "sha256": "18f9472f6ee730f9d5b2ba53064838d9ac64b6a2cf9e3400a062a2299f4d34f4",
+    "bytes": 2508,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-fw-pio.py": {
+    "sha256": "5a544899395be692e6f9d8670abc0eb144d0c330a3823b9461111d85a5ef459b",
+    "bytes": 6074,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-gpio-cs.py": {
+    "sha256": "ff2d3f1d63b21ac36c3a980797e82c12f01cd08a67e07de923bc6abed51ccc42",
+    "bytes": 2318,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-hbpp.py": {
+    "sha256": "4df7b7da3f96e29fb829f5bbf0472a3d4ba7f008dfabc34241ee1af2908c2d6a",
+    "bytes": 2428,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-i2c.py": {
+    "sha256": "912975775f149756bb574292750d4583d190a862d45a39048e4789b8cfb1fcf4",
+    "bytes": 3883,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-n1-version.py": {
+    "sha256": "000f19d63886d45d176c6c02a98e0220504577aa0a70315a46a58c744e6dac5f",
+    "bytes": 2258,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-pmu-read.py": {
+    "sha256": "f2648d529d98144cd68a153c86ec6599d290be685156991a08ac64de82076433",
+    "bytes": 4672,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-post-packets.py": {
+    "sha256": "994a79ae5bd9a3e4fed82802562f5f996a4f682880d85e7870a213e9091543d0",
+    "bytes": 2647,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-power-check.py": {
+    "sha256": "dce6b7a81ffab1ffef5208381335a0c15d56c8ff6f28a57944edaa7f1dc7f565",
+    "bytes": 7223,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-touch-pwm-check.py": {
+    "sha256": "e80743b88f1e9995aac72d0c508a503c9e5626474719f88ad8a34a05f0e942a7",
+    "bytes": 5447,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-usb-upload-guard.py": {
+    "sha256": "55d6f3db3acad526ff70e536145111d2270ddde9e7cf5d5ea8daf3e09b717a81",
+    "bytes": 3301,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-brcmfmac-hsic.py": {
+    "sha256": "6b0fae41e1bba30ed504bc773ad81cb680a850cd66adf81b43a8ab4b59a26891",
+    "bytes": 6160,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-capture-line.py": {
+    "sha256": "a29ed5f952eb9d634f79535a401b130168340c1c6b92b500b36e4bdaae8a7ff2",
+    "bytes": 2077,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-download-image-bound.py": {
+    "sha256": "5b7184e0e91f099b31224d213f2045651be4ed8f1ded0d278c507b9ab06573ce",
+    "bytes": 2011,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-enum-guards.py": {
+    "sha256": "949cba0e06b6e1f6e0a7461c9c63fb7831db4cbaf9799d24df6a7d553edceb5a",
+    "bytes": 4641,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-firmware-stage.py": {
+    "sha256": "bf35a6fad413529c47fd1073a318997fb28c2d5d9dec40af17363395a4d2c9cc",
+    "bytes": 3186,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-image-transfer.py": {
+    "sha256": "e5a503714eb73a1e4aae7cbd01d3f0623dc5d84292b10407292707dfee8bbc25",
+    "bytes": 1582,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-inactive-resume.py": {
+    "sha256": "60d6d154d520c676a7fb1706a530da1830fd72a12a2aa2aa6168054e36ce7457",
+    "bytes": 2453,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-irq-bound.py": {
+    "sha256": "0d87a9453f1231970ac9ac9e83761004f4901c8c8b98d81056392a26c0926e9e",
+    "bytes": 2084,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-loopback-outer.py": {
+    "sha256": "310af08bbbaedb719856a182ecce1ee064e8eca77f668915807aae7812631b51",
+    "bytes": 1759,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-native-owner.py": {
+    "sha256": "0f2f28e6ce20e91092db7ae09674ae59fb446eb17f67ba20a366c8bcdc8dd0b5",
+    "bytes": 4364,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-otp-selection.py": {
+    "sha256": "46cedc600f81888d44eee9d65e30a93b296fbb5ad17139912c9eb1dfea3623ed",
+    "bytes": 1828,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-resume-race.py": {
+    "sha256": "1e6c6fcc49df62636254b7e1e37107c6aa49aa17653fe3acded1131df460bcc7",
+    "bytes": 4691,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-rx-canonical.py": {
+    "sha256": "bcf1675daed149f3b35cc177ae5ba753d33331af83193a9e4b2ccc62353f9299",
+    "bytes": 3252,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-rx-packet.py": {
+    "sha256": "8016481905d77e71aaf47388caada02c68ad9b4457fb7f0a90cbe80a81b19818",
+    "bytes": 5413,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-scan-codec.py": {
+    "sha256": "9d96e32bdb530f9c8cb5e29a0c67c4cd3543b7646055990c72653319639b59aa",
+    "bytes": 3507,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-trx-package.py": {
+    "sha256": "4ac27e24d3a2526d2d2bcbd2552b632ad9a71fe25c19da811445172f0f5a561c",
+    "bytes": 1944,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-bulk-rx.py": {
+    "sha256": "b1aba0d2ef30f7ea72d10e1f0709d899febea30ba7da803c90ce3b939f16428f",
+    "bytes": 16432,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-country.py": {
+    "sha256": "74cdda12d7846486d8dc55280104d98307aeeac4a257c23b75ca25897ece56af",
+    "bytes": 6606,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-download.py": {
+    "sha256": "dac49bdb03800d0d1611849f2ae3a5b50af1a8dae442621090e0d2f35c7c24b2",
+    "bytes": 9924,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-execute.py": {
+    "sha256": "a1c38caf51469d3cd11f1a3f7e22ae7b72697ee7969042e2f2cc3098cd0b533b",
+    "bytes": 9668,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-identity.py": {
+    "sha256": "1f77ecae9c23b63e81f76322930d36fd77dd76102e788c85151d6bed5493cb25",
+    "bytes": 5739,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-loopback.py": {
+    "sha256": "fe46804d5412a773ebe459f57e43e8869c8c1fc23dc277a8c6dada582e7a8844",
+    "bytes": 13393,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-otp.py": {
+    "sha256": "98367ffb22ae77f294039cf5563d37387da0b167ea4198bfa49d760891526c8d",
+    "bytes": 6554,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-preflight.py": {
+    "sha256": "0c11f200df09689cc513e19f9bdc11223184dd3990916231fe281f8a00975c43",
+    "bytes": 9990,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-runtime.py": {
+    "sha256": "33cb0326ee507c2203b8a1e69c8fa61cc8e04bdb1c383a5b5eca0e7c73eda800",
+    "bytes": 9423,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wifi-usb-scan.py": {
+    "sha256": "0526493d83aa746bdd7467c52c72b0dbc14a3d4d75127224661cf9363dab7974",
+    "bytes": 10120,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/test-a6-wvkbd-poll.py": {
+    "sha256": "d57d3f69d16a4343fdc2621e63b6f46f5a53cbce344ae5b733b906ad0ff90c59",
+    "bytes": 3000,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-battery-hdq-line-observer.py": {
+    "sha256": "0eb9d18a952e51c5520a969e619c87406ace9211e3ff348b9331d67535dc5de0",
+    "bytes": 817,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-battery-hdq-read.py": {
+    "sha256": "3343dd76d8b48d8b9e6186b55710dfd14d2c76745090e80aebde69442834ff55",
+    "bytes": 3661,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-battery-observer.py": {
+    "sha256": "c8176818b5811b6e903d7305c6acc7d6c3c3e2f57ed1ff22b899c1eae82dec5b",
+    "bytes": 1356,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-boot-status.py": {
+    "sha256": "08685260eaf3d8ac0c544262529bb09566024377cf74d111983e48ba07369646",
+    "bytes": 4220,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-charger-proof.py": {
+    "sha256": "8439558ab1840b88220ea6a61933737d4821336455bb01bc6c41f0478facf100",
+    "bytes": 1325,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-charger-usb-power.py": {
+    "sha256": "242c26a4315185dd8641fbbe5a908c8d1c4fc8e1e6420f69af6bae818a5e88c0",
+    "bytes": 6130,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-charger-vbat-adc.py": {
+    "sha256": "0c4b7a8dff470a5399e6ba13621b1dd0c83ce9e1bcea80a5c3599edc1ce8745f",
+    "bytes": 701,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-charger-vbat-backlight-trial.py": {
+    "sha256": "9777af1cd50372d6adeaadbc9678a3582abd45fedb26c0189a88ef7cc3232677",
+    "bytes": 2805,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-charger-vbat-hdq-phase.py": {
+    "sha256": "4ce4c879bd29a063da3710c012ebf54c1696a4bee6062498f412a880e70ac46d",
+    "bytes": 3344,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-charger-vbat-monitor.py": {
+    "sha256": "59c5b5a0139e4d854611ea21b0e689ab32cb29bdc4b89647ce0733dace54d89a",
+    "bytes": 1520,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-charger-vbus-adc.py": {
+    "sha256": "ae01bf0bb7ae9b81adffb792bf6652fd370d242ae4c9f06f42adf82deb5ac775",
+    "bytes": 1220,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-audio.py": {
+    "sha256": "58cf6f0965bfec53bb2f8da2a7aabd7e3a54957bad2fb422e4b3d1c207572806",
+    "bytes": 10001,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-check.py": {
+    "sha256": "699dfb0de3c59e2baec9cd46e8ab8ddd795d3e8079a9b8ea55dcecbddc7583f7",
+    "bytes": 2981,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-frame-length.py": {
+    "sha256": "1b6a875612eea70e120d6c30683c9d082397d91903a9085ad309a0ef3d6b97ef",
+    "bytes": 1142,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-gpio-cs.py": {
+    "sha256": "bdbe9689c4e1dfa0e87abaf9db26a398a0dbe5bbbaefee2bc79aacb915597e83",
+    "bytes": 2821,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-hbpp.py": {
+    "sha256": "0be838e1d92d5726f459a490908aebd5b0e5cc540a77a49cfb308c8e9f6f11e1",
+    "bytes": 2253,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-i2c.py": {
+    "sha256": "b72947eb7e5b1718f2a3e7dd1be407afa9e6918c9edecf058da1f2c3243325f1",
+    "bytes": 2537,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-n1-start-version.py": {
+    "sha256": "1cc38fc337569925eb7103b80e04cf55db4c0f1cb55bc34fd276106aafd36569",
+    "bytes": 1237,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-n1-version.py": {
+    "sha256": "a316e2a693e5136a58183f7fd670131391b686a45c2c40717ec8288145fe847e",
+    "bytes": 1643,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-pmu.py": {
+    "sha256": "ecc48bf166c4363e1c486f2906381da4f19515a999f28a4cb4617aaada1dc42f",
+    "bytes": 4445,
+    "mode": "0o755",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-power.py": {
+    "sha256": "d8116f7bfbd627f1d04ecbf0f8e5dfa1857be0ee710c67ab5ff768f10d3eca27",
+    "bytes": 3194,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-touch-pwm.py": {
+    "sha256": "bf54c383d87e7e87f2d2b1e272c5ac81cdb79191b1383debaeeccae2e481ec98",
+    "bytes": 4256,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-stock-wifi-tx-header.py": {
+    "sha256": "4465d50b1678ad90fb0d41874de4c520f2c24e23f72b2342d75305e8d0e1ffb0",
+    "bytes": 1242,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-timer-a2.py": {
+    "sha256": "739102a47f51bab86d2db9381f05a109994deb545fd2989dc861a223eff3800b",
+    "bytes": 4368,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-touch-charge-trial-n42.py": {
+    "sha256": "ad371fa3a2e9151fc7a1767ae2db1c2ec49ff167662a71ed6c6517c8671e0352",
+    "bytes": 2138,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-touch-fw-n42.py": {
+    "sha256": "36c037dd127827dc4b985c2c2c8144a24a948ad53b6b287892401acf54801b9f",
+    "bytes": 9080,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-touch-ram-root-smp.py": {
+    "sha256": "a8f45a4244627843a2ba4098be4eb3137d07443b8f34fbb8acc3fb789e9e7c54",
+    "bytes": 3504,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-touch-transport.py": {
+    "sha256": "775becbe2a42ce39d228623910f0760df06ea111fe11311ef6e51571259fd232",
+    "bytes": 5738,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-uart-data.py": {
+    "sha256": "de662f50c9239f714fceb406c9a089c13b5f47aba45c7c447666e5153a98f1b8",
+    "bytes": 1368,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-clock-dispatch.py": {
+    "sha256": "7dd5273955720f31d5c889fc01aa676a7e4544f58257c8e688712647dc6aee62",
+    "bytes": 12158,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-default-files.py": {
+    "sha256": "94d3fc3058cc7250e0591928c460d25fffa758780503780faca048b40a823b74",
+    "bytes": 3016,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-firmware.py": {
+    "sha256": "022efea0fc0ff7fcd49466ced3b9fd0c58d6f3710c163991779fd361ff8b54cb",
+    "bytes": 4770,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-host-ready.py": {
+    "sha256": "0a1921d6362315fca24bde90a7ff63214998936310d5dbcddbf20784ea24f587",
+    "bytes": 2717,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-otp-read.py": {
+    "sha256": "55fd6562894e518f0b0c6bf7f33ed4e41e08770fa8b7bc4a053d3660e9effd89",
+    "bytes": 4244,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-otp-selection.py": {
+    "sha256": "a6e0259ea3129e88f30d24cd0bb77775f9e3e99f61ebf218c067f1d6f25e6015",
+    "bytes": 4189,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-ready-dispatch.py": {
+    "sha256": "d9169c12e12137da9f7853768587a75d9cf740c7af1102caf4e11323cf7eca64",
+    "bytes": 6852,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "scripts/verify-a6-wifi-topology.py": {
+    "sha256": "1ed6ed7a155e29300d41703a1a939ff45e688b015c9f56ec03a6f3ccc4cd8fc7",
+    "bytes": 5044,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "third-party/aquamarine/LICENSE": {
+    "sha256": "52d07f3457591b4496ae2e79b05efd63c7df72135666fa12428d83078c4c0de5",
+    "bytes": 1503,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "third-party/linux/GPL-2.0": {
+    "sha256": "8780e78a1a737e127f25a65f6d95269bffd36158dc261114de7859b490bfc5aa",
+    "bytes": 18600,
+    "mode": "0o644",
+    "licence": "see LICENSES.md/upstream notice"
+  },
+  "third-party/linux/font_8x8.c": {
+    "sha256": "c0b8b9c61ffbafc9d6a3be2372c416b1577b8512199853ca5667c16fef87e52c",
+    "bytes": 51121,
+    "mode": "0o644",
+    "licence": "GPL-2.0"
+  }
+}

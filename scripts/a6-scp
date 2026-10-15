@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+"""Copy files over the authenticated USB SSH connection (Dropbear SCP protocol)."""
+import argparse
+from pathlib import Path
+import os
+import shlex
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('direction', choices=['put', 'get'])
+parser.add_argument('local', type=Path)
+parser.add_argument('remote', help='absolute path inside the phone Arch RAM root')
+args = parser.parse_args()
+if not args.remote.startswith('/') or '\n' in args.remote or '\r' in args.remote:
+    parser.error('remote must be an absolute path without newlines')
+repo = Path(__file__).resolve().parents[1]
+identity, known = repo/'build/ssh/a6_ed25519', repo/'build/ssh/known_hosts'
+if not identity.is_file() or not known.is_file():
+    parser.error('enroll the SSH key and phone host key under build/ssh/ first')
+remote = 'root@192.168.7.2:' + shlex.quote(args.remote)
+local = str(args.local.resolve())
+source, destination = (local, remote) if args.direction == 'put' else (remote, local)
+os.execvp('scp', ['scp', '-O', '-F', '/dev/null', '-i', str(identity),
+    '-o', 'IdentitiesOnly=yes', '-o', 'BatchMode=yes', '-o', 'StrictHostKeyChecking=yes',
+    '-o', 'UserKnownHostsFile='+str(known), '-o', 'ConnectTimeout=10',
+    '-P', '2222', '--', source, destination])

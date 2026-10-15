@@ -1,0 +1,31 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/extra/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "labwc-0.20.2-1-armv7h.pkg.tar.xz": {
+      "sha256": "328a9208d6757438312a0e5ec73d0980f4c4115d800b449e88a89f593293e183"
+    },
+    "libsfdo-0.1.4-1-armv7h.pkg.tar.xz": {
+      "sha256": "018bf3c06c4d05c015d16602755dac6b0d71fc6bd47b8ec12c8221b18ac9e614"
+    },
+    "wlroots0.20-0.20.2-1-armv7h.pkg.tar.xz": {
+      "sha256": "0e34cf88696dc596ad447c35119ca7d78a62001074196f4e6abd1d1f6922202a"
+    },
+    "vulkan-icd-loader-1.4.363.0-1-armv7h.pkg.tar.xz": {
+      "sha256": "21122eb3e4c22baef14864ae425deab7129bab35770d516f5a181fa4b2a7d2e6"
+    },
+    "bubblewrap-0.13.0-1-armv7h.pkg.tar.xz": {
+      "sha256": "8cb674fd19d95f70af61619fae64b58e57317080fe3eb365b7ef2133ed07a021"
+    },
+    "shared-mime-info-2.5.1-2-armv7h.pkg.tar.xz": {
+      "sha256": "c731fc4d4c9b668820fa25a9b5540ed9e61100c5d2072a612a783c898aed88b6"
+    }
+  },
+  "foreign_protocol_sha256": "ea1008781ec4af7a5ceb131914081405c71336fdd7e600103bcc940c15fc741f",
+  "additional_libraries": {
+    "libxcb-xinput.so.0": "libxcb",
+    "libliftoff.so.0": "libliftoff",
+    "libxcb-render-util.so.0": "xcb-util-renderutil",
+    "libxcb-ewmh.so.2": "xcb-util-wm"
+  }
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Execute an explicit command as the unprivileged phone desktop user over USB SSH.
+set -euo pipefail
+[[ $# -gt 0 ]] || { echo 'Usage: a6-user COMMAND [ARG ...]' >&2; exit 2; }
+repo=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
+printf -v inner '%q ' env PATH=/usr/local/bin:/usr/bin:/bin HOME=/home/a6 USER=a6 LOGNAME=a6 LC_ALL=C.UTF-8 XDG_RUNTIME_DIR=/run/user/1000 WAYLAND_DISPLAY=wayland-1 "$@"
+printf -v outer '%q ' /proc/1/root/bin/busybox setpriv --nnp /proc/1/root/bin/busybox su -s /bin/bash a6 -c "cd /home/a6 && exec $inner"
+exec "$repo/scripts/a6-ssh" "$outer"

@@ -1,0 +1,238 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "alsa-lib": {
+      "filename": "alsa-lib-1.2.16.1-1-armv7h.pkg.tar.xz",
+      "sha256": "ed176a4e706f8ca8e3825d8dfdf2be005d3786c3def42ddd44d12604a8861346",
+      "version": "1.2.16.1-1",
+      "repo": "extra",
+      "license": [
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://www.alsa-project.org"
+      ]
+    },
+    "alsa-utils": {
+      "filename": "alsa-utils-1.2.16-1-armv7h.pkg.tar.xz",
+      "sha256": "25ee7cc5969b03cbed8e3a809891425c47c1f90fb655363e79408016ec3d6f9a",
+      "version": "1.2.16-1",
+      "repo": "extra",
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "upstream": [
+        "https://www.alsa-project.org"
+      ]
+    },
+    "audit": {
+      "filename": "audit-4.2.1-1-armv7h.pkg.tar.xz",
+      "sha256": "9e5f187296d8f755ad6c688393224c9db170cf23559d3d7fb2d457641a839997",
+      "version": "4.2.1-1",
+      "repo": "core",
+      "license": [
+        "GPL-2.0-or-later",
+        "LGPL-2.0-or-later"
+      ],
+      "upstream": [
+        "https://github.com/linux-audit/audit-userspace"
+      ]
+    },
+    "dbus": {
+      "filename": "dbus-1.16.2-1-armv7h.pkg.tar.xz",
+      "sha256": "d2b299a31390656b48ee2d0a9b594d4fbb861d7a670667fc357a79a16caac189",
+      "version": "1.16.2-1",
+      "repo": "core",
+      "license": [
+        "AFL-2.1 OR GPL-2.0-or-later"
+      ],
+      "upstream": [
+        "https://www.freedesktop.org/wiki/Software/dbus/"
+      ]
+    },
+    "expat": {
+      "filename": "expat-2.8.4-1-armv7h.pkg.tar.xz",
+      "sha256": "19752b5a0610b8e8e4305a77aa7c265c9c804d2f653f6541dd3082b391e811f0",
+      "version": "2.8.4-1",
+      "repo": "core",
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://libexpat.github.io/"
+      ]
+    },
+    "flac": {
+      "filename": "flac-1.5.0-1-armv7h.pkg.tar.xz",
+      "sha256": "9bf0db28adb14a4d1a8f39d65ead53ba9f02ee494576234118e79b1c169650fc",
+      "version": "1.5.0-1",
+      "repo": "extra",
+      "license": [
+        "BSD-3-Clause",
+        "GPL-2.0-or-later"
+      ],
+      "upstream": [
+        "https://xiph.org/flac/"
+      ]
+    },
+    "lame": {
+      "filename": "lame-4.0-1-armv7h.pkg.tar.xz",
+      "sha256": "00d566ff43256b1939b2ffa43592bc7ec511430b68202a0ebef361d3c322981f",
+      "version": "4.0-1",
+      "repo": "extra",
+      "license": [
+        "LGPL-2.0-only"
+      ],
+      "upstream": [
+        "http://lame.sourceforge.net/"
+      ]
+    },
+    "libcap-ng": {
+      "filename": "libcap-ng-0.9.6-1-armv7h.pkg.tar.xz",
+      "sha256": "ed74d1f89b76b8b82fcf9e0a5194b61ea9f8330eb7ded0254d21e3a51ea0845c",
+      "version": "0.9.6-1",
+      "repo": "core",
+      "license": [
+        "GPL-2.0-or-later",
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://people.redhat.com/sgrubb/libcap-ng/"
+      ]
+    },
+    "libogg": {
+      "filename": "libogg-1.3.6-1-armv7h.pkg.tar.xz",
+      "sha256": "f43c87093880612b4c6e72de1145bca7d458f2c594d3a159c8cb9f24878769c0",
+      "version": "1.3.6-1",
+      "repo": "extra",
+      "license": [
+        "BSD"
+      ],
+      "upstream": [
+        "https://www.xiph.org/ogg/"
+      ]
+    },
+    "libpipewire": {
+      "filename": "libpipewire-1:1.6.9-1-armv7h.pkg.tar.xz",
+      "sha256": "b5e6ae6159e86044b019fb1e47de868b18cc814bb86e8ed8963f809f0a4c184d",
+      "version": "1:1.6.9-1",
+      "repo": "extra",
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://pipewire.org"
+      ]
+    },
+    "libsndfile": {
+      "filename": "libsndfile-1.2.2-4-armv7h.pkg.tar.xz",
+      "sha256": "c2d648209046a8623f71c7feae6184151fcca5594a2060d848927811b4e5db14",
+      "version": "1.2.2-4",
+      "repo": "extra",
+      "license": [
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://libsndfile.github.io/libsndfile/"
+      ]
+    },
+    "libvorbis": {
+      "filename": "libvorbis-1.3.7-4-armv7h.pkg.tar.xz",
+      "sha256": "186597164ae0d0d6339bf2c15b0a9c2e6d7f499627b6dcde84abeff1d0e766d7",
+      "version": "1.3.7-4",
+      "repo": "extra",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "upstream": [
+        "https://www.xiph.org/vorbis/"
+      ]
+    },
+    "libwireplumber": {
+      "filename": "libwireplumber-0.5.13-1-armv7h.pkg.tar.xz",
+      "sha256": "15912361d066377048310fae62eb8366f7bc9f8b4c16ef64d166d874a055781c",
+      "version": "0.5.13-1",
+      "repo": "extra",
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://pipewire.pages.freedesktop.org/wireplumber/"
+      ]
+    },
+    "lua54": {
+      "filename": "lua54-5.4.9-1-armv7h.pkg.tar.xz",
+      "sha256": "5adeaaf40f3ec0d11d49dc5e5edb660b05609fa2d0fca5551700197bb3e9165b",
+      "version": "5.4.9-1",
+      "repo": "extra",
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://www.lua.org/"
+      ]
+    },
+    "mpg123": {
+      "filename": "mpg123-1.33.7-1-armv7h.pkg.tar.xz",
+      "sha256": "a06a8b6cd6107878a10daa3bbd1991395d8008983b1be41bf9c3c2ae88a91d1e",
+      "version": "1.33.7-1",
+      "repo": "extra",
+      "license": [
+        "LGPL-2.1-only"
+      ],
+      "upstream": [
+        "https://mpg123.de/"
+      ]
+    },
+    "opus": {
+      "filename": "opus-1.6.1-1-armv7h.pkg.tar.xz",
+      "sha256": "bc393aa719a07893acadf8cf70ed8e219d552be9060db1aec7a50998cbe9edba",
+      "version": "1.6.1-1",
+      "repo": "extra",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "upstream": [
+        "https://www.opus-codec.org/"
+      ]
+    },
+    "pipewire": {
+      "filename": "pipewire-1:1.6.9-1-armv7h.pkg.tar.xz",
+      "sha256": "2037684f14f23bc0ad94edc4e556c3dfe4fa40b424b8be4a57758d4ea27a1ccf",
+      "version": "1:1.6.9-1",
+      "repo": "extra",
+      "license": [
+        "MIT",
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://pipewire.org"
+      ]
+    },
+    "pipewire-audio": {
+      "filename": "pipewire-audio-1:1.6.9-1-armv7h.pkg.tar.xz",
+      "sha256": "cbe0fe8e5a4b33b2edd6fa55449ed4df35faceea6dba54bfee60c6153ae5adef",
+      "version": "1:1.6.9-1",
+      "repo": "extra",
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://pipewire.org"
+      ]
+    },
+    "wireplumber": {
+      "filename": "wireplumber-0.5.13-1-armv7h.pkg.tar.xz",
+      "sha256": "22498e74797e5ddd41b70d4ed40976071db90ea88e465decde6cef6d33bf6585",
+      "version": "0.5.13-1",
+      "repo": "extra",
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://pipewire.pages.freedesktop.org/wireplumber/"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "rulesets": [
+    {
+      "name": "a6 browser responsiveness",
+      "post_action_delay": 15,
+      "detectors": [
+        [
+          "browser full memory PSI above 60 percent for 20 seconds",
+          {
+            "name": "pressure_above",
+            "args": {
+              "cgroup": "browser",
+              "resource": "memory",
+              "threshold": "60",
+              "duration": "20"
+            }
+          }
+        ],
+        [
+          "system full memory PSI above 60 percent with a substantial browser",
+          {
+            "name": "pressure_above",
+            "args": {
+              "cgroup": "/",
+              "resource": "memory",
+              "threshold": "60",
+              "duration": "20"
+            }
+          },
+          {
+            "name": "memory_above",
+            "args": {
+              "cgroup": "browser",
+              "threshold": "256M",
+              "duration": "20"
+            }
+          }
+        ]
+      ],
+      "actions": [
+        {
+          "name": "kill_by_memory_size_or_growth",
+          "args": {
+            "cgroup": "browser",
+            "kernelkill": "true",
+            "reap_memory": "true"
+          }
+        }
+      ]
+    }
+  ]
+}

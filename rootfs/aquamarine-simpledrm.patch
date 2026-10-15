@@ -1,0 +1,14 @@
+--- a/src/backend/drm/DRM.cpp
++++ b/src/backend/drm/DRM.cpp
+@@ -1119,8 +1119,9 @@
+ 
+     auto drmVerName = drmVer && drmVer->name ? drmVer->name : "unknown";
+     driver          = driverFromName(drmVerName);
+-    if (driver == AQ_BACKEND_GPU_DRIVER_EVDI) {
+-        // DisplayLink/evdi exposes KMS without a usable EGL renderer.
++    if (driver == AQ_BACKEND_GPU_DRIVER_EVDI || std::string_view{drmVerName} == "simpledrm") {
++        // These display-only KMS devices have no per-device EGL renderer.
++        // simpledrm scanout can use buffers from the software GBM renderer.
+         primary          = {};
+         rendererRequired = false;
+     }

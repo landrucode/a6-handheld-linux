@@ -1,0 +1,18 @@
+{
+  "wvkbd": {
+    "url": "https://github.com/jjsullivan5196/wvkbd.git",
+    "revision": "6b41504a0cb58fd1163fa44692398fbd61f8905f"
+  },
+  "oomd": {
+    "url": "https://github.com/facebookincubator/oomd.git",
+    "revision": "f8e553ba290b9ac9165a634688ccf82660d5c7e1"
+  },
+  "jsoncpp": {
+    "url": "https://github.com/open-source-parsers/jsoncpp.git",
+    "revision": "89e2973c754a9c02a49974d839779b151e95afd6"
+  },
+  "squashfs-tools-4.7.2": {
+    "url": "https://github.com/plougher/squashfs-tools.git",
+    "revision": "99d23a31b471433c51e9c145aeba2ab1536e34df"
+  }
+}

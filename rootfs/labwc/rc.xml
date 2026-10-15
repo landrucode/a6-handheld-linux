@@ -1,0 +1,7 @@
+<labwc_config>
+  <theme><name>A6 Pastel</name><cornerRadius>0</cornerRadius></theme>
+  <core><decoration>client</decoration><gap>0</gap></core>
+  <keyboard><repeatRate>0</repeatRate></keyboard>
+  <touch><mouseEmulation>no</mouseEmulation></touch>
+  <windowRules><windowRule identifier="*" serverDecoration="no"><action name="Maximize" /></windowRule></windowRules>
+</labwc_config>

@@ -1,0 +1,20 @@
+#!/bin/bash
+set -euo pipefail
+export XDG_RUNTIME_DIR=/run/user/1000
+# Keep existing phone clients working with labwc's automatically named socket.
+if [[ $WAYLAND_DISPLAY != wayland-1 ]]; then
+    ln -s "$WAYLAND_DISPLAY" "$XDG_RUNTIME_DIR/wayland-1"
+fi
+set -a
+source /usr/local/share/a6/theme/palette.sh
+set +a
+/opt/a6/labwc-runtime/usr/bin/swaybg -c "#$A6_BG" >/tmp/a6-background.private.log 2>&1 &
+foot /bin/bash >/tmp/a6-labwc-foot.private.log 2>&1 &
+read -r -a theme_args < /usr/local/share/a6/theme/wvkbd.args
+/usr/local/bin/wvkbd-native "${theme_args[@]}" --no-popup -H 300 -L 300 -l simple,special --fn "JetBrains Mono 16" >/tmp/a6-labwc-keyboard.private.log 2>&1 &
+echo $! >/home/a6/wvkbd-test.pid
+/usr/local/bin/a6-start-desktop-panel >/tmp/a6-labwc-panel.private.log 2>&1 &
+
+# Blank the compositor output after two minutes; any input restores it.
+# This is display idle, not system suspend; charger and shutdown guards keep running.
+/usr/bin/swayidle -w timeout 120 '/usr/bin/wlopm --off "*"' resume '/usr/bin/wlopm --on "*"' >/tmp/a6-idle.private.log 2>&1 &

@@ -1,0 +1,276 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "xorg-server": {
+      "repo": "extra",
+      "filename": "xorg-server-21.1.24-1-armv7h.pkg.tar.xz",
+      "sha256": "4934cfed53728633578333faaf05ad8d62bef594b77eb9ce310288be1ed5362a"
+    },
+    "xorg-server-common": {
+      "repo": "extra",
+      "filename": "xorg-server-common-21.1.24-1-armv7h.pkg.tar.xz",
+      "sha256": "1bb1ebdeef0ab0c25c13728eda4f838d60b9d2b80693d85d2e80a08e5490651c"
+    },
+    "xf86-video-fbdev": {
+      "repo": "extra",
+      "filename": "xf86-video-fbdev-0.5.1-1-armv7h.pkg.tar.xz",
+      "sha256": "819798c700b7d426f1feed60e695ed06a124db0de09e7dd25e8f193200d434c4"
+    },
+    "xterm": {
+      "repo": "extra",
+      "filename": "xterm-411-1-armv7h.pkg.tar.xz",
+      "sha256": "6732c98359870da031546020fa9185182fdceddd4d78f6b3f0ec9833abfef21b"
+    },
+    "xorg-xkbcomp": {
+      "repo": "extra",
+      "filename": "xorg-xkbcomp-1.5.0-1-armv7h.pkg.tar.xz",
+      "sha256": "e69f8b86f101f3103f46bd06b50de6b4a9828adcbbb30d76c905024cd0916b29"
+    },
+    "xkeyboard-config": {
+      "repo": "extra",
+      "filename": "xkeyboard-config-2.48-1-any.pkg.tar.xz",
+      "sha256": "c63dde9247ba422731204a8aec356597e0b0d783536e8d5f700e077dfa5105d7"
+    },
+    "xorg-fonts-misc": {
+      "repo": "extra",
+      "filename": "xorg-fonts-misc-1.0.4-2-any.pkg.tar.xz",
+      "sha256": "4233f87677e65423211514eb8c3edb62274eb99768ff6798d5f7064a710eb9ba"
+    },
+    "libepoxy": {
+      "repo": "extra",
+      "filename": "libepoxy-1.5.10-3-armv7h.pkg.tar.xz",
+      "sha256": "03c7668dd04b48ba66227d724ad46770bc181668b9113a692304fa7d0376727e"
+    },
+    "libxfont2": {
+      "repo": "extra",
+      "filename": "libxfont2-2.0.9-1-armv7h.pkg.tar.xz",
+      "sha256": "3eb442f84a9fa9e0d1a099e23ef3305418a96f2194b147d34b46ba6f0193d6a9"
+    },
+    "pixman": {
+      "repo": "extra",
+      "filename": "pixman-0.46.4-1.1-armv7h.pkg.tar.xz",
+      "sha256": "03e61ca326c36736eb54673bd1eb044b236950088faf9904f3fe857d919338b5"
+    },
+    "libunwind": {
+      "repo": "extra",
+      "filename": "libunwind-1.8.3-1-armv7h.pkg.tar.xz",
+      "sha256": "809748b748709b6d1b6247a3f769e6f55e144383174ff52fdfd4cae510f51f3e"
+    },
+    "dbus": {
+      "repo": "core",
+      "filename": "dbus-1.16.2-1-armv7h.pkg.tar.xz",
+      "sha256": "d2b299a31390656b48ee2d0a9b594d4fbb861d7a670667fc357a79a16caac189"
+    },
+    "libxdmcp": {
+      "repo": "extra",
+      "filename": "libxdmcp-1.1.5-2-armv7h.pkg.tar.xz",
+      "sha256": "e69af083363ff3b8bc707e7832cea49177d43a9d47748b272d240acd772655de"
+    },
+    "libxau": {
+      "repo": "extra",
+      "filename": "libxau-1.0.12-1-armv7h.pkg.tar.xz",
+      "sha256": "b8b6acec50237a30b0222df495ccb80b3c2f0db83903c70465113cb8b0ed991c"
+    },
+    "systemd-libs": {
+      "repo": "core",
+      "filename": "systemd-libs-261.3-1-armv7h.pkg.tar.xz",
+      "sha256": "ba107f06f38091cbf66bd7f59d2fbcb8a77ae8a17d91e1cf5e7c268eb6313435"
+    },
+    "libtirpc": {
+      "repo": "core",
+      "filename": "libtirpc-1.3.8-1-armv7h.pkg.tar.xz",
+      "sha256": "4fd15fba839d0dfec8437caa23acb35f9d882e116f093d2d2dd593bdd6b97ec8"
+    },
+    "libpciaccess": {
+      "repo": "extra",
+      "filename": "libpciaccess-0.19-1-armv7h.pkg.tar.xz",
+      "sha256": "f7fd6bdc0cd179cf2b326084c8929457f4bf824f947c2c2fb13ccdc57c7120b0"
+    },
+    "libdrm": {
+      "repo": "extra",
+      "filename": "libdrm-2.4.134-1-armv7h.pkg.tar.xz",
+      "sha256": "00c87ece66e7604744ed892cbd78064ff0b71de0adee66de4b58728192815ed1"
+    },
+    "libxshmfence": {
+      "repo": "extra",
+      "filename": "libxshmfence-1.3.3-1-armv7h.pkg.tar.xz",
+      "sha256": "2f92bad9a73da1a2361db753e214dd6c484123894412e695e2ff8db579a157a2"
+    },
+    "libxcvt": {
+      "repo": "extra",
+      "filename": "libxcvt-0.1.3-1-armv7h.pkg.tar.xz",
+      "sha256": "406c90dbacfda739d997951021b4653014c91e16fc94a3dc024d50d918d33151"
+    },
+    "nettle": {
+      "repo": "core",
+      "filename": "nettle-4.0-1-armv7h.pkg.tar.xz",
+      "sha256": "3b70b8da916b9b6e78da03703afbf160fd1b939ec465e2e84f371595dfa2bee9"
+    },
+    "freetype2": {
+      "repo": "extra",
+      "filename": "freetype2-2.14.3-1-armv7h.pkg.tar.xz",
+      "sha256": "4c67e57986b8b7261a6c724730f9085704bbb5aabe39612de40ad9306ee83810"
+    },
+    "libfontenc": {
+      "repo": "extra",
+      "filename": "libfontenc-1.1.9-1-armv7h.pkg.tar.xz",
+      "sha256": "0a0ab2e3ffab09d868bb76e0d28175474482aef8f5a3edc0cc06bffc40832afb"
+    },
+    "zlib": {
+      "repo": "core",
+      "filename": "zlib-1:1.3.2-3-armv7h.pkg.tar.xz",
+      "sha256": "a3c6cc8bc6b46c87ed29a36f7569570c0e7f06b7fa7bf03dae2699905de3765c"
+    },
+    "libpng": {
+      "repo": "extra",
+      "filename": "libpng-1.6.58-2-armv7h.pkg.tar.xz",
+      "sha256": "269b8bb5e2721c8ff930e7bb2f62a151b84d5972b253a359c3ea107a7d23c7a4"
+    },
+    "brotli": {
+      "repo": "core",
+      "filename": "brotli-1.2.0-1-armv7h.pkg.tar.xz",
+      "sha256": "dbbbd24df31383faefca604d42eae1fb4cab73333b6cc9b5f6cf9d178c75bc1b"
+    },
+    "bzip2": {
+      "repo": "core",
+      "filename": "bzip2-1.0.8-6-armv7h.pkg.tar.xz",
+      "sha256": "76bebf6574f96bd4de468ede862c4ccf284b295cbdda01f7729b1bd7c15c8977"
+    },
+    "libcap": {
+      "repo": "core",
+      "filename": "libcap-2.78-1-armv7h.pkg.tar.xz",
+      "sha256": "f30d4b3a14fdefb9214f9f1ba65948d8b158008132143a54837ee5b6c62289ab"
+    },
+    "libgcrypt": {
+      "repo": "core",
+      "filename": "libgcrypt-1.12.4-1-armv7h.pkg.tar.xz",
+      "sha256": "e646b5b75cc1916a64538544cea0e537066565f8ca58e1c3c2d9eb290bcd2cd4"
+    },
+    "libgpg-error": {
+      "repo": "core",
+      "filename": "libgpg-error-1.61-1-armv7h.pkg.tar.xz",
+      "sha256": "89f81b87edca4f103824f5aa5eecb14348acd4fa640284cf19966018f4c0b9de"
+    },
+    "xz": {
+      "repo": "core",
+      "filename": "xz-5.8.4-1-armv7h.pkg.tar.xz",
+      "sha256": "4147100a4f8a6cc365d0536c592073a5167609544deefbfc8a6170bad76b0e12"
+    },
+    "lz4": {
+      "repo": "core",
+      "filename": "lz4-1:1.10.0-2-armv7h.pkg.tar.xz",
+      "sha256": "59e9786756fbfc5f3ac6f324de871b46a3d156b63a4e5d8b153052f549425cd9"
+    },
+    "zstd": {
+      "repo": "core",
+      "filename": "zstd-1.5.7-3-armv7h.pkg.tar.xz",
+      "sha256": "f2b39a761e27d091d1dbe1f3d1a751fd3cd705ec4ddcdbc3d605ac1a875451be"
+    },
+    "libffi": {
+      "repo": "core",
+      "filename": "libffi-3.8.0-1-armv7h.pkg.tar.xz",
+      "sha256": "336ceae8c16dbadb1b22f4dd4dbfd787356a32bd1eaa1b218aeb85a767d200a7"
+    },
+    "libxkbfile": {
+      "repo": "extra",
+      "filename": "libxkbfile-1.2.0-1-armv7h.pkg.tar.xz",
+      "sha256": "f64887875a8bd92553e0e6d23df363bcac4c872c158e93f646e38bbd563b7eb1"
+    },
+    "libx11": {
+      "repo": "extra",
+      "filename": "libx11-1.8.13-1-armv7h.pkg.tar.xz",
+      "sha256": "2cae06b239ca01ceab82a7fbb4c5858be5a37b1e8e01cd996615ffa3ef9521be"
+    },
+    "libxcb": {
+      "repo": "extra",
+      "filename": "libxcb-1.17.0-1-armv7h.pkg.tar.xz",
+      "sha256": "fbb6f4b35e409dfdb350dcc045cf5ba69c2678025703fbb1e7c0b6f17cfc1b8d"
+    },
+    "libxext": {
+      "repo": "extra",
+      "filename": "libxext-1.3.7-1-armv7h.pkg.tar.xz",
+      "sha256": "d727f9f911120b8a9bdccfc204c8ea0747f86a66bf604cec56ec2eb6353bd7a4"
+    },
+    "libice": {
+      "repo": "extra",
+      "filename": "libice-1.1.2-1-armv7h.pkg.tar.xz",
+      "sha256": "07f4e06bc1a4505c36e0506ea7e392fa744b3248fb2cc98fbf0d513c30f177e6"
+    },
+    "libsm": {
+      "repo": "extra",
+      "filename": "libsm-1.2.6-1-armv7h.pkg.tar.xz",
+      "sha256": "c0f58740b40fdf40ada86deb2b9509c283ae7ba1f095abe1500d8b0242ee124e"
+    },
+    "libxt": {
+      "repo": "extra",
+      "filename": "libxt-1.3.1-1-armv7h.pkg.tar.xz",
+      "sha256": "04706889be8fc509567e8f623ddd3482c93a1aacb049b126356162fb0dddcf80"
+    },
+    "libxmu": {
+      "repo": "extra",
+      "filename": "libxmu-1.3.1-1-armv7h.pkg.tar.xz",
+      "sha256": "2f57bd323a58d8cc7f5f7807433f996c69cc855835553050757f25b0fe53bc95"
+    },
+    "libxpm": {
+      "repo": "extra",
+      "filename": "libxpm-3.5.19-1-armv7h.pkg.tar.xz",
+      "sha256": "3b8e23ad96b859cbd682e6960672adfe3816e899dab157d8132b5fa0bcb90397"
+    },
+    "libxaw": {
+      "repo": "extra",
+      "filename": "libxaw-1.0.16-2-armv7h.pkg.tar.xz",
+      "sha256": "12df486d0e8f3dffa8b3190035696615ceb1b552b78e9589060d1f07392be305"
+    },
+    "libxrender": {
+      "repo": "extra",
+      "filename": "libxrender-0.9.12-1-armv7h.pkg.tar.xz",
+      "sha256": "e19434747a8554ad3a3532a69f0a7866122c72c2590e5b9ec8cd177e0bc7bd26"
+    },
+    "libxft": {
+      "repo": "extra",
+      "filename": "libxft-2.3.9-1-armv7h.pkg.tar.xz",
+      "sha256": "aa37287683f59211af0ef3a6a3517043e9d6a1c722ce8af791c3e85cb148aab6"
+    },
+    "fontconfig": {
+      "repo": "extra",
+      "filename": "fontconfig-2:2.18.3-2-armv7h.pkg.tar.xz",
+      "sha256": "ee7c08693c66643b0f031a2942dda2ccf4f1950ff2894d757cc5e2bfceee37e0"
+    },
+    "expat": {
+      "repo": "core",
+      "filename": "expat-2.8.4-1-armv7h.pkg.tar.xz",
+      "sha256": "19752b5a0610b8e8e4305a77aa7c265c9c804d2f653f6541dd3082b391e811f0"
+    },
+    "libutempter": {
+      "repo": "extra",
+      "filename": "libutempter-1.2.3-1-armv7h.pkg.tar.xz",
+      "sha256": "bc0a00a628334e2fc493fc86b0d4f328d965a0c204015b2ddb1f11985cc3d872"
+    },
+    "krb5": {
+      "repo": "core",
+      "filename": "krb5-1.22.2-1-armv7h.pkg.tar.xz",
+      "sha256": "6cd171700ff0c7ae92c5e36f6654556783575a9db3b7928aec10cb6ee593a48c"
+    },
+    "util-linux-libs": {
+      "repo": "core",
+      "filename": "util-linux-libs-2.42.3-1-armv7h.pkg.tar.xz",
+      "sha256": "b03bbf4f9f8814e2429be8524b9143fd040c1acba0182ea2904b09b519f42093"
+    },
+    "keyutils": {
+      "repo": "core",
+      "filename": "keyutils-1.6.3-4-armv7h.pkg.tar.xz",
+      "sha256": "b9427fe9f23503cba436c39d0c9fc5d50370d9ce360ef1d6e308b686ec54504f"
+    },
+    "e2fsprogs": {
+      "repo": "core",
+      "filename": "e2fsprogs-1.47.4-1-armv7h.pkg.tar.xz",
+      "sha256": "e48cb784726c5771c3caa21cc95bbdf134f5ac93b833d3574f295086c085cc0d"
+    },
+    "openssl": {
+      "repo": "core",
+      "filename": "openssl-3.6.4-1-armv7h.pkg.tar.xz",
+      "sha256": "e2aea373145d1c1f0bbfdfe6790cf382cbfc668e0cbab59eff52d5baa0aafe63"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# IPv4 only: this kernel deliberately has no IPv6 stack.
+# Load before wlan0 is brought up. Recovery is limited to the USB peer.
+table ip a6_guard {
+    chain input {
+        type filter hook input priority filter; policy drop;
+        iifname "usb0" ip saddr 192.168.7.1 ip daddr 192.168.7.2 counter accept
+        # Root command service is restricted to the USB peer, even if misbound.
+        tcp dport 8080 counter drop
+        iifname "lo" accept
+        iifname "wlan0" ct state established,related counter accept
+        # DHCP replies are provisioning traffic, including initial broadcasts.
+        iifname "wlan0" udp sport 67 udp dport 68 counter accept
+        iifname "wlan0" counter drop
+    }
+    chain forward {
+        type filter hook forward priority filter; policy drop;
+    }
+    chain output {
+        type filter hook output priority filter; policy accept;
+    }
+}

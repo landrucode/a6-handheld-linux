@@ -1,0 +1,6 @@
+--- a/drivers/tty/serial/samsung_tty.c
++++ b/drivers/tty/serial/samsung_tty.c
+@@ -2536,2 +2536,2 @@
+-#ifdef CONFIG_ARCH_APPLE
++#if defined(CONFIG_ARCH_APPLE) || defined(A6_S5L_UART_BRINGUP)
+ static const struct s3c24xx_serial_drv_data s5l_serial_drv_data = {

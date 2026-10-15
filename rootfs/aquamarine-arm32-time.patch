@@ -1,0 +1,13 @@
+--- a/src/backend/Headless.cpp
++++ b/src/backend/Headless.cpp
+@@ -237,7 +237,9 @@
+ 
+     auto       secs = std::chrono::time_point_cast<std::chrono::seconds>(soonestTimer);
+     auto       ns   = std::chrono::time_point_cast<std::chrono::nanoseconds>(soonestTimer) - std::chrono::time_point_cast<std::chrono::nanoseconds>(secs);
+-    itimerspec ts   = {.it_value = {secs.time_since_epoch().count(), ns.count()}};
++    itimerspec ts   = {.it_value = {
++        static_cast<decltype(timespec{}.tv_sec)>(secs.time_since_epoch().count()),
++        static_cast<decltype(timespec{}.tv_nsec)>(ns.count())}};
+ 
+     if (timerfd_settime(timers.timerfd.get(), TFD_TIMER_ABSTIME, &ts, nullptr))
+         backend->log(AQ_LOG_ERROR, std::format("headless: failed to arm timerfd: {}", strerror(errno)));

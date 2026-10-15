@@ -1,0 +1,1262 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "procps-ng": {
+      "filename": "procps-ng-4.0.7-1-armv7h.pkg.tar.xz",
+      "sha256": "cfcbbad7153154d26251e9416bddf9217c6acb8dc71776d9f4f3b4b7747bb68b",
+      "repo": "core",
+      "provides": [
+        "procps",
+        "sysvinit-tools",
+        "libproc2.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "ncurses",
+        "libncursesw.so=6-32",
+        "systemd-libs"
+      ],
+      "license": [
+        "GPL",
+        "LGPL"
+      ],
+      "upstream": [
+        "https://gitlab.com/procps-ng/procps"
+      ]
+    },
+    "psmisc": {
+      "filename": "psmisc-23.7-2-armv7h.pkg.tar.xz",
+      "sha256": "705467fa3f2cd5f29c12692ba5e72f8023dd375a1c00046ee28bf0bd5ff7b8d9",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "ncurses"
+      ],
+      "license": [
+        "GPL"
+      ],
+      "upstream": [
+        "https://gitlab.com/psmisc/psmisc"
+      ]
+    },
+    "iproute2": {
+      "filename": "iproute2-7.2.0-1-armv7h.pkg.tar.xz",
+      "sha256": "d487d04cfb11d8253bc41993a3cf107db5f917a4c0fb332bc37c39cd496e10aa",
+      "repo": "core",
+      "provides": [
+        "iproute"
+      ],
+      "dependencies": [
+        "glibc",
+        "libxtables.so=12-32",
+        "libcap",
+        "libcap.so=2-32",
+        "libelf",
+        "libbpf",
+        "libbpf.so=1-32"
+      ],
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "upstream": [
+        "https://git.kernel.org/pub/scm/network/iproute2/iproute2.git"
+      ]
+    },
+    "iputils": {
+      "filename": "iputils-20250605-1-armv7h.pkg.tar.xz",
+      "sha256": "0aded7deff68a5ff3f7abf77d3d9c6bacde9208b9b12641915d8d45b8ecd9c22",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "libcap",
+        "libidn2"
+      ],
+      "license": [
+        "BSD-3-Clause",
+        "GPL-2.0-or-later"
+      ],
+      "upstream": [
+        "https://github.com/iputils/iputils"
+      ]
+    },
+    "less": {
+      "filename": "less-1:710-1-armv7h.pkg.tar.xz",
+      "sha256": "3a6d117be6e761628e36b12bb33837df9599b6215eda885b16025977a6110afa",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "glibc",
+        "ncurses",
+        "pcre2"
+      ],
+      "license": [
+        "GPL-3.0-or-later OR LicenseRef-Less"
+      ],
+      "upstream": [
+        "https://www.greenwoodsoftware.com/less/"
+      ]
+    },
+    "gawk": {
+      "filename": "gawk-5.4.1-1-armv7h.pkg.tar.xz",
+      "sha256": "d9bcb397e604683c46153614bd9c9e7ebbfa19831d38d22ce56baea0a03f4f57",
+      "repo": "core",
+      "provides": [
+        "awk"
+      ],
+      "dependencies": [
+        "sh",
+        "glibc",
+        "mpfr"
+      ],
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://www.gnu.org/software/gawk/"
+      ]
+    },
+    "tar": {
+      "filename": "tar-1.35-5-armv7h.pkg.tar.xz",
+      "sha256": "7c92a585d15079ee5197cc97643bad861a4795d6eb38d63063573f9f605c2ba7",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "glibc",
+        "acl"
+      ],
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://www.gnu.org/software/tar/"
+      ]
+    },
+    "gzip": {
+      "filename": "gzip-1.15-1-armv7h.pkg.tar.xz",
+      "sha256": "aefa809aa2df83b36867d9dc64de8fdf9b01f8cb249297b5ac1167dcdb960523",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "glibc",
+        "sh",
+        "coreutils",
+        "sed"
+      ],
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://www.gnu.org/software/gzip/"
+      ]
+    },
+    "xz": {
+      "filename": "xz-5.8.4-1-armv7h.pkg.tar.xz",
+      "sha256": "4147100a4f8a6cc365d0536c592073a5167609544deefbfc8a6170bad76b0e12",
+      "repo": "core",
+      "provides": [
+        "liblzma.so=5-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "sh"
+      ],
+      "license": [
+        "GPL-2.0-or-later AND 0BSD AND LicenseRef-Public-Domain AND LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://tukaani.org/xz/"
+      ]
+    },
+    "unzip": {
+      "filename": "unzip-6.0-23-armv7h.pkg.tar.xz",
+      "sha256": "9af99d4bcc6dbc659c73eb62471c153ec71f1b3f8b6fc9f0308561347001ad6a",
+      "repo": "extra",
+      "provides": [],
+      "dependencies": [
+        "bzip2",
+        "bash"
+      ],
+      "license": [
+        "custom"
+      ],
+      "upstream": [
+        "http://infozip.sourceforge.net/UnZip.html"
+      ]
+    },
+    "which": {
+      "filename": "which-2.25-1-armv7h.pkg.tar.xz",
+      "sha256": "e11f0766c7a648d19b012279c01dcae64113c65a8b8e4d0506e2957739b4e9c4",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "bash",
+        "glibc"
+      ],
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://savannah.gnu.org/projects/which/"
+      ]
+    },
+    "file": {
+      "filename": "file-5.48-1-armv7h.pkg.tar.xz",
+      "sha256": "e9b9fb28172faa8c396d99920d781e848c0d25f6fbd89e51551b4db25d7f21b9",
+      "repo": "core",
+      "provides": [
+        "libmagic.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "bzip2",
+        "libbz2.so=1.0-32",
+        "libseccomp",
+        "libseccomp.so=2-32",
+        "xz",
+        "liblzma.so=5-32",
+        "zlib",
+        "libz.so=1-32",
+        "zstd",
+        "libzstd.so=1-32"
+      ],
+      "license": [
+        "BSD-2-Clause-Darwin"
+      ],
+      "upstream": [
+        "https://www.darwinsys.com/file/"
+      ]
+    },
+    "curl": {
+      "filename": "curl-8.22.0-1-armv7h.pkg.tar.xz",
+      "sha256": "0d6b2e4d1d86ea61cee198a190855def7ed9c1bbef56717a2d80fffa2dc99903",
+      "repo": "core",
+      "provides": [
+        "libcurl.so=4-32"
+      ],
+      "dependencies": [
+        "ca-certificates",
+        "brotli",
+        "libbrotlidec.so=1-32",
+        "krb5",
+        "libgssapi_krb5.so=2-32",
+        "libidn2",
+        "libidn2.so=0-32",
+        "libnghttp2",
+        "libnghttp2.so=14-32",
+        "libnghttp3",
+        "libnghttp3.so=9-32",
+        "libngtcp2",
+        "libngtcp2.so=16-32",
+        "libpsl",
+        "libpsl.so=5-32",
+        "libssh2",
+        "libssh2.so=1-32",
+        "openssl",
+        "libcrypto.so=3-32",
+        "libssl.so=3-32",
+        "zlib",
+        "libz.so=1-32",
+        "zstd",
+        "libzstd.so=1-32"
+      ],
+      "license": [
+        "curl"
+      ],
+      "upstream": [
+        "https://curl.se/"
+      ]
+    },
+    "openssh": {
+      "filename": "openssh-10.6p1-1-armv7h.pkg.tar.xz",
+      "sha256": "b0c6cd30c3b81954a3a79790f1b016a127a77da443c499ce83902ef111141970",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "glibc",
+        "krb5",
+        "libkrb5.so=3-32",
+        "libgssapi_krb5.so=2-32",
+        "libedit",
+        "libedit.so=0-32",
+        "libxcrypt",
+        "libcrypt.so=2-32",
+        "openssl",
+        "libcrypto.so=3-32",
+        "pam",
+        "libpam.so=0-32",
+        "zlib",
+        "libz.so=1-32"
+      ],
+      "license": [
+        "0BSD",
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        "ISC",
+        "LicenseRef-Public-Domain",
+        "MIT"
+      ],
+      "upstream": [
+        "https://www.openssh.com/portable.html"
+      ]
+    },
+    "ncurses": {
+      "filename": "ncurses-6.6-2-armv7h.pkg.tar.xz",
+      "sha256": "1d937cf1c9268eafc551357697997bdbce908bad5f07f98752bd7aa01a566a8f",
+      "repo": "core",
+      "provides": [
+        "libncurses++w.so=6-32",
+        "libformw.so=6-32",
+        "libmenuw.so=6-32",
+        "libpanelw.so=6-32",
+        "libncursesw.so=6-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "libgcc",
+        "libstdc++"
+      ],
+      "license": [
+        "MIT-open-group"
+      ],
+      "upstream": [
+        "https://invisible-island.net/ncurses/ncurses.html"
+      ]
+    },
+    "foot-terminfo": {
+      "filename": "foot-terminfo-1.28.0-2-armv7h.pkg.tar.xz",
+      "sha256": "69c6abc690be9f48a08f63c93111f79401adf1b75da8797fa18085796b903d3c",
+      "repo": "extra",
+      "provides": [],
+      "dependencies": [
+        "ncurses"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://codeberg.org/dnkl/foot"
+      ]
+    },
+    "htop": {
+      "filename": "htop-3.5.3-1-armv7h.pkg.tar.xz",
+      "sha256": "aa743937384244b520ba4f1321d13728bd47450b987fed673aa11280d35c2e9b",
+      "repo": "extra",
+      "provides": [],
+      "dependencies": [
+        "libcap",
+        "libcap.so=2-32",
+        "libnl",
+        "ncurses",
+        "libncursesw.so=6-32"
+      ],
+      "license": [
+        "GPL"
+      ],
+      "upstream": [
+        "https://htop.dev/"
+      ]
+    },
+    "tmux": {
+      "filename": "tmux-3.7_c-1-armv7h.pkg.tar.xz",
+      "sha256": "6976f41484bcf4f33ead726ca689e13e14cfd3a533713d24c6d6036029f2686f",
+      "repo": "extra",
+      "provides": [],
+      "dependencies": [
+        "libevent",
+        "libevent_core-2.1.so=7-32",
+        "libutempter",
+        "ncurses",
+        "libncursesw.so=6-32",
+        "systemd-libs",
+        "libsystemd.so=0-32"
+      ],
+      "license": [
+        "BSD"
+      ],
+      "upstream": [
+        "https://github.com/tmux/tmux/wiki"
+      ]
+    },
+    "brightnessctl": {
+      "filename": "brightnessctl-0.5.1-3-armv7h.pkg.tar.xz",
+      "sha256": "01dec07d99687bbd0ff51ff6aef4b55cf906c67a1e8275e1bdd72011e94e0448",
+      "repo": "extra",
+      "provides": [],
+      "dependencies": [
+        "systemd-libs"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://github.com/Hummer12007/brightnessctl"
+      ]
+    },
+    "util-linux": {
+      "filename": "util-linux-2.42.4-1-armv7h.pkg.tar.xz",
+      "sha256": "37925bcdaeade0d954145fc6e56be348e07d22f01d7fbcf526cdec30c0303dbf",
+      "repo": "core",
+      "provides": [
+        "rfkill",
+        "hardlink"
+      ],
+      "dependencies": [
+        "util-linux-libs=2.42.4",
+        "coreutils",
+        "file",
+        "libmagic.so=1-32",
+        "glibc",
+        "libcap-ng",
+        "libgcc",
+        "libgcc_s.so=1-32",
+        "libxcrypt",
+        "libcrypt.so=2-32",
+        "ncurses",
+        "libncursesw.so=6-32",
+        "pam",
+        "readline",
+        "shadow",
+        "systemd-libs",
+        "libsystemd.so=0-32",
+        "libudev.so=1-32",
+        "zlib"
+      ],
+      "license": [
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause-UC",
+        "GPL-2.0-only",
+        "GPL-2.0-or-later",
+        "GPL-3.0-or-later",
+        "ISC",
+        "LGPL-2.1-or-later",
+        "LicenseRef-PublicDomain"
+      ],
+      "upstream": [
+        "https://github.com/util-linux/util-linux"
+      ]
+    },
+    "p11-kit": {
+      "filename": "p11-kit-0.26.5-1-armv7h.pkg.tar.xz",
+      "sha256": "76a3aebb1c8a78bedf722e868c4fad75f775256f71ecb66d49e27d9e4fdba8d3",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "coreutils",
+        "glibc",
+        "libtasn1",
+        "libp11-kit=0.26.5-1",
+        "libp11-kit.so=0-32"
+      ],
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "upstream": [
+        "https://p11-glue.freedesktop.org"
+      ]
+    },
+    "libp11-kit": {
+      "filename": "libp11-kit-0.26.5-1-armv7h.pkg.tar.xz",
+      "sha256": "cf24b2c9b1bc9121b645f951eceb63de9ed9267763c876eeac099db75eec8911",
+      "repo": "core",
+      "provides": [
+        "libp11-kit.so=0-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "libffi",
+        "libtasn1"
+      ],
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "upstream": [
+        "https://p11-glue.freedesktop.org"
+      ]
+    },
+    "ca-certificates-mozilla": {
+      "filename": "ca-certificates-mozilla-3.131-1-armv7h.pkg.tar.xz",
+      "sha256": "b860e81dbb9e22fa031fe8b4bc4aabd5c9aa88a00834d790189971cc08bcbb26",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "ca-certificates-utils>=20181109-3"
+      ],
+      "license": [
+        "MPL-2.0"
+      ],
+      "upstream": [
+        "https://firefox-source-docs.mozilla.org/security/nss/index.html"
+      ]
+    },
+    "libgcc": {
+      "filename": "libgcc-16.1.1+r12+g301eb08fa2c5-1-armv7h.pkg.tar.xz",
+      "sha256": "f7cd881c11d38793833b9bb9565cd47f23d9e0cc59ea2e20cc3d46436d28b3d5",
+      "repo": "core",
+      "provides": [
+        "libgcc_s.so=1-32"
+      ],
+      "dependencies": [
+        "glibc>=2.27"
+      ],
+      "license": [
+        "GPL-3.0-or-later WITH GCC-exception-3.1",
+        "GFDL-1.3-or-later"
+      ],
+      "upstream": [
+        "https://gcc.gnu.org"
+      ]
+    },
+    "glibc": {
+      "filename": "glibc-2.43+r22+g8362e8ce10b2-2-armv7h.pkg.tar.xz",
+      "sha256": "e69881061ac32497cdfb3079fdf70150672627b20e9fd214ec8fcb87ba3a1389",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "linux-api-headers>=4.10",
+        "tzdata",
+        "filesystem"
+      ],
+      "license": [
+        "GPL-2.0-or-later",
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://www.gnu.org/software/libc"
+      ]
+    },
+    "systemd-libs": {
+      "filename": "systemd-libs-262-1-armv7h.pkg.tar.xz",
+      "sha256": "53dafa16cc9f3dda633d7263bc93a978bca5f9581525c405007f73c3b40ddd2d",
+      "repo": "core",
+      "provides": [
+        "libsystemd",
+        "libsystemd.so=0-32",
+        "libudev.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "libgcc",
+        "libgcc_s.so=1-32",
+        "libgcrypt",
+        "lz4",
+        "xz",
+        "zstd"
+      ],
+      "license": [
+        "LGPL-2.1-or-later",
+        "CC0-1.0",
+        "GPL-2.0-or-later WITH Linux-syscall-note"
+      ],
+      "upstream": [
+        "https://www.github.com/systemd/systemd"
+      ]
+    },
+    "libmnl": {
+      "filename": "libmnl-1.0.5-2-armv7h.pkg.tar.xz",
+      "sha256": "89b66841b488da13c6b8fffa58ddc8b6e510fc7e6f2311c0c59d41717ce0aa51",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "LGPL2.1"
+      ],
+      "upstream": [
+        "https://www.netfilter.org/projects/libmnl/"
+      ]
+    },
+    "libcap": {
+      "filename": "libcap-2.78-1-armv7h.pkg.tar.xz",
+      "sha256": "f30d4b3a14fdefb9214f9f1ba65948d8b158008132143a54837ee5b6c62289ab",
+      "repo": "core",
+      "provides": [
+        "libcap.so=2-32",
+        "libpsx.so=2-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "pam"
+      ],
+      "license": [
+        "BSD-3-Clause OR GPL-2.0-only"
+      ],
+      "upstream": [
+        "https://sites.google.com/site/fullycapable/"
+      ]
+    },
+    "db": {
+      "filename": "db-6.2.32-4-armv7h.pkg.tar.xz",
+      "sha256": "002fe3cec4ade64a7205db678858354c84b7de50209f6a2506364bcaf23f6eb2",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "libgcc",
+        "libstdc++",
+        "sh"
+      ],
+      "license": [
+        "AGPL-3.0-only"
+      ],
+      "upstream": [
+        "https://www.oracle.com/technology/software/products/berkeley-db/index.html"
+      ]
+    },
+    "libbpf": {
+      "filename": "libbpf-1.7.0-1-armv7h.pkg.tar.xz",
+      "sha256": "861ff0d99224d266afb19e2810c2d30ce0e4cecc3cc5be8ec061d7519010e29e",
+      "repo": "core",
+      "provides": [
+        "libbpf.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "libelf",
+        "linux-api-headers",
+        "zlib"
+      ],
+      "license": [
+        "LGPL-2.1-only OR BSD-2-Clause"
+      ],
+      "upstream": [
+        "https://github.com/libbpf/libbpf"
+      ]
+    },
+    "libelf": {
+      "filename": "libelf-0.196-1-armv7h.pkg.tar.xz",
+      "sha256": "b065c45d6e49be76f1bd0c146f2b163e72ef7274abe711bde698dfd924e3c710",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "bzip2",
+        "libbz2.so=1.0-32",
+        "curl",
+        "libcurl.so=4-32",
+        "glibc",
+        "json-c",
+        "xz",
+        "liblzma.so=5-32",
+        "zlib",
+        "zstd",
+        "libzstd.so=1-32"
+      ],
+      "license": [
+        "GPL-2.0-or-later OR LGPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://sourceware.org/elfutils/"
+      ]
+    },
+    "libtirpc": {
+      "filename": "libtirpc-1.3.8-1-armv7h.pkg.tar.xz",
+      "sha256": "4fd15fba839d0dfec8437caa23acb35f9d882e116f093d2d2dd593bdd6b97ec8",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "krb5",
+        "glibc"
+      ],
+      "license": [
+        "SISSL",
+        "BSD-3-Clause"
+      ],
+      "upstream": [
+        "http://git.linux-nfs.org/?p=steved/libtirpc.git;a=summary"
+      ]
+    },
+    "iptables-legacy": {
+      "filename": "iptables-legacy-1:1.8.13-1-armv7h.pkg.tar.xz",
+      "sha256": "b9ee4c1531052fcf9f86e4d6990f9cccf9e6a84649429a6c6a2377c500476a7b",
+      "repo": "core",
+      "provides": [
+        "iptables",
+        "libip4tc.so=2-32",
+        "libip6tc.so=2-32",
+        "libipq.so=0-32",
+        "libxtables.so=12-32"
+      ],
+      "dependencies": [
+        "bash",
+        "glibc",
+        "libmnl",
+        "libnetfilter_conntrack",
+        "libnfnetlink",
+        "libnftnl",
+        "libpcap"
+      ],
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "upstream": [
+        "https://www.netfilter.org/projects/iptables/index.html"
+      ]
+    },
+    "libidn2": {
+      "filename": "libidn2-2.3.8-1-armv7h.pkg.tar.xz",
+      "sha256": "64f0b66321b43cc22ed4dd39047ad405ff0664906aa7d832770813a14d8b6584",
+      "repo": "core",
+      "provides": [
+        "libidn2.so=0-32"
+      ],
+      "dependencies": [
+        "libunistring",
+        "libunistring.so=5-32"
+      ],
+      "license": [
+        "GPL2",
+        "LGPL3"
+      ],
+      "upstream": [
+        "https://www.gnu.org/software/libidn/#libidn2"
+      ]
+    },
+    "pcre2": {
+      "filename": "pcre2-10.49-1-armv7h.pkg.tar.xz",
+      "sha256": "d91e8a58953c0f4f6f4b9ab9d46bab9c629f6603760599ad8107430b4376ed5f",
+      "repo": "core",
+      "provides": [
+        "libpcre2-8.so=0-32",
+        "libpcre2-16.so=0-32",
+        "libpcre2-32.so=0-32",
+        "libpcre2-posix.so=3-32"
+      ],
+      "dependencies": [
+        "bzip2",
+        "glibc",
+        "readline",
+        "zlib"
+      ],
+      "license": [
+        "BSD-2-Clause",
+        "BSD-3-Clause WITH PCRE2-exception"
+      ],
+      "upstream": [
+        "https://github.com/PCRE2Project/pcre2"
+      ]
+    },
+    "readline": {
+      "filename": "readline-8.3.6-1-armv7h.pkg.tar.xz",
+      "sha256": "d3661b93e96a434d924cf7798d44b2407e159a7c2070c532c11dbfb9578bdcaf",
+      "repo": "core",
+      "provides": [
+        "libhistory.so=8-32",
+        "libreadline.so=8-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "libncursesw.so=6-32",
+        "ncurses"
+      ],
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://tiswww.case.edu/php/chet/readline/rltop.html"
+      ]
+    },
+    "mpfr": {
+      "filename": "mpfr-4.2.2-1-armv7h.pkg.tar.xz",
+      "sha256": "918d251de991b592f409408dcce9ec048b28927968b6071fcd86fd77bed9d1c4",
+      "repo": "core",
+      "provides": [
+        "libmpfr.so=6-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "gmp"
+      ],
+      "license": [
+        "GPL-3.0-or-later",
+        "LGPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://www.mpfr.org/"
+      ]
+    },
+    "gmp": {
+      "filename": "gmp-6.3.0-3-armv7h.pkg.tar.xz",
+      "sha256": "88645121c305b719b5f0e795dc141adac3ec2e66c9055aa6f722a9e2b055ef9f",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "libgcc",
+        "libstdc++",
+        "glibc"
+      ],
+      "license": [
+        "GPL-2.0-or-later",
+        "LGPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://gmplib.org/"
+      ]
+    },
+    "acl": {
+      "filename": "acl-2.4.0-1-armv7h.pkg.tar.xz",
+      "sha256": "fd9c07d4df3fcd50bc0ab5ca5ce85cd2fc6c0dba4a23cd9ff668815d78abc096",
+      "repo": "core",
+      "provides": [
+        "libacl.so=1-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "LGPL-2.1-or-later AND GPL-2.0-or-later"
+      ],
+      "upstream": [
+        "https://savannah.nongnu.org/projects/acl"
+      ]
+    },
+    "bzip2": {
+      "filename": "bzip2-1.0.8-6-armv7h.pkg.tar.xz",
+      "sha256": "76bebf6574f96bd4de468ede862c4ccf284b295cbdda01f7729b1bd7c15c8977",
+      "repo": "core",
+      "provides": [
+        "libbz2.so=1.0-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "sh"
+      ],
+      "license": [
+        "BSD"
+      ],
+      "upstream": [
+        "https://sourceware.org/bzip2/"
+      ]
+    },
+    "libseccomp": {
+      "filename": "libseccomp-2.6.0-1-armv7h.pkg.tar.xz",
+      "sha256": "2f645cfb46e823b234448ef92fff83cce201b0d808fc1f615404d680f6e10c7f",
+      "repo": "core",
+      "provides": [
+        "libseccomp.so=2-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "LGPL-2.1-only"
+      ],
+      "upstream": [
+        "https://github.com/seccomp/libseccomp"
+      ]
+    },
+    "libedit": {
+      "filename": "libedit-20260512_3.1-1-armv7h.pkg.tar.xz",
+      "sha256": "88f97338394e34fdb9133435e08fbab5605b73c3b250eb737974b9e865f8020b",
+      "repo": "core",
+      "provides": [
+        "libedit.so=0-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "libncursesw.so=6-32",
+        "ncurses"
+      ],
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "upstream": [
+        "https://thrysoee.dk/editline/"
+      ]
+    },
+    "krb5": {
+      "filename": "krb5-1.22.2-1-armv7h.pkg.tar.xz",
+      "sha256": "6cd171700ff0c7ae92c5e36f6654556783575a9db3b7928aec10cb6ee593a48c",
+      "repo": "core",
+      "provides": [
+        "libgssapi_krb5.so=2-32",
+        "libgssrpc.so=4-32",
+        "libk5crypto.so=3-32",
+        "libkadm5clnt_mit.so=12-32",
+        "libkadm5srv_mit.so=12-32",
+        "libkdb5.so=10-32",
+        "libkdb_ldap.so=1-32",
+        "libkrad.so=0-32",
+        "libkrb5.so=3-32",
+        "libkrb5support.so=0-32"
+      ],
+      "dependencies": [
+        "bash",
+        "e2fsprogs",
+        "glibc",
+        "keyutils",
+        "libldap",
+        "libverto-module-base",
+        "openssl",
+        "lmdb",
+        "libcom_err.so=2-32",
+        "libkeyutils.so=1-32",
+        "libss.so=2-32",
+        "libverto.so=1-32"
+      ],
+      "license": [
+        "custom"
+      ],
+      "upstream": [
+        "https://web.mit.edu/kerberos/"
+      ]
+    },
+    "openssl": {
+      "filename": "openssl-3.6.5-1-armv7h.pkg.tar.xz",
+      "sha256": "60a17be8902b0d0de8884f9aea8588c1c0de55a6729953a155524b11c9782f44",
+      "repo": "core",
+      "provides": [
+        "libcrypto.so=3-32",
+        "libssl.so=3-32"
+      ],
+      "dependencies": [
+        "brotli",
+        "glibc",
+        "zlib",
+        "zstd"
+      ],
+      "license": [
+        "Apache-2.0"
+      ],
+      "upstream": [
+        "https://www.openssl.org"
+      ]
+    },
+    "zlib-ng-compat": {
+      "filename": "zlib-ng-compat-2.3.3-1-armv7h.pkg.tar.xz",
+      "sha256": "8bdea9301dec17600437b383e174c87fd66b9f508459b2d330756eec6022d4de",
+      "repo": "extra",
+      "provides": [
+        "zlib",
+        "libz.so=1-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "Zlib"
+      ],
+      "upstream": [
+        "https://github.com/zlib-ng/zlib-ng"
+      ]
+    },
+    "libutempter": {
+      "filename": "libutempter-1.2.3-1-armv7h.pkg.tar.xz",
+      "sha256": "bc0a00a628334e2fc493fc86b0d4f328d965a0c204015b2ddb1f11985cc3d872",
+      "repo": "extra",
+      "provides": [],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://github.com/altlinux/libutempter"
+      ]
+    },
+    "libevent": {
+      "filename": "libevent-2.1.13-2-armv7h.pkg.tar.xz",
+      "sha256": "0ad00bd77a51b1fddc780141631d6a211a8ef7301a8081e430010c4ac9d4a6d7",
+      "repo": "core",
+      "provides": [
+        "libevent-2.1.so=7-32",
+        "libevent_core-2.1.so=7-32",
+        "libevent_extra-2.1.so=7-32",
+        "libevent_openssl-2.1.so=7-32",
+        "libevent_pthreads-2.1.so=7-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "openssl"
+      ],
+      "license": [
+        "BSD-3-Clause-Modification"
+      ],
+      "upstream": [
+        "https://libevent.org/"
+      ]
+    },
+    "util-linux-libs": {
+      "filename": "util-linux-libs-2.42.4-1-armv7h.pkg.tar.xz",
+      "sha256": "c4a9ec2ab12782a127fa68606c0fadf6d38f32c58fa1a7e9200bef20e985e183",
+      "repo": "core",
+      "provides": [
+        "libutil-linux",
+        "libblkid.so=1-32",
+        "libfdisk.so=1-32",
+        "libmount.so=1-32",
+        "libsmartcols.so=1-32",
+        "libuuid.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "sqlite"
+      ],
+      "license": [
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        "BSD-4-Clause-UC",
+        "GPL-2.0-only",
+        "GPL-2.0-or-later",
+        "GPL-3.0-or-later",
+        "ISC",
+        "LGPL-2.1-or-later",
+        "LicenseRef-PublicDomain"
+      ],
+      "upstream": [
+        "https://github.com/util-linux/util-linux"
+      ]
+    },
+    "libcap-ng": {
+      "filename": "libcap-ng-0.9.6-1-armv7h.pkg.tar.xz",
+      "sha256": "ed74d1f89b76b8b82fcf9e0a5194b61ea9f8330eb7ded0254d21e3a51ea0845c",
+      "repo": "core",
+      "provides": [
+        "libcap-ng.so=0-32",
+        "libdrop_ambient.so=0-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "GPL-2.0-or-later",
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://people.redhat.com/sgrubb/libcap-ng/"
+      ]
+    },
+    "libtasn1": {
+      "filename": "libtasn1-4.21.0-1-armv7h.pkg.tar.xz",
+      "sha256": "2806d0e3b5b32aeedf3c22a259095848c962c82d4f53cd542503271da5f4557c",
+      "repo": "core",
+      "provides": [],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "GPL-3.0-or-later",
+        "LGPL-2.1-or-later",
+        "GFDL-1.3-or-later"
+      ],
+      "upstream": [
+        "https://www.gnu.org/software/libtasn1/"
+      ]
+    },
+    "zstd": {
+      "filename": "zstd-1.5.7-3-armv7h.pkg.tar.xz",
+      "sha256": "f2b39a761e27d091d1dbe1f3d1a751fd3cd705ec4ddcdbc3d605ac1a875451be",
+      "repo": "core",
+      "provides": [
+        "libzstd.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "libgcc",
+        "libstdc++",
+        "zlib",
+        "xz",
+        "lz4"
+      ],
+      "license": [
+        "BSD-3-Clause",
+        "GPL-2.0-only"
+      ],
+      "upstream": [
+        "https://facebook.github.io/zstd/"
+      ]
+    },
+    "libunistring": {
+      "filename": "libunistring-1.4.2-1-armv7h.pkg.tar.xz",
+      "sha256": "de10566c29700cc5f152e38196fc8f43b6dcc938bce92acb0ef7924d16cf09de",
+      "repo": "core",
+      "provides": [
+        "libunistring.so=5-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "GPL-2.0-or-later",
+        "LGPL-3.0-or-later"
+      ],
+      "upstream": [
+        "https://www.gnu.org/software/libunistring/"
+      ]
+    },
+    "libnghttp3": {
+      "filename": "libnghttp3-1.18.0-1-armv7h.pkg.tar.xz",
+      "sha256": "e8a1c1862bed2b0bf23f32dcd708997f77f0c9913f5a859b8c93f1af2855e948",
+      "repo": "core",
+      "provides": [
+        "libnghttp3.so=9-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://github.com/ngtcp2/nghttp3"
+      ]
+    },
+    "libngtcp2": {
+      "filename": "libngtcp2-1.25.0-1-armv7h.pkg.tar.xz",
+      "sha256": "6ea8a1c9c29ac8af7d575d68a6408814188655fafd0b0d487103def89cb81471",
+      "repo": "core",
+      "provides": [
+        "libngtcp2.so=16-32",
+        "libngtcp2_crypto_gnutls.so=8-32",
+        "libngtcp2_crypto_ossl.so=0-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "openssl",
+        "libssl.so=3-32",
+        "gnutls"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://github.com/ngtcp2/ngtcp2"
+      ]
+    },
+    "libnghttp2": {
+      "filename": "libnghttp2-1.70.0-1-armv7h.pkg.tar.xz",
+      "sha256": "045608afd919b27640c6bdce83e9f716f5e5835d4251d7fff39d06a8ebec02f1",
+      "repo": "core",
+      "provides": [
+        "libnghttp2.so=14-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://nghttp2.org/"
+      ]
+    },
+    "libssh2": {
+      "filename": "libssh2-1.11.1-7-armv7h.pkg.tar.xz",
+      "sha256": "e51bb61c38708238be5127a58a6423f43069e02dc11b31322898f736783f7f92",
+      "repo": "core",
+      "provides": [
+        "libssh2.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "openssl",
+        "zlib"
+      ],
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "upstream": [
+        "https://www.libssh2.org/"
+      ]
+    },
+    "libpsl": {
+      "filename": "libpsl-0.21.5-2-armv7h.pkg.tar.xz",
+      "sha256": "3d93fc1540229f6e0ef0e800d795656221a802661d2b37066f3878c60550029b",
+      "repo": "core",
+      "provides": [
+        "libpsl.so=5-32"
+      ],
+      "dependencies": [
+        "libidn2",
+        "libunistring",
+        "libidn2.so=0-32",
+        "libunistring.so=5-32"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://github.com/rockdaboot/libpsl"
+      ]
+    },
+    "brotli": {
+      "filename": "brotli-1.2.0-1-armv7h.pkg.tar.xz",
+      "sha256": "dbbbd24df31383faefca604d42eae1fb4cab73333b6cc9b5f6cf9d178c75bc1b",
+      "repo": "core",
+      "provides": [
+        "libbrotlicommon.so=1-32",
+        "libbrotlidec.so=1-32",
+        "libbrotlienc.so=1-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://github.com/google/brotli"
+      ]
+    },
+    "e2fsprogs": {
+      "filename": "e2fsprogs-1.47.4-1-armv7h.pkg.tar.xz",
+      "sha256": "e48cb784726c5771c3caa21cc95bbdf134f5ac93b833d3574f295086c085cc0d",
+      "repo": "core",
+      "provides": [
+        "libcom_err.so=2-32",
+        "libe2p.so=2-32",
+        "libext2fs.so=2-32",
+        "libss.so=2-32"
+      ],
+      "dependencies": [
+        "sh",
+        "util-linux-libs"
+      ],
+      "license": [
+        "GPL",
+        "LGPL",
+        "MIT"
+      ],
+      "upstream": [
+        "http://e2fsprogs.sourceforge.net"
+      ]
+    },
+    "keyutils": {
+      "filename": "keyutils-1.6.3-4-armv7h.pkg.tar.xz",
+      "sha256": "b9427fe9f23503cba436c39d0c9fc5d50370d9ce360ef1d6e308b686ec54504f",
+      "repo": "core",
+      "provides": [
+        "libkeyutils.so=1-32"
+      ],
+      "dependencies": [
+        "glibc",
+        "sh"
+      ],
+      "license": [
+        "GPL-2.0-or-later",
+        "LGPL-2.1-or-later"
+      ],
+      "upstream": [
+        "https://www.kernel.org/"
+      ]
+    },
+    "libffi": {
+      "filename": "libffi-3.8.0-1-armv7h.pkg.tar.xz",
+      "sha256": "336ceae8c16dbadb1b22f4dd4dbfd787356a32bd1eaa1b218aeb85a767d200a7",
+      "repo": "core",
+      "provides": [
+        "libffi.so=8-32"
+      ],
+      "dependencies": [
+        "glibc"
+      ],
+      "license": [
+        "MIT"
+      ],
+      "upstream": [
+        "https://sourceware.org/libffi/"
+      ]
+    }
+  }
+}

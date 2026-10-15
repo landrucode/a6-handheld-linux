@@ -1,0 +1,18 @@
+/include/ "a6-n42ap-usb-timer-a2.dts"
+
+/* Diagnostic only: reserve before Linux can allocate either page.
+ * Both sampled low pages are excluded from CPU0's cached linear mapping.
+ * No trampoline is installed and CPU1 is not released by this image.
+ */
+/ {
+    reserved-memory {
+        a6-cpu1-reset-vector@80000000 {
+            reg = <0x80000000 0x2000>;
+            no-map;
+        };
+        a6-cpu1-mailbox@83ffe000 {
+            reg = <0x83ffe000 0x1000>;
+            no-map;
+        };
+    };
+};

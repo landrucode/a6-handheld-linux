@@ -1,0 +1,10 @@
+/include/ "a6-n42ap-usb-timer-a2.dts"
+
+/* Diagnostic only: isolate high-speed chirp/PHY behavior on wall return. */
+/ {
+	soc {
+		usb@36100000 {
+			maximum-speed = "full-speed";
+		};
+	};
+};

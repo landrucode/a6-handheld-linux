@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Touch response check</title>
+<style>body{margin:18px;font:22px sans-serif;background:#18202a;color:#eef3ff}header{position:sticky;top:0;background:#18202a;padding:10px;border:2px solid #79b8ff}article{margin:16px 0;padding:18px;background:#273446;border-radius:8px}small{font-size:16px}</style>
+<header>Scroll and pinch to zoom<br><small id="meter">Measuring browser frame delivery…</small></header>
+<p>This local page tests gestures without network requests or a heavy website. Compare its response with YouTube. Frame gaps below measure browser callbacks, not the panel's physical display latency.</p>
+<p><a href="https://www.youtube.com/" style="color:#79b8ff">Compare YouTube</a></p>
+<video controls preload="metadata" width="100%" src="local-video.mp4"></video>
+<p>The local clip is 640×360 at 15 frames per second. Press play to test decoding separately from a website.</p>
+<main></main>
+<script>
+const main=document.querySelector('main');for(let i=1;i<=40;i++){const card=document.createElement('article');card.textContent=`Section ${i}. Drag to scroll, then pinch in and out. Text and controls should track your fingers rather than catching up after you stop.`;main.appendChild(card)}
+let last=0,worst=0,total=0,count=0,touches=0,shown=0;
+addEventListener('touchstart',()=>touches++,{passive:true});
+function frame(now){if(last){const gap=now-last;worst=Math.max(worst,gap);total+=gap;count++}last=now;if(now-shown>1000){document.querySelector('#meter').textContent=`Frame gap: average ${(total/Math.max(count,1)).toFixed(0)} ms; worst ${worst.toFixed(0)} ms. Touch starts: ${touches}`;shown=now;worst=total=count=0}requestAnimationFrame(frame)}requestAnimationFrame(frame);
+</script>

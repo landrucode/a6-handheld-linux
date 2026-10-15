@@ -1,0 +1,16 @@
+/include/ "a6-n42ap-usb-timer-a2.dts"
+
+/* Isolated CPU1 translation experiment. Never used by the UP baseline. */
+/ {
+    reserved-memory {
+        a6-cpu1-reset-vector@80000000 {
+            reg = <0x80000000 0x2000>;
+            no-map;
+        };
+        a6-cpu1-tlbi-private@83ff6000 {
+            /* data A/B, 16 KiB L1, L2, extended stub, entry/markers */
+            reg = <0x83ff6000 0x9000>;
+            no-map;
+        };
+    };
+};

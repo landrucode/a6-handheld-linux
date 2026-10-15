@@ -1,0 +1,18 @@
+--- a/drivers/usb/dwc2/gadget.c
++++ b/drivers/usb/dwc2/gadget.c
+@@ -3759,7 +3759,14 @@
+ 		/* Reset device address to zero */
+ 		dwc2_clear_bit(hsotg, DCFG, DCFG_DEVADDR_MASK);
+ 
+-		if (usb_status & GOTGCTL_BSESVLD && connected)
++		/*
++		 * N42: after a session end the link is left in L3 with
++		 * connected already 0, so the stock guard skips core init and
++		 * every later EP0 setup queue fails with -EAGAIN. Also
++		 * reinitialise on a valid session while in L3.
++		 */
++		if ((usb_status & GOTGCTL_BSESVLD) &&
++		    (connected || hsotg->lx_state == DWC2_L3))
+ 			dwc2_hsotg_core_init_disconnected(hsotg, true);
+ 	}
+ 

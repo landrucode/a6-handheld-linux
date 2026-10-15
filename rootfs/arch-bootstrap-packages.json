@@ -1,0 +1,31 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/core/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "signing_reference": "https://archlinuxarm.org/about/package-signing",
+  "packages": {
+    "archlinuxarm-keyring": {
+      "filename": "archlinuxarm-keyring-20240419-2-any.pkg.tar.xz",
+      "sha256": "ba5873af6ffe030bb338c90e49c98e89807ad510033222eda96064beee64cb66"
+    },
+    "bash": {
+      "filename": "bash-5.3.15-1-armv7h.pkg.tar.xz",
+      "sha256": "54ad2d6683ccaac6cf8d460a8f6bb9e2b9b8bff733902a0a0e5b5e4535f330c7"
+    },
+    "glibc": {
+      "filename": "glibc-2.43+r22+g8362e8ce10b2-2-armv7h.pkg.tar.xz",
+      "sha256": "e69881061ac32497cdfb3079fdf70150672627b20e9fd214ec8fcb87ba3a1389"
+    },
+    "ncurses": {
+      "filename": "ncurses-6.6-2-armv7h.pkg.tar.xz",
+      "sha256": "1d937cf1c9268eafc551357697997bdbce908bad5f07f98752bd7aa01a566a8f"
+    },
+    "readline": {
+      "filename": "readline-8.3.003-1-armv7h.pkg.tar.xz",
+      "sha256": "5165af058a3022a4ffb9c5f6f77a54f34a9aa06a105e8dd3d1a2bc8c9d2dc9d9"
+    },
+    "libgcc": {
+      "filename": "libgcc-16.1.1+r12+g301eb08fa2c5-1-armv7h.pkg.tar.xz",
+      "sha256": "f7cd881c11d38793833b9bb9565cd47f23d9e0cc59ea2e20cc3d46436d28b3d5"
+    }
+  }
+}

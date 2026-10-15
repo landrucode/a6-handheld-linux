@@ -1,0 +1,10 @@
+{
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "gdb": {
+      "repo": "extra",
+      "filename": "gdb-17.2-1-armv7h.pkg.tar.xz",
+      "sha256": "54a3dbe5b3c40572175985be417316ab8221324614755d7a848ecb27bee47c19"
+    }
+  }
+}

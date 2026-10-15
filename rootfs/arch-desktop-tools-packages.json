@@ -1,0 +1,27 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/extra/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "libnotify": {
+      "filename": "libnotify-0.8.8-1-armv7h.pkg.tar.xz",
+      "sha256": "3100123fdea896b94fadd555377d6e2eb814d2cd6ac8759c185fb5ee6fb5a509"
+    },
+    "mako": {
+      "filename": "mako-1.11.0-1-armv7h.pkg.tar.xz",
+      "sha256": "12e64def97a1bb22b3c906b0813127b8ae96de0eb55688c53f8cbb84a6927a81"
+    },
+    "swayidle": {
+      "filename": "swayidle-1.9.0-1-armv7h.pkg.tar.xz",
+      "sha256": "81f144bb3bec34025a0f827d46a1a5af6fce493b40eae3f968f7797770095820"
+    },
+    "wlopm": {
+      "filename": "wlopm-1.0.0-3-armv7h.pkg.tar.xz",
+      "sha256": "45b3d1c606517426c6832d28249f18dd0fd45fa7caf0cff982dbf447a71c4d16"
+    },
+    "systemd-libs": {
+      "filename": "systemd-libs-262-1-armv7h.pkg.tar.xz",
+      "sha256": "53dafa16cc9f3dda633d7263bc93a978bca5f9581525c405007f73c3b40ddd2d",
+      "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/core/"
+    }
+  }
+}

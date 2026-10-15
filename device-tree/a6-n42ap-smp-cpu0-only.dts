@@ -1,0 +1,8 @@
+/include/ "a6-n42ap-usb-timer-a2.dts"
+
+/* SMP kernel configuration checkpoint: keep CPU1 absent and capped. */
+/ {
+    chosen {
+        bootargs = "earlycon=apple,s5l-uart,0x32600000 console=ttySAC0,115200 loglevel=8 panic=0 lpj=1000000 maxcpus=1";
+    };
+};

@@ -1,0 +1,26 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "libxinerama": {
+      "repo": "extra",
+      "filename": "libxinerama-1.1.6-1-armv7h.pkg.tar.xz",
+      "sha256": "217efd5af8366e2c188eaac70dc37988fb48a2e8d41ce5ea7364e323b8583378"
+    },
+    "libxkbcommon": {
+      "repo": "extra",
+      "filename": "libxkbcommon-1.13.2-1-armv7h.pkg.tar.xz",
+      "sha256": "9da20cfbdd33f6df9fb9c1456bbf36cca5f58066da479d57c3b569579f0a6b79"
+    },
+    "libxtst": {
+      "repo": "extra",
+      "filename": "libxtst-1.2.5-1-armv7h.pkg.tar.xz",
+      "sha256": "7f5b8df0bf9d5878657d5f3e8a24b5b06cfc83484ccd438be5a16dc655e6da10"
+    },
+    "xdotool": {
+      "repo": "extra",
+      "filename": "xdotool-4.20260303.1-1-armv7h.pkg.tar.xz",
+      "sha256": "5e6e3c5529469e43ef3b5bb71e3f40bbb3bf11c6eeb547aa5274ba414005918f"
+    }
+  }
+}

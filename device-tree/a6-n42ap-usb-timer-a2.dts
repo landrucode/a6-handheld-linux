@@ -1,0 +1,9 @@
+/include/ "a6-n42ap-usb-console.dts"
+
+/* screen17: only AIC source a2 follows CNTV mask/unmask in both cycles.
+ * Keep the earlier candidate trees intact for reproducible controls. */
+/ {
+    timer {
+        interrupts = <0xa2>;
+    };
+};

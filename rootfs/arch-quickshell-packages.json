@@ -1,0 +1,231 @@
+{
+  "mirror": "https://ca.us.mirror.archlinuxarm.org/armv7h/",
+  "signing_fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "packages": {
+    "qt6-base": {
+      "repo": "extra",
+      "filename": "qt6-base-6.11.2-3-armv7h.pkg.tar.xz",
+      "sha256": "bf6f912688dfb7b8db608f583b20c2755ef5de2b34f1df0f2f7d7023fc958d7f"
+    },
+    "qt6-declarative": {
+      "repo": "extra",
+      "filename": "qt6-declarative-6.11.2-2-armv7h.pkg.tar.xz",
+      "sha256": "bffa4f7339e26fc2f6ab7499641e731aa0b44b8b1a048588c1e5867028b7f0b0"
+    },
+    "qt6-shadertools": {
+      "repo": "extra",
+      "filename": "qt6-shadertools-6.11.2-1-armv7h.pkg.tar.xz",
+      "sha256": "325e566e60067b62fece390af90dd7f797066c8be12dc6d7b47cc3ef98143edc"
+    },
+    "qt6-svg": {
+      "repo": "extra",
+      "filename": "qt6-svg-6.11.2-1-armv7h.pkg.tar.xz",
+      "sha256": "e6429e2f2ad79cc5507f7d7cc772fe4502fa4a8f93a49bcd507545c990fc447a"
+    },
+    "qt6-wayland": {
+      "repo": "extra",
+      "filename": "qt6-wayland-6.11.2-1-armv7h.pkg.tar.xz",
+      "sha256": "40006cd81b85119d169bbd1f7135b944c84b89d01fcfe408c9cc1a5312868111"
+    },
+    "quickshell": {
+      "repo": "extra",
+      "filename": "quickshell-0.3.1-1-armv7h.pkg.tar.xz",
+      "sha256": "8a922c8087459d92e7ee49151c22897b164d2fda7ba19333c03b9a41acdf8af3"
+    },
+    "audit": {
+      "repo": "core",
+      "filename": "audit-4.2.1-1-armv7h.pkg.tar.xz",
+      "sha256": "9e5f187296d8f755ad6c688393224c9db170cf23559d3d7fb2d457641a839997"
+    },
+    "dbus": {
+      "repo": "core",
+      "filename": "dbus-1.16.2-1-armv7h.pkg.tar.xz",
+      "sha256": "d2b299a31390656b48ee2d0a9b594d4fbb861d7a670667fc357a79a16caac189"
+    },
+    "dbus-broker-units": {
+      "repo": "core",
+      "filename": "dbus-broker-units-37-3-armv7h.pkg.tar.xz",
+      "sha256": "178e7133962ac269f9eb7f2c6ed1d885fc37be0416aa93c010f929a52d4fe675"
+    },
+    "elfutils": {
+      "repo": "core",
+      "filename": "elfutils-0.196-1-armv7h.pkg.tar.xz",
+      "sha256": "bad9205ef4ef637f1918c33d544a7f087c451b348e123d6c53ae4648f35d7de1"
+    },
+    "libcap-ng": {
+      "repo": "core",
+      "filename": "libcap-ng-0.9.6-1-armv7h.pkg.tar.xz",
+      "sha256": "ed74d1f89b76b8b82fcf9e0a5194b61ea9f8330eb7ded0254d21e3a51ea0845c"
+    },
+    "libelf": {
+      "repo": "core",
+      "filename": "libelf-0.196-1-armv7h.pkg.tar.xz",
+      "sha256": "b065c45d6e49be76f1bd0c146f2b163e72ef7274abe711bde698dfd924e3c710"
+    },
+    "pam": {
+      "repo": "core",
+      "filename": "pam-1.7.2-2-armv7h.pkg.tar.xz",
+      "sha256": "9f9b97d74c71590188505e2798b651c60ff1177b879d453e42f912ad9d28e4bd"
+    },
+    "sqlite": {
+      "repo": "core",
+      "filename": "sqlite-3.53.4-1-armv7h.pkg.tar.xz",
+      "sha256": "2b151f4db08a1c0f9189f9998fae96213d0795ea6e5b802ac4aabd945ca3340e"
+    },
+    "cpptrace": {
+      "repo": "extra",
+      "filename": "cpptrace-1.0.4-2-armv7h.pkg.tar.xz",
+      "sha256": "0a3bda1c60b662fbb2157ac43a482a6a7f87c74154bef4e1d1a156067a806482"
+    },
+    "double-conversion": {
+      "repo": "extra",
+      "filename": "double-conversion-3.4.0-1-armv7h.pkg.tar.xz",
+      "sha256": "58c1b9ba13bfe59f7df1b1685558eac81be6f1639215153987f36c4a3836bafd"
+    },
+    "jemalloc": {
+      "repo": "extra",
+      "filename": "jemalloc-1:5.4.0-1-armv7h.pkg.tar.xz",
+      "sha256": "137540699ee4fd06bb202cc9621db44a6e5571a42259318508532d45f582847a"
+    },
+    "libb2": {
+      "repo": "extra",
+      "filename": "libb2-0.98.1-3-armv7h.pkg.tar.xz",
+      "sha256": "d24d5b10347cec1931464b0bb9fa5b1d6c37778acd228dd988008d2655adedcd"
+    },
+    "libpipewire": {
+      "repo": "extra",
+      "filename": "libpipewire-1:1.6.8-1-armv7h.pkg.tar.xz",
+      "sha256": "de81d12d3e5fcd79ea2647815c5322efb7a324536c9d4a300aaeed17b6702eed"
+    },
+    "libproxy": {
+      "repo": "extra",
+      "filename": "libproxy-0.5.12-1-armv7h.pkg.tar.xz",
+      "sha256": "15a72cd0b9eba88f5a6a5ee1d942348405e30a15b7f6e732b1a24bac2576728a"
+    },
+    "libunwind": {
+      "repo": "extra",
+      "filename": "libunwind-1.8.3-1-armv7h.pkg.tar.xz",
+      "sha256": "809748b748709b6d1b6247a3f769e6f55e144383174ff52fdfd4cae510f51f3e"
+    },
+    "liburing": {
+      "repo": "extra",
+      "filename": "liburing-2.15-1-armv7h.pkg.tar.xz",
+      "sha256": "ee4e558324f6b60b056fd6b284d1b0eb9f3ddcf88431fa02f96106de36850bb8"
+    },
+    "libxkbcommon-x11": {
+      "repo": "extra",
+      "filename": "libxkbcommon-x11-1.13.2-1-armv7h.pkg.tar.xz",
+      "sha256": "e3de857d765de3de7a918a7cf51aefe45ce569f4484b34abb3ea38c1e503baba"
+    },
+    "md4c": {
+      "repo": "extra",
+      "filename": "md4c-0.5.3-1-armv7h.pkg.tar.xz",
+      "sha256": "933c471160261e98079c02c63f467ac14d444fee87908168b9f29c1ffd160e82"
+    },
+    "polkit": {
+      "repo": "extra",
+      "filename": "polkit-127-3-armv7h.pkg.tar.xz",
+      "sha256": "ad2fd571c3aec5a72c0a2090a184d1fe778ff75da9e23ec5e7692e3ae663ed7f"
+    },
+    "tslib": {
+      "repo": "extra",
+      "filename": "tslib-1.24-1-armv7h.pkg.tar.xz",
+      "sha256": "6d5771de4f1814b1b804e2e5e27247d1d2b7f5d6b82db3f11e780819366b922e"
+    },
+    "xcb-util-cursor": {
+      "repo": "extra",
+      "filename": "xcb-util-cursor-0.1.6-1-armv7h.pkg.tar.xz",
+      "sha256": "7d2c087f6636ce27255f4744a3d84a3d9af0da90dc7acdebcbf84bef8460bc10"
+    },
+    "xcb-util-image": {
+      "repo": "extra",
+      "filename": "xcb-util-image-0.4.1-3-armv7h.pkg.tar.xz",
+      "sha256": "d89a8e312e2d17e123b641a8253db4482821f60f8ef9638ab6740ec1c5d4256a"
+    },
+    "xcb-util-keysyms": {
+      "repo": "extra",
+      "filename": "xcb-util-keysyms-0.4.1-5-armv7h.pkg.tar.xz",
+      "sha256": "e5baa53896af5896ed4956fa315ef18767440aa3f6618ba9699769de9f81f469"
+    },
+    "xcb-util-renderutil": {
+      "repo": "extra",
+      "filename": "xcb-util-renderutil-0.3.10-2-armv7h.pkg.tar.xz",
+      "sha256": "5b2e475510345addae68444bfce9d561c694beb151754f4c34a7f6befd164ff2"
+    },
+    "xcb-util-wm": {
+      "repo": "extra",
+      "filename": "xcb-util-wm-0.4.2-2-armv7h.pkg.tar.xz",
+      "sha256": "ac2db3c2c39d00e76faa0883e229b0d3042dfd199c60f0bb1c20892935cb025e"
+    },
+    "curl": {
+      "repo": "core",
+      "filename": "curl-8.22.0-1-armv7h.pkg.tar.xz",
+      "sha256": "0d6b2e4d1d86ea61cee198a190855def7ed9c1bbef56717a2d80fffa2dc99903"
+    },
+    "icu": {
+      "repo": "core",
+      "filename": "icu-78.3-1-armv7h.pkg.tar.xz",
+      "sha256": "e3a5a987d6989132db09ef4a4a7ee9c28c03a5c00f6c100e7d505b77cb336158"
+    },
+    "pcre2": {
+      "repo": "core",
+      "filename": "pcre2-10.48-1-armv7h.pkg.tar.xz",
+      "sha256": "24c3a9f3f3f426f347bec31c366e331ee85a27fbf8f0ef7a8c9edbb08334b72c"
+    },
+    "duktape": {
+      "repo": "extra",
+      "filename": "duktape-2.7.0-7-armv7h.pkg.tar.xz",
+      "sha256": "3231719e8165f7092233f10fac1b9c79a6c8f87580ba9a7099b789d4a12ba0f4"
+    },
+    "libdwarf": {
+      "repo": "extra",
+      "filename": "libdwarf-1:2.3.2-1-armv7h.pkg.tar.xz",
+      "sha256": "429782b15ff1a04ac1017b78638f917d46b5e26c8d33c870587427cbb197c8b8"
+    },
+    "libglvnd": {
+      "repo": "extra",
+      "filename": "libglvnd-1.7.0-3-armv7h.pkg.tar.xz",
+      "sha256": "3a501b23329bd2c8edadebd434019ec80a5d52fe17a9fbeaa176335e2eca5a23"
+    },
+    "libidn2": {
+      "repo": "core",
+      "filename": "libidn2-2.3.8-1-armv7h.pkg.tar.xz",
+      "sha256": "64f0b66321b43cc22ed4dd39047ad405ff0664906aa7d832770813a14d8b6584"
+    },
+    "libnghttp2": {
+      "repo": "core",
+      "filename": "libnghttp2-1.70.0-1-armv7h.pkg.tar.xz",
+      "sha256": "045608afd919b27640c6bdce83e9f716f5e5835d4251d7fff39d06a8ebec02f1"
+    },
+    "libnghttp3": {
+      "repo": "core",
+      "filename": "libnghttp3-1.18.0-1-armv7h.pkg.tar.xz",
+      "sha256": "e8a1c1862bed2b0bf23f32dcd708997f77f0c9913f5a859b8c93f1af2855e948"
+    },
+    "libngtcp2": {
+      "repo": "core",
+      "filename": "libngtcp2-1.25.0-1-armv7h.pkg.tar.xz",
+      "sha256": "6ea8a1c9c29ac8af7d575d68a6408814188655fafd0b0d487103def89cb81471"
+    },
+    "libpsl": {
+      "repo": "core",
+      "filename": "libpsl-0.21.5-2-armv7h.pkg.tar.xz",
+      "sha256": "3d93fc1540229f6e0ef0e800d795656221a802661d2b37066f3878c60550029b"
+    },
+    "libssh2": {
+      "repo": "core",
+      "filename": "libssh2-1.11.1-7-armv7h.pkg.tar.xz",
+      "sha256": "e51bb61c38708238be5127a58a6423f43069e02dc11b31322898f736783f7f92"
+    },
+    "libunistring": {
+      "repo": "core",
+      "filename": "libunistring-1.4.2-1-armv7h.pkg.tar.xz",
+      "sha256": "de10566c29700cc5f152e38196fc8f43b6dcc938bce92acb0ef7924d16cf09de"
+    },
+    "openssl": {
+      "repo": "core",
+      "filename": "openssl-3.6.4-1-armv7h.pkg.tar.xz",
+      "sha256": "e2aea373145d1c1f0bbfdfe6790cf382cbfc668e0cbab59eff52d5baa0aafe63"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+/include/ "a6-n42ap-usb-timer-a2.dts"
+
+/* One-shot Linux handoff. CPU1 parks in the kernel before becoming online. */
+/ {
+    cpus {
+        enable-method = "apple,a6-one-shot";
+        cpu1: cpu@1 {
+            compatible = "apple,swift", "arm,cortex-a9";
+            device_type = "cpu";
+            reg = <1>;
+        };
+    };
+    timer {
+        /* CPU1 CNTV: four-phase raw-bank proof, 30 September. */
+        interrupts = <0xa2 0xa5>;
+    };
+    reserved-memory {
+        a6-cpu1-reset-vector@80000000 {
+            reg = <0x80000000 0x2000>;
+            no-map;
+        };
+        a6-cpu1-mailbox@83ffe000 {
+            reg = <0x83ffe000 0x1000>;
+            no-map;
+        };
+    };
+};
